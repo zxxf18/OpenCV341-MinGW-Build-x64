@@ -1,0 +1,33 @@
+# Target labels
+ Main
+ opencv_videoio
+ AccuracyTest
+# Source files and their labels
+C:/opencv/sources/modules/videoio/test/test_container_avi.cpp
+ Main
+ opencv_videoio
+ AccuracyTest
+C:/opencv/sources/modules/videoio/test/test_ffmpeg.cpp
+ Main
+ opencv_videoio
+ AccuracyTest
+C:/opencv/sources/modules/videoio/test/test_fourcc.cpp
+ Main
+ opencv_videoio
+ AccuracyTest
+C:/opencv/sources/modules/videoio/test/test_main.cpp
+ Main
+ opencv_videoio
+ AccuracyTest
+C:/opencv/sources/modules/videoio/test/test_mfx.cpp
+ Main
+ opencv_videoio
+ AccuracyTest
+C:/opencv/sources/modules/videoio/test/test_video_io.cpp
+ Main
+ opencv_videoio
+ AccuracyTest
+C:/opencv/sources/modules/videoio/test/test_precomp.hpp
+ Main
+ opencv_videoio
+ AccuracyTest

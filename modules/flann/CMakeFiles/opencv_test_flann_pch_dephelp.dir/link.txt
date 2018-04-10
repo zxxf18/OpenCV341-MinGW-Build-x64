@@ -1,0 +1,2 @@
+C:\PROGRA~2\TDM-GCC\bin\ar.exe qc ..\..\lib\libopencv_test_flann_pch_dephelp.a  CMakeFiles/opencv_test_flann_pch_dephelp.dir/opencv_test_flann_pch_dephelp.cxx.obj
+C:\PROGRA~2\TDM-GCC\bin\ranlib.exe ..\..\lib\libopencv_test_flann_pch_dephelp.a

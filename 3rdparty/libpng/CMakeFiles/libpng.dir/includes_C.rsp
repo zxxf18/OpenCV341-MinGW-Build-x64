@@ -1,0 +1,1 @@
+-IC:/opencv/mingw-build/3rdparty/zlib -IC:/opencv/sources/3rdparty/zlib -IC:/opencv/sources/3rdparty/libpng -isystem C:/opencv/mingw-build 

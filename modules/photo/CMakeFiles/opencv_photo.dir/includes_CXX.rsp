@@ -1,0 +1,1 @@
+-isystem C:/opencv/mingw-build -IC:/opencv/sources/modules/photo/include -IC:/opencv/sources/modules/photo/src -IC:/opencv/mingw-build/modules/photo -IC:/opencv/sources/modules/core/include -IC:/opencv/sources/modules/imgproc/include 

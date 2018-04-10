@@ -1,0 +1,1 @@
+-isystem C:/opencv/mingw-build -IC:/opencv/sources/modules/objdetect/include -IC:/opencv/sources/modules/objdetect/src -IC:/opencv/mingw-build/modules/objdetect -IC:/opencv/sources/modules/core/include -IC:/opencv/sources/modules/imgproc/include 

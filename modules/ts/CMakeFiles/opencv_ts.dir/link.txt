@@ -1,0 +1,2 @@
+C:\PROGRA~2\TDM-GCC\bin\ar.exe qc ..\..\lib\libopencv_ts341.a  CMakeFiles/opencv_ts.dir/src/cuda_perf.cpp.obj CMakeFiles/opencv_ts.dir/src/cuda_test.cpp.obj CMakeFiles/opencv_ts.dir/src/ocl_perf.cpp.obj CMakeFiles/opencv_ts.dir/src/ocl_test.cpp.obj CMakeFiles/opencv_ts.dir/src/ts.cpp.obj CMakeFiles/opencv_ts.dir/src/ts_arrtest.cpp.obj CMakeFiles/opencv_ts.dir/src/ts_func.cpp.obj CMakeFiles/opencv_ts.dir/src/ts_gtest.cpp.obj CMakeFiles/opencv_ts.dir/src/ts_perf.cpp.obj
+C:\PROGRA~2\TDM-GCC\bin\ranlib.exe ..\..\lib\libopencv_ts341.a

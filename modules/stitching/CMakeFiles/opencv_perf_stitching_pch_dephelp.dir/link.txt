@@ -1,0 +1,2 @@
+C:\PROGRA~2\TDM-GCC\bin\ar.exe qc ..\..\lib\libopencv_perf_stitching_pch_dephelp.a  CMakeFiles/opencv_perf_stitching_pch_dephelp.dir/opencv_perf_stitching_pch_dephelp.cxx.obj
+C:\PROGRA~2\TDM-GCC\bin\ranlib.exe ..\..\lib\libopencv_perf_stitching_pch_dephelp.a

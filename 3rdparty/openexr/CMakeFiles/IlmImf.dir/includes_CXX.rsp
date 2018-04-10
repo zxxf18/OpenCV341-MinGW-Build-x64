@@ -1,0 +1,1 @@
+-IC:/opencv/sources/3rdparty/openexr/IlmImf -IC:/opencv/sources/3rdparty/openexr/Imath -IC:/opencv/sources/3rdparty/openexr/IlmThread -IC:/opencv/sources/3rdparty/openexr/Iex -IC:/opencv/sources/3rdparty/openexr/Half -IC:/opencv/mingw-build/3rdparty/zlib -IC:/opencv/sources/3rdparty/zlib -IC:/opencv/mingw-build/3rdparty/openexr -isystem C:/opencv/mingw-build 

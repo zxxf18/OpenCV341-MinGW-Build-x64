@@ -1,0 +1,1 @@
+-isystem C:/opencv/mingw-build -IC:/opencv/sources/modules/ml/include -IC:/opencv/sources/modules/ml/src -IC:/opencv/mingw-build/modules/ml -IC:/opencv/sources/modules/core/include 

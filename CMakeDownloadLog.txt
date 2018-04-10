@@ -1,0 +1,4 @@
+use_cache "C:/opencv/sources/.cache"
+#match_hash_in_cmake_cache "OCV_DOWNLOAD_FFMPEG_HASH_3rdparty_ffmpeg_opencv_ffmpeg_dll"
+#match_hash_in_cmake_cache "OCV_DOWNLOAD_FFMPEG_HASH_3rdparty_ffmpeg_opencv_ffmpeg_64_dll"
+#match_hash_in_cmake_cache "OCV_DOWNLOAD_FFMPEG_HASH_3rdparty_ffmpeg_ffmpeg_version_cmake"

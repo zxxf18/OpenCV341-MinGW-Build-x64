@@ -1,0 +1,1 @@
+../../lib/libopencv_features2d341.dll.a ../../lib/libopencv_flann341.dll.a ../../lib/libopencv_highgui341.dll.a ../../lib/libopencv_videoio341.dll.a ../../lib/libopencv_imgcodecs341.dll.a ../../lib/libopencv_imgproc341.dll.a ../../lib/libopencv_core341.dll.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

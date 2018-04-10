@@ -1,0 +1,14 @@
+# Package Information for pkg-config
+
+prefix=C:/opencv/mingw-build/install
+exec_prefix=${prefix}
+libdir=${exec_prefix}/x64/mingw/lib
+includedir_old=${prefix}/include/opencv
+includedir_new=${prefix}/include
+
+Name: OpenCV
+Description: Open Source Computer Vision Library
+Version: 3.4.1
+Libs: -L${exec_prefix}/x64/mingw/lib -lopencv_dnn341 -lopencv_ml341 -lopencv_objdetect341 -lopencv_shape341 -lopencv_stitching341 -lopencv_superres341 -lopencv_videostab341 -lopencv_calib3d341 -lopencv_features2d341 -lopencv_highgui341 -lopencv_videoio341 -lopencv_imgcodecs341 -lopencv_video341 -lopencv_photo341 -lopencv_imgproc341 -lopencv_flann341 -lopencv_core341
+Libs.private: 
+Cflags: -I${includedir_old} -I${includedir_new}

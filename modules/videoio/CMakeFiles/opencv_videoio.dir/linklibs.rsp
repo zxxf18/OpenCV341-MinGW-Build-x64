@@ -1,0 +1,1 @@
+ -LC:/opencv/sources/3rdparty/lib ../../lib/libopencv_imgcodecs341.dll.a -lavifil32 -lavicap32 -lwinmm -lmsvfw32 ../../lib/libopencv_imgproc341.dll.a ../../lib/libopencv_core341.dll.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

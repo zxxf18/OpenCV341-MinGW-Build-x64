@@ -1,0 +1,17 @@
+# Target labels
+ Main
+ opencv_superres
+ AccuracyTest
+# Source files and their labels
+C:/opencv/sources/modules/superres/test/test_main.cpp
+ Main
+ opencv_superres
+ AccuracyTest
+C:/opencv/sources/modules/superres/test/test_superres.cpp
+ Main
+ opencv_superres
+ AccuracyTest
+C:/opencv/sources/modules/superres/test/test_precomp.hpp
+ Main
+ opencv_superres
+ AccuracyTest

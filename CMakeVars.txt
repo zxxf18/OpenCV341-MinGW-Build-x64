@@ -1,0 +1,2461 @@
+3P_LIBRARY_OUTPUT_PATH=C:/opencv/mingw-build/3rdparty/lib
+ANT_DIR_ENV_PATH=
+ANT_EXECUTABLE=ANT_EXECUTABLE-NOTFOUND
+ANT_NAME=ant.bat
+ARGC=3
+ARGN=;TOFILE;CMakeVars.txt
+ARGV=;TOFILE;CMakeVars.txt
+ARGV0=
+ARGV1=TOFILE
+ARGV2=CMakeVars.txt
+BLAS_ACML_LIB_DIRS=
+BLAS_Accelerate_LIBRARY=BLAS_Accelerate_LIBRARY-NOTFOUND
+BLAS_FOUND=FALSE
+BLAS_LIBRARIES=FALSE
+BLAS_SEARCH_LIBS=mkl_intel_c libguide40 mkl_intel_thread mkl_core;mkl_intel_c libiomp5md mkl_intel_thread mkl_core;mkl_intel_c mkl_sequential mkl_core;mkl_intel_lp64 libguide40 mkl_intel_thread mkl_core;mkl_intel_lp64 libiomp5md mkl_intel_thread mkl_core;mkl_intel_lp64 mkl_sequential mkl_core
+BLAS_SEARCH_LIBS_WIN_MAIN=mkl_intel_c;mkl_intel_lp64
+BLAS_SEARCH_LIBS_WIN_THREAD=libguide40 mkl_intel_thread;libiomp5md mkl_intel_thread;mkl_sequential
+BLAS_acml_LIBRARY=BLAS_acml_LIBRARY-NOTFOUND
+BLAS_acml_mp_LIBRARY=BLAS_acml_mp_LIBRARY-NOTFOUND
+BLAS_blas_LIBRARY=BLAS_blas_LIBRARY-NOTFOUND
+BLAS_complib.sgimath_LIBRARY=BLAS_complib.sgimath_LIBRARY-NOTFOUND
+BLAS_cxml_LIBRARY=BLAS_cxml_LIBRARY-NOTFOUND
+BLAS_dxml_LIBRARY=BLAS_dxml_LIBRARY-NOTFOUND
+BLAS_essl_LIBRARY=BLAS_essl_LIBRARY-NOTFOUND
+BLAS_f77blas_LIBRARY=BLAS_f77blas_LIBRARY-NOTFOUND
+BLAS_goto2_LIBRARY=BLAS_goto2_LIBRARY-NOTFOUND
+BLAS_mkl_DLL_SUFFIX=
+BLAS_mkl_SEARCH_SYMBOL=sgemm
+BLAS_mkl_intel_c_LIBRARY=BLAS_mkl_intel_c_LIBRARY-NOTFOUND
+BLAS_mkl_intel_lp64_LIBRARY=BLAS_mkl_intel_lp64_LIBRARY-NOTFOUND
+BLAS_openblas_LIBRARY=BLAS_openblas_LIBRARY-NOTFOUND
+BLAS_scsl_LIBRARY=BLAS_scsl_LIBRARY-NOTFOUND
+BLAS_sgemm_LIBRARY=BLAS_sgemm_LIBRARY-NOTFOUND
+BLAS_sunperf_LIBRARY=BLAS_sunperf_LIBRARY-NOTFOUND
+BLAS_vecLib_LIBRARY=BLAS_vecLib_LIBRARY-NOTFOUND
+BLA_STATIC=1
+BLA_VENDOR=All
+BUILD_CUDA_STUBS=OFF
+BUILD_DOCS=OFF
+BUILD_EXAMPLES=OFF
+BUILD_IPP_IW=OFF
+BUILD_ITT=OFF
+BUILD_JASPER=ON
+BUILD_JAVA=ON
+BUILD_JPEG=ON
+BUILD_LIST=
+BUILD_OPENEXR=ON
+BUILD_PACKAGE=ON
+BUILD_PERF_TESTS=ON
+BUILD_PNG=ON
+BUILD_PROTOBUF=ON
+BUILD_SHARED_LIBS=ON
+BUILD_TBB=OFF
+BUILD_TESTS=ON
+BUILD_TIFF=ON
+BUILD_USE_SYMLINKS=OFF
+BUILD_WEBP=ON
+BUILD_WITH_DEBUG_INFO=OFF
+BUILD_WITH_DYNAMIC_IPP=OFF
+BUILD_ZLIB=ON
+BUILD_opencv_apps=ON
+BUILD_opencv_calib3d=ON
+BUILD_opencv_core=ON
+BUILD_opencv_dnn=ON
+BUILD_opencv_features2d=ON
+BUILD_opencv_flann=ON
+BUILD_opencv_highgui=ON
+BUILD_opencv_imgcodecs=ON
+BUILD_opencv_imgproc=ON
+BUILD_opencv_java_bindings_generator=ON
+BUILD_opencv_js=OFF
+BUILD_opencv_ml=ON
+BUILD_opencv_objdetect=ON
+BUILD_opencv_photo=ON
+BUILD_opencv_python_bindings_generator=ON
+BUILD_opencv_shape=ON
+BUILD_opencv_stitching=ON
+BUILD_opencv_superres=ON
+BUILD_opencv_ts=ON
+BUILD_opencv_video=ON
+BUILD_opencv_videoio=ON
+BUILD_opencv_videostab=ON
+BUILD_opencv_world=OFF
+CACHED_CPU_BASELINE_FLAGS= -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3
+CACHED_CPU_DISPATCH_AVX2_FLAGS= -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3  -mssse3 -msse4.1 -mpopcnt -msse4.2 -mf16c -mfma -mavx -mavx2
+CACHED_CPU_DISPATCH_AVX512_SKX_FLAGS= -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3  -mssse3 -msse4.1 -mpopcnt -msse4.2 -mf16c -mfma -mavx -mavx2 -mavx512f -mavx512f -mavx512cd -mavx512vl -mavx512bw -mavx512dq
+CACHED_CPU_DISPATCH_AVX_FLAGS= -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3  -mssse3 -msse4.1 -mpopcnt -msse4.2 -mavx
+CACHED_CPU_DISPATCH_FP16_FLAGS= -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3  -mssse3 -msse4.1 -mpopcnt -msse4.2 -mf16c -mavx
+CACHED_CPU_DISPATCH_SSE4_1_FLAGS= -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3  -mssse3 -msse4.1
+CACHED_CPU_DISPATCH_SSE4_2_FLAGS= -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3  -mssse3 -msse4.1 -mpopcnt -msse4.2
+CAN_BUILD_ANDROID_PROJECTS=FALSE
+CLAMDBLAS_INCLUDE_DIR=CLAMDBLAS_INCLUDE_DIR-NOTFOUND
+CLAMDBLAS_ROOT_DIR=CLAMDBLAS_ROOT_DIR-NOTFOUND
+CLAMDFFT_INCLUDE_DIR=CLAMDFFT_INCLUDE_DIR-NOTFOUND
+CLAMDFFT_ROOT_DIR=CLAMDFFT_ROOT_DIR-NOTFOUND
+CMAKE_AR=C:/Program Files (x86)/TDM-GCC/bin/ar.exe
+CMAKE_AR=C:/Program Files (x86)/TDM-GCC/bin/ar.exe
+CMAKE_BASE_NAME=gcc
+CMAKE_BINARY_DIR=C:/opencv/mingw-build
+CMAKE_BUILD_TOOL=C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe
+CMAKE_BUILD_TYPE=Release
+CMAKE_BUILD_TYPE=Release
+CMAKE_C11_COMPILE_FEATURES=c_static_assert
+CMAKE_C11_EXTENSION_COMPILE_OPTION=-std=gnu11
+CMAKE_C11_STANDARD_COMPILE_OPTION=-std=c11
+CMAKE_C90_COMPILE_FEATURES=c_function_prototypes
+CMAKE_C90_EXTENSION_COMPILE_OPTION=-std=gnu90
+CMAKE_C90_STANDARD_COMPILE_OPTION=-std=c90
+CMAKE_C99_COMPILE_FEATURES=c_restrict;c_variadic_macros
+CMAKE_C99_EXTENSION_COMPILE_OPTION=-std=gnu99
+CMAKE_C99_STANDARD_COMPILE_OPTION=-std=c99
+CMAKE_CACHEFILE_DIR=c:/opencv/mingw-build
+CMAKE_CACHE_MAJOR_VERSION=3
+CMAKE_CACHE_MINOR_VERSION=7
+CMAKE_CACHE_PATCH_VERSION=2
+CMAKE_CFG_INTDIR=.
+CMAKE_COLOR_MAKEFILE=ON
+CMAKE_COMMAND=C:/cmake-3.7.2/bin/cmake.exe
+CMAKE_COMPILER_IS_GNUCC=1
+CMAKE_COMPILER_IS_GNUCXX=1
+CMAKE_COMPILER_IS_MINGW=1
+CMAKE_CONFIGURATION_TYPES=Debug;Release
+CMAKE_CPACK_COMMAND=C:/cmake-3.7.2/bin/cpack.exe
+CMAKE_CREATE_WIN32_EXE=-mwindows
+CMAKE_CROSSCOMPILING=FALSE
+CMAKE_CTEST_COMMAND=C:/cmake-3.7.2/bin/ctest.exe
+CMAKE_CURRENT_BINARY_DIR=C:/opencv/mingw-build
+CMAKE_CURRENT_LIST_DIR=C:/opencv/sources
+CMAKE_CURRENT_LIST_FILE=C:/opencv/sources/CMakeLists.txt
+CMAKE_CURRENT_SOURCE_DIR=C:/opencv/sources
+CMAKE_CXX11_COMPILE_FEATURES=cxx_alias_templates;cxx_alignas;cxx_alignof;cxx_attributes;cxx_auto_type;cxx_constexpr;cxx_decltype;cxx_decltype_incomplete_return_types;cxx_default_function_template_args;cxx_defaulted_functions;cxx_defaulted_move_initializers;cxx_delegating_constructors;cxx_deleted_functions;cxx_enum_forward_declarations;cxx_explicit_conversions;cxx_extended_friend_declarations;cxx_extern_templates;cxx_final;cxx_func_identifier;cxx_generalized_initializers;cxx_inheriting_constructors;cxx_inline_namespaces;cxx_lambdas;cxx_local_type_template_args;cxx_long_long_type;cxx_noexcept;cxx_nonstatic_member_init;cxx_nullptr;cxx_override;cxx_range_for;cxx_raw_string_literals;cxx_reference_qualified_functions;cxx_right_angle_brackets;cxx_rvalue_references;cxx_sizeof_member;cxx_static_assert;cxx_strong_enums;cxx_thread_local;cxx_trailing_return_types;cxx_unicode_literals;cxx_uniform_initialization;cxx_unrestricted_unions;cxx_user_literals;cxx_variadic_macros;cxx_variadic_templates
+CMAKE_CXX11_EXTENSION_COMPILE_OPTION=-std=gnu++11
+CMAKE_CXX11_STANDARD_COMPILE_OPTION=-std=c++11
+CMAKE_CXX14_COMPILE_FEATURES=cxx_aggregate_default_initializers;cxx_attribute_deprecated;cxx_binary_literals;cxx_contextual_conversions;cxx_decltype_auto;cxx_digit_separators;cxx_generic_lambdas;cxx_lambda_init_captures;cxx_relaxed_constexpr;cxx_return_type_deduction;cxx_variable_templates
+CMAKE_CXX14_EXTENSION_COMPILE_OPTION=-std=gnu++14
+CMAKE_CXX14_STANDARD_COMPILE_OPTION=-std=c++14
+CMAKE_CXX98_COMPILE_FEATURES=cxx_template_template_parameters
+CMAKE_CXX98_EXTENSION_COMPILE_OPTION=-std=gnu++98
+CMAKE_CXX98_STANDARD_COMPILE_OPTION=-std=c++98
+CMAKE_CXX_ABI_COMPILED=TRUE
+CMAKE_CXX_ARCHIVE_APPEND=<CMAKE_AR> q  <TARGET> <LINK_FLAGS> <OBJECTS>
+CMAKE_CXX_ARCHIVE_CREATE=<CMAKE_AR> qc <TARGET> <LINK_FLAGS> <OBJECTS>
+CMAKE_CXX_ARCHIVE_FINISH=<CMAKE_RANLIB> <TARGET>
+CMAKE_CXX_CL_SHOWINCLUDES_PREFIX=
+CMAKE_CXX_COMPILER=C:/Program Files (x86)/TDM-GCC/bin/g++.exe
+CMAKE_CXX_COMPILER=C:/Program Files (x86)/TDM-GCC/bin/g++.exe
+CMAKE_CXX_COMPILER_ABI=
+CMAKE_CXX_COMPILER_ARG1=
+CMAKE_CXX_COMPILER_ENV_VAR=CXX
+CMAKE_CXX_COMPILER_ID=GNU
+CMAKE_CXX_COMPILER_ID_RUN=1
+CMAKE_CXX_COMPILER_LOADED=1
+CMAKE_CXX_COMPILER_VERSION=5.1.0
+CMAKE_CXX_COMPILER_WORKS=TRUE
+CMAKE_CXX_COMPILER_WRAPPER=
+CMAKE_CXX_COMPILE_FEATURES=cxx_template_template_parameters;cxx_alias_templates;cxx_alignas;cxx_alignof;cxx_attributes;cxx_auto_type;cxx_constexpr;cxx_decltype;cxx_decltype_incomplete_return_types;cxx_default_function_template_args;cxx_defaulted_functions;cxx_defaulted_move_initializers;cxx_delegating_constructors;cxx_deleted_functions;cxx_enum_forward_declarations;cxx_explicit_conversions;cxx_extended_friend_declarations;cxx_extern_templates;cxx_final;cxx_func_identifier;cxx_generalized_initializers;cxx_inheriting_constructors;cxx_inline_namespaces;cxx_lambdas;cxx_local_type_template_args;cxx_long_long_type;cxx_noexcept;cxx_nonstatic_member_init;cxx_nullptr;cxx_override;cxx_range_for;cxx_raw_string_literals;cxx_reference_qualified_functions;cxx_right_angle_brackets;cxx_rvalue_references;cxx_sizeof_member;cxx_static_assert;cxx_strong_enums;cxx_thread_local;cxx_trailing_return_types;cxx_unicode_literals;cxx_uniform_initialization;cxx_unrestricted_unions;cxx_user_literals;cxx_variadic_macros;cxx_variadic_templates;cxx_aggregate_default_initializers;cxx_attribute_deprecated;cxx_binary_literals;cxx_contextual_conversions;cxx_decltype_auto;cxx_digit_separators;cxx_generic_lambdas;cxx_lambda_init_captures;cxx_relaxed_constexpr;cxx_return_type_deduction;cxx_variable_templates
+CMAKE_CXX_COMPILE_OBJECT=<CMAKE_CXX_COMPILER>  <DEFINES> <INCLUDES> <FLAGS> -o <OBJECT> -c <SOURCE>
+CMAKE_CXX_COMPILE_OPTIONS_SYSROOT=--sysroot=
+CMAKE_CXX_COMPILE_OPTIONS_VISIBILITY=-fvisibility=
+CMAKE_CXX_COMPILE_OPTIONS_VISIBILITY_INLINES_HIDDEN=-fno-keep-inline-dllexport
+CMAKE_CXX_CREATE_ASSEMBLY_SOURCE=<CMAKE_CXX_COMPILER> <DEFINES> <INCLUDES> <FLAGS> -S <SOURCE> -o <ASSEMBLY_SOURCE>
+CMAKE_CXX_CREATE_PREPROCESSED_SOURCE=<CMAKE_CXX_COMPILER> <DEFINES> <INCLUDES> <FLAGS> -E <SOURCE> > <PREPROCESSED_SOURCE>
+CMAKE_CXX_CREATE_SHARED_LIBRARY=<CMAKE_COMMAND> -E remove -f <OBJECT_DIR>/objects.a;<CMAKE_AR> cr <OBJECT_DIR>/objects.a <OBJECTS>;<CMAKE_CXX_COMPILER> <CMAKE_SHARED_LIBRARY_CXX_FLAGS> <LANGUAGE_COMPILE_FLAGS> <LINK_FLAGS> <CMAKE_SHARED_LIBRARY_CREATE_CXX_FLAGS> -o <TARGET> -Wl,--out-implib,<TARGET_IMPLIB> -Wl,--major-image-version,<TARGET_VERSION_MAJOR>,--minor-image-version,<TARGET_VERSION_MINOR> -Wl,--whole-archive <OBJECT_DIR>/objects.a -Wl,--no-whole-archive <LINK_LIBRARIES>
+CMAKE_CXX_CREATE_SHARED_MODULE=<CMAKE_COMMAND> -E remove -f <OBJECT_DIR>/objects.a;<CMAKE_AR> cr <OBJECT_DIR>/objects.a <OBJECTS>;<CMAKE_CXX_COMPILER> <CMAKE_SHARED_MODULE_CXX_FLAGS> <LANGUAGE_COMPILE_FLAGS> <LINK_FLAGS> <CMAKE_SHARED_MODULE_CREATE_CXX_FLAGS> -o <TARGET> -Wl,--major-image-version,<TARGET_VERSION_MAJOR>,--minor-image-version,<TARGET_VERSION_MINOR> -Wl,--whole-archive <OBJECT_DIR>/objects.a -Wl,--no-whole-archive <LINK_LIBRARIES>
+CMAKE_CXX_EXTENSIONS=OFF
+CMAKE_CXX_FLAGS=   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden
+CMAKE_CXX_FLAGS=   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden
+CMAKE_CXX_FLAGS_DEBUG=-g  -O0 -DDEBUG -D_DEBUG
+CMAKE_CXX_FLAGS_DEBUG=-g  -O0 -DDEBUG -D_DEBUG
+CMAKE_CXX_FLAGS_DEBUG_INIT=-g
+CMAKE_CXX_FLAGS_INIT=
+CMAKE_CXX_FLAGS_MINSIZEREL=-Os -DNDEBUG
+CMAKE_CXX_FLAGS_MINSIZEREL_INIT=-Os -DNDEBUG
+CMAKE_CXX_FLAGS_RELEASE=-O3 -DNDEBUG  -DNDEBUG
+CMAKE_CXX_FLAGS_RELEASE=-O3 -DNDEBUG  -DNDEBUG
+CMAKE_CXX_FLAGS_RELEASE_INIT=-O3 -DNDEBUG
+CMAKE_CXX_FLAGS_RELWITHDEBINFO=-O2 -g -DNDEBUG
+CMAKE_CXX_FLAGS_RELWITHDEBINFO_INIT=-O2 -g -DNDEBUG
+CMAKE_CXX_IGNORE_EXTENSIONS=inl;h;hpp;HPP;H;o;O;obj;OBJ;def;DEF;rc;RC
+CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES=C:/Program Files (x86)/TDM-GCC/lib/gcc/x86_64-w64-mingw32/5.1.0;C:/Program Files (x86)/TDM-GCC/lib/gcc;C:/Program Files (x86)/TDM-GCC/x86_64-w64-mingw32/lib;C:/Program Files (x86)/TDM-GCC/lib
+CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES=
+CMAKE_CXX_IMPLICIT_LINK_LIBRARIES=stdc++;mingw32;moldname;mingwex;msvcrt;pthread;advapi32;shell32;user32;kernel32;mingw32;moldname;mingwex;msvcrt
+CMAKE_CXX_INFORMATION_LOADED=1
+CMAKE_CXX_LIBRARY_ARCHITECTURE=
+CMAKE_CXX_LINKER_PREFERENCE=30
+CMAKE_CXX_LINKER_PREFERENCE_PROPAGATES=1
+CMAKE_CXX_LINK_EXECUTABLE=<CMAKE_COMMAND> -E remove -f <OBJECT_DIR>/objects.a;<CMAKE_AR> cr <OBJECT_DIR>/objects.a <OBJECTS>;<CMAKE_CXX_COMPILER> <FLAGS> <CMAKE_CXX_LINK_FLAGS> <LINK_FLAGS> -Wl,--whole-archive <OBJECT_DIR>/objects.a -Wl,--no-whole-archive  -o <TARGET> -Wl,--out-implib,<TARGET_IMPLIB> -Wl,--major-image-version,<TARGET_VERSION_MAJOR>,--minor-image-version,<TARGET_VERSION_MINOR> <LINK_LIBRARIES>
+CMAKE_CXX_OUTPUT_EXTENSION=.obj
+CMAKE_CXX_PLATFORM_ID=MinGW
+CMAKE_CXX_RESPONSE_FILE_LINK_FLAG=@
+CMAKE_CXX_SIMULATE_ID=
+CMAKE_CXX_SIMULATE_VERSION=
+CMAKE_CXX_SIZEOF_DATA_PTR=8
+CMAKE_CXX_SOURCE_FILE_EXTENSIONS=C;M;c++;cc;cpp;cxx;mm;CPP
+CMAKE_CXX_STANDARD=11
+CMAKE_CXX_STANDARD_COMPUTED_DEFAULT=98
+CMAKE_CXX_STANDARD_DEFAULT=98
+CMAKE_CXX_STANDARD_LIBRARIES=-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+CMAKE_CXX_STANDARD_LIBRARIES_INIT=-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+CMAKE_CXX_STANDARD_REQUIRED=TRUE
+CMAKE_CXX_USE_RESPONSE_FILE_FOR_INCLUDES=1
+CMAKE_CXX_USE_RESPONSE_FILE_FOR_LIBRARIES=1
+CMAKE_CXX_USE_RESPONSE_FILE_FOR_OBJECTS=1
+CMAKE_CXX_VERBOSE_FLAG=-v
+CMAKE_C_ABI_COMPILED=TRUE
+CMAKE_C_ARCHIVE_APPEND=<CMAKE_AR> q  <TARGET> <LINK_FLAGS> <OBJECTS>
+CMAKE_C_ARCHIVE_CREATE=<CMAKE_AR> qc <TARGET> <LINK_FLAGS> <OBJECTS>
+CMAKE_C_ARCHIVE_FINISH=<CMAKE_RANLIB> <TARGET>
+CMAKE_C_CL_SHOWINCLUDES_PREFIX=
+CMAKE_C_COMPILER=C:/Program Files (x86)/TDM-GCC/bin/gcc.exe
+CMAKE_C_COMPILER=C:/Program Files (x86)/TDM-GCC/bin/gcc.exe
+CMAKE_C_COMPILER_ABI=
+CMAKE_C_COMPILER_ARG1=
+CMAKE_C_COMPILER_ENV_VAR=CC
+CMAKE_C_COMPILER_ID=GNU
+CMAKE_C_COMPILER_ID_RUN=1
+CMAKE_C_COMPILER_LOADED=1
+CMAKE_C_COMPILER_VERSION=5.1.0
+CMAKE_C_COMPILER_WORKS=TRUE
+CMAKE_C_COMPILER_WRAPPER=
+CMAKE_C_COMPILE_FEATURES=c_function_prototypes;c_restrict;c_variadic_macros;c_static_assert
+CMAKE_C_COMPILE_OBJECT=<CMAKE_C_COMPILER> <DEFINES> <INCLUDES> <FLAGS> -o <OBJECT>   -c <SOURCE>
+CMAKE_C_COMPILE_OPTIONS_PIC=
+CMAKE_C_COMPILE_OPTIONS_PIE=
+CMAKE_C_COMPILE_OPTIONS_SYSROOT=--sysroot=
+CMAKE_C_COMPILE_OPTIONS_VISIBILITY=-fvisibility=
+CMAKE_C_CREATE_ASSEMBLY_SOURCE=<CMAKE_C_COMPILER> <DEFINES> <INCLUDES> <FLAGS> -S <SOURCE> -o <ASSEMBLY_SOURCE>
+CMAKE_C_CREATE_PREPROCESSED_SOURCE=<CMAKE_C_COMPILER> <DEFINES> <INCLUDES> <FLAGS> -E <SOURCE> > <PREPROCESSED_SOURCE>
+CMAKE_C_CREATE_SHARED_LIBRARY=<CMAKE_COMMAND> -E remove -f <OBJECT_DIR>/objects.a;<CMAKE_AR> cr <OBJECT_DIR>/objects.a <OBJECTS>;<CMAKE_C_COMPILER> <CMAKE_SHARED_LIBRARY_C_FLAGS> <LANGUAGE_COMPILE_FLAGS> <LINK_FLAGS> <CMAKE_SHARED_LIBRARY_CREATE_C_FLAGS> -o <TARGET> -Wl,--out-implib,<TARGET_IMPLIB> -Wl,--major-image-version,<TARGET_VERSION_MAJOR>,--minor-image-version,<TARGET_VERSION_MINOR> -Wl,--whole-archive <OBJECT_DIR>/objects.a -Wl,--no-whole-archive <LINK_LIBRARIES>
+CMAKE_C_CREATE_SHARED_MODULE=<CMAKE_COMMAND> -E remove -f <OBJECT_DIR>/objects.a;<CMAKE_AR> cr <OBJECT_DIR>/objects.a <OBJECTS>;<CMAKE_C_COMPILER> <CMAKE_SHARED_MODULE_C_FLAGS> <LANGUAGE_COMPILE_FLAGS> <LINK_FLAGS> <CMAKE_SHARED_MODULE_CREATE_C_FLAGS> -o <TARGET> -Wl,--major-image-version,<TARGET_VERSION_MAJOR>,--minor-image-version,<TARGET_VERSION_MINOR> -Wl,--whole-archive <OBJECT_DIR>/objects.a -Wl,--no-whole-archive <LINK_LIBRARIES>
+CMAKE_C_FLAGS=   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden
+CMAKE_C_FLAGS=   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden
+CMAKE_C_FLAGS_DEBUG=-g  -O0 -DDEBUG -D_DEBUG
+CMAKE_C_FLAGS_DEBUG=-g  -O0 -DDEBUG -D_DEBUG
+CMAKE_C_FLAGS_DEBUG_INIT=-g
+CMAKE_C_FLAGS_INIT=
+CMAKE_C_FLAGS_MINSIZEREL=-Os -DNDEBUG
+CMAKE_C_FLAGS_MINSIZEREL_INIT=-Os -DNDEBUG
+CMAKE_C_FLAGS_RELEASE=-O3 -DNDEBUG  -DNDEBUG
+CMAKE_C_FLAGS_RELEASE=-O3 -DNDEBUG  -DNDEBUG
+CMAKE_C_FLAGS_RELEASE_INIT=-O3 -DNDEBUG
+CMAKE_C_FLAGS_RELWITHDEBINFO=-O2 -g -DNDEBUG
+CMAKE_C_FLAGS_RELWITHDEBINFO_INIT=-O2 -g -DNDEBUG
+CMAKE_C_IGNORE_EXTENSIONS=h;H;o;O;obj;OBJ;def;DEF;rc;RC
+CMAKE_C_IMPLICIT_LINK_DIRECTORIES=C:/Program Files (x86)/TDM-GCC/lib/gcc/x86_64-w64-mingw32/5.1.0;C:/Program Files (x86)/TDM-GCC/lib/gcc;C:/Program Files (x86)/TDM-GCC/x86_64-w64-mingw32/lib;C:/Program Files (x86)/TDM-GCC/lib
+CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES=
+CMAKE_C_IMPLICIT_LINK_LIBRARIES=mingw32;moldname;mingwex;msvcrt;pthread;advapi32;shell32;user32;kernel32;mingw32;moldname;mingwex;msvcrt
+CMAKE_C_INFORMATION_LOADED=1
+CMAKE_C_LIBRARY_ARCHITECTURE=
+CMAKE_C_LINKER_PREFERENCE=10
+CMAKE_C_LINK_EXECUTABLE=<CMAKE_COMMAND> -E remove -f <OBJECT_DIR>/objects.a;<CMAKE_AR> cr <OBJECT_DIR>/objects.a <OBJECTS>;<CMAKE_C_COMPILER> <FLAGS> <CMAKE_C_LINK_FLAGS> <LINK_FLAGS> -Wl,--whole-archive <OBJECT_DIR>/objects.a -Wl,--no-whole-archive  -o <TARGET> -Wl,--out-implib,<TARGET_IMPLIB> -Wl,--major-image-version,<TARGET_VERSION_MAJOR>,--minor-image-version,<TARGET_VERSION_MINOR> <LINK_LIBRARIES>
+CMAKE_C_OUTPUT_EXTENSION=.obj
+CMAKE_C_PLATFORM_ID=MinGW
+CMAKE_C_RESPONSE_FILE_LINK_FLAG=@
+CMAKE_C_SIMULATE_ID=
+CMAKE_C_SIMULATE_VERSION=
+CMAKE_C_SIZEOF_DATA_PTR=8
+CMAKE_C_SOURCE_FILE_EXTENSIONS=c;m
+CMAKE_C_STANDARD_COMPUTED_DEFAULT=11
+CMAKE_C_STANDARD_DEFAULT=11
+CMAKE_C_STANDARD_LIBRARIES=-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+CMAKE_C_STANDARD_LIBRARIES_INIT=-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+CMAKE_C_USE_RESPONSE_FILE_FOR_INCLUDES=1
+CMAKE_C_USE_RESPONSE_FILE_FOR_LIBRARIES=1
+CMAKE_C_USE_RESPONSE_FILE_FOR_OBJECTS=1
+CMAKE_C_VERBOSE_FLAG=-v
+CMAKE_DEPFILE_FLAGS_C=-MD -MT <OBJECT> -MF <DEPFILE>
+CMAKE_DEPFILE_FLAGS_CXX=-MD -MT <OBJECT> -MF <DEPFILE>
+CMAKE_DL_LIBS=
+CMAKE_EDIT_COMMAND=C:/cmake-3.7.2/bin/cmake-gui.exe
+CMAKE_EXECUTABLE_FORMAT=Unknown
+CMAKE_EXECUTABLE_SUFFIX=.exe
+CMAKE_EXE_LINKER_FLAGS=  -Wl,--gc-sections
+CMAKE_EXE_LINKER_FLAGS=  -Wl,--gc-sections
+CMAKE_EXE_LINKER_FLAGS_DEBUG= 
+CMAKE_EXE_LINKER_FLAGS_DEBUG= 
+CMAKE_EXE_LINKER_FLAGS_DEBUG_INIT=
+CMAKE_EXE_LINKER_FLAGS_INIT=
+CMAKE_EXE_LINKER_FLAGS_MINSIZEREL=
+CMAKE_EXE_LINKER_FLAGS_MINSIZEREL_INIT=
+CMAKE_EXE_LINKER_FLAGS_RELEASE= 
+CMAKE_EXE_LINKER_FLAGS_RELEASE= 
+CMAKE_EXE_LINKER_FLAGS_RELEASE_INIT=
+CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO=
+CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO_INIT=
+CMAKE_EXE_LINK_DYNAMIC_CXX_FLAGS=-Wl,-Bdynamic
+CMAKE_EXE_LINK_DYNAMIC_C_FLAGS=-Wl,-Bdynamic
+CMAKE_EXE_LINK_STATIC_CXX_FLAGS=-Wl,-Bstatic
+CMAKE_EXE_LINK_STATIC_C_FLAGS=-Wl,-Bstatic
+CMAKE_EXTRA_GENERATOR=
+CMAKE_EXTRA_LINK_EXTENSIONS=.lib
+CMAKE_FILES_DIRECTORY=/CMakeFiles
+CMAKE_FIND_LIBRARY_PREFIXES=lib;
+CMAKE_FIND_LIBRARY_SUFFIXES=.dll;.dll.a;.a;.lib
+CMAKE_GENERATOR=MinGW Makefiles
+CMAKE_GENERATOR_CC=C:/Program Files (x86)/TDM-GCC/bin/gcc.exe
+CMAKE_GENERATOR_CXX=C:/Program Files (x86)/TDM-GCC/bin/g++.exe
+CMAKE_GENERATOR_PLATFORM=
+CMAKE_GENERATOR_RC=C:/Program Files (x86)/TDM-GCC/bin/windres.exe
+CMAKE_GENERATOR_TOOLSET=
+CMAKE_GNULD_IMAGE_VERSION=-Wl,--major-image-version,<TARGET_VERSION_MAJOR>,--minor-image-version,<TARGET_VERSION_MINOR>
+CMAKE_GNUtoMS=OFF
+CMAKE_HAVE_LIBC_CREATE=1
+CMAKE_HAVE_PTHREAD_H=1
+CMAKE_HAVE_THREADS_LIBRARY=1
+CMAKE_HELPER_SCRIPT=C:/opencv/mingw-build/OpenCVGenPkgConfig.info.cmake
+CMAKE_HOME_DIRECTORY=C:/opencv/sources
+CMAKE_HOST_SYSTEM=Windows-6.1.7601
+CMAKE_HOST_SYSTEM_NAME=Windows
+CMAKE_HOST_SYSTEM_PROCESSOR=AMD64
+CMAKE_HOST_SYSTEM_VERSION=6.1.7601
+CMAKE_HOST_WIN32=1
+CMAKE_IMPORT_LIBRARY_PREFIX=lib
+CMAKE_IMPORT_LIBRARY_SUFFIX=.dll.a
+CMAKE_INCLUDE_FLAG_C=-I
+CMAKE_INCLUDE_FLAG_CXX=-I
+CMAKE_INCLUDE_FLAG_C_SEP=
+CMAKE_INCLUDE_FLAG_RC=-I
+CMAKE_INCLUDE_SYSTEM_FLAG_C=-isystem 
+CMAKE_INCLUDE_SYSTEM_FLAG_CXX=-isystem 
+CMAKE_INSTALL_DEFAULT_COMPONENT_NAME=Unspecified
+CMAKE_INSTALL_PREFIX=C:/opencv/mingw-build/install
+CMAKE_INSTALL_RPATH=C:/opencv/mingw-build/install/x64/mingw/lib
+CMAKE_INSTALL_RPATH_USE_LINK_PATH=TRUE
+CMAKE_LIBRARY_PATH_FLAG=-L
+CMAKE_LIBRARY_PATH_TERMINATOR=
+CMAKE_LINKER=C:/Program Files (x86)/TDM-GCC/bin/ld.exe
+CMAKE_LINKER=C:/Program Files (x86)/TDM-GCC/bin/ld.exe
+CMAKE_LINK_DEF_FILE_FLAG=
+CMAKE_LINK_LIBRARY_FLAG=-l
+CMAKE_LINK_LIBRARY_SUFFIX=
+CMAKE_MAJOR_VERSION=3
+CMAKE_MAKE_PROGRAM=C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe
+CMAKE_MATCH_0=
+CMAKE_MATCH_1=
+CMAKE_MATCH_COUNT=0
+CMAKE_MINIMUM_REQUIRED_VERSION=2.8.12.2
+CMAKE_MINOR_VERSION=7
+CMAKE_MODULE_LINKER_FLAGS=
+CMAKE_MODULE_LINKER_FLAGS_DEBUG=
+CMAKE_MODULE_LINKER_FLAGS_DEBUG_INIT=
+CMAKE_MODULE_LINKER_FLAGS_INIT=
+CMAKE_MODULE_LINKER_FLAGS_MINSIZEREL=
+CMAKE_MODULE_LINKER_FLAGS_MINSIZEREL_INIT=
+CMAKE_MODULE_LINKER_FLAGS_RELEASE=
+CMAKE_MODULE_LINKER_FLAGS_RELEASE_INIT=
+CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO=
+CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO_INIT=
+CMAKE_MODULE_PATH=;C:/opencv/sources/cmake
+CMAKE_NM=C:/Program Files (x86)/TDM-GCC/bin/nm.exe
+CMAKE_NUMBER_OF_MAKEFILES=79
+CMAKE_OBJCOPY=C:/Program Files (x86)/TDM-GCC/bin/objcopy.exe
+CMAKE_OBJDUMP=C:/Program Files (x86)/TDM-GCC/bin/objdump.exe
+CMAKE_PARENT_LIST_FILE=C:/opencv/sources/CMakeLists.txt
+CMAKE_PATCH_VERSION=2
+CMAKE_PLATFORM_INFO_DIR=C:/opencv/mingw-build/CMakeFiles/3.7.2
+CMAKE_POSITION_INDEPENDENT_CODE=ON
+CMAKE_PROJECT_NAME=OpenCV
+CMAKE_RANLIB=C:/Program Files (x86)/TDM-GCC/bin/ranlib.exe
+CMAKE_RANLIB=C:/Program Files (x86)/TDM-GCC/bin/ranlib.exe
+CMAKE_RC_COMPILER=C:/Program Files (x86)/TDM-GCC/bin/windres.exe
+CMAKE_RC_COMPILER=C:/Program Files (x86)/TDM-GCC/bin/windres.exe
+CMAKE_RC_COMPILER_ARG1=
+CMAKE_RC_COMPILER_ENV_VAR=RC
+CMAKE_RC_COMPILER_LOADED=1
+CMAKE_RC_COMPILER_WORKS=1
+CMAKE_RC_COMPILE_OBJECT=<CMAKE_RC_COMPILER> -O coff <DEFINES> <INCLUDES> <FLAGS> <SOURCE> <OBJECT>
+CMAKE_RC_FLAGS=
+CMAKE_RC_FLAGS_INIT=
+CMAKE_RC_FLAG_REGEX=^[-/](D|I)
+CMAKE_RC_INFORMATION_LOADED=1
+CMAKE_RC_OUTPUT_EXTENSION=.obj
+CMAKE_RC_SOURCE_FILE_EXTENSIONS=rc;RC
+CMAKE_ROOT=C:/cmake-3.7.2/share/cmake-3.7
+CMAKE_SH=CMAKE_SH-NOTFOUND
+CMAKE_SHARED_LIBRARY_CREATE_CXX_FLAGS=-shared
+CMAKE_SHARED_LIBRARY_CREATE_C_FLAGS=-shared
+CMAKE_SHARED_LIBRARY_C_FLAGS=
+CMAKE_SHARED_LIBRARY_LINK_C_FLAGS=
+CMAKE_SHARED_LIBRARY_LINK_DYNAMIC_CXX_FLAGS=-Wl,-Bdynamic
+CMAKE_SHARED_LIBRARY_LINK_DYNAMIC_C_FLAGS=-Wl,-Bdynamic
+CMAKE_SHARED_LIBRARY_LINK_STATIC_CXX_FLAGS=-Wl,-Bstatic
+CMAKE_SHARED_LIBRARY_LINK_STATIC_C_FLAGS=-Wl,-Bstatic
+CMAKE_SHARED_LIBRARY_PREFIX=lib
+CMAKE_SHARED_LIBRARY_RUNTIME_C_FLAG=
+CMAKE_SHARED_LIBRARY_RUNTIME_C_FLAG_SEP=
+CMAKE_SHARED_LIBRARY_SUFFIX=.dll
+CMAKE_SHARED_LINKER_FLAGS= 
+CMAKE_SHARED_LINKER_FLAGS= 
+CMAKE_SHARED_LINKER_FLAGS_DEBUG= 
+CMAKE_SHARED_LINKER_FLAGS_DEBUG= 
+CMAKE_SHARED_LINKER_FLAGS_DEBUG_INIT=
+CMAKE_SHARED_LINKER_FLAGS_INIT=
+CMAKE_SHARED_LINKER_FLAGS_MINSIZEREL=
+CMAKE_SHARED_LINKER_FLAGS_MINSIZEREL_INIT=
+CMAKE_SHARED_LINKER_FLAGS_RELEASE= 
+CMAKE_SHARED_LINKER_FLAGS_RELEASE= 
+CMAKE_SHARED_LINKER_FLAGS_RELEASE_INIT=
+CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO=
+CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO_INIT=
+CMAKE_SHARED_MODULE_CREATE_CXX_FLAGS=-shared
+CMAKE_SHARED_MODULE_CREATE_C_FLAGS=-shared
+CMAKE_SHARED_MODULE_LINK_DYNAMIC_CXX_FLAGS=-Wl,-Bdynamic
+CMAKE_SHARED_MODULE_LINK_DYNAMIC_C_FLAGS=-Wl,-Bdynamic
+CMAKE_SHARED_MODULE_LINK_STATIC_CXX_FLAGS=-Wl,-Bstatic
+CMAKE_SHARED_MODULE_LINK_STATIC_C_FLAGS=-Wl,-Bstatic
+CMAKE_SHARED_MODULE_PREFIX=lib
+CMAKE_SHARED_MODULE_SUFFIX=.dll
+CMAKE_SIZEOF_UNSIGNED_SHORT=2
+CMAKE_SIZEOF_VOID_P=8
+CMAKE_SKIP_INSTALL_RPATH=OFF
+CMAKE_SKIP_RPATH=OFF
+CMAKE_SOURCE_DIR=C:/opencv/sources
+CMAKE_STATIC_LIBRARY_PREFIX=lib
+CMAKE_STATIC_LIBRARY_SUFFIX=.a
+CMAKE_STATIC_LINKER_FLAGS=
+CMAKE_STATIC_LINKER_FLAGS_DEBUG=
+CMAKE_STATIC_LINKER_FLAGS_DEBUG_INIT=
+CMAKE_STATIC_LINKER_FLAGS_INIT=
+CMAKE_STATIC_LINKER_FLAGS_MINSIZEREL=
+CMAKE_STATIC_LINKER_FLAGS_MINSIZEREL_INIT=
+CMAKE_STATIC_LINKER_FLAGS_RELEASE=
+CMAKE_STATIC_LINKER_FLAGS_RELEASE_INIT=
+CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO=
+CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO_INIT=
+CMAKE_STRIP=C:/Program Files (x86)/TDM-GCC/bin/strip.exe
+CMAKE_SYSTEM=Windows-6.1.7601
+CMAKE_SYSTEM_AND_RC_COMPILER_INFO_FILE=C:/cmake-3.7.2/share/cmake-3.7/Modules/Platform/Windows-windres.cmake
+CMAKE_SYSTEM_INFO_FILE=Platform/Windows
+CMAKE_SYSTEM_LIBRARY_PATH=C:/opencv/mingw-build/install/bin;C:/cmake-3.7.2/bin;/bin
+CMAKE_SYSTEM_LOADED=1
+CMAKE_SYSTEM_NAME=Windows
+CMAKE_SYSTEM_PREFIX_PATH=C:/Program Files;C:/Program Files (x86);C:/cmake-3.7.2;C:/opencv/mingw-build/install
+CMAKE_SYSTEM_PROCESSOR=AMD64
+CMAKE_SYSTEM_SPECIFIC_INFORMATION_LOADED=1
+CMAKE_SYSTEM_SPECIFIC_INITIALIZE_LOADED=1
+CMAKE_SYSTEM_VERSION=6.1.7601
+CMAKE_TESTING_ENABLED=1
+CMAKE_THREAD_LIBS_INIT=
+CMAKE_TRY_COMPILE_CONFIGURATION=Release
+CMAKE_TWEAK_VERSION=0
+CMAKE_USE_PTHREADS_INIT=1
+CMAKE_USE_WIN32_THREADS_INIT=1
+CMAKE_VERBOSE_MAKEFILE=OFF
+CMAKE_VERSION=3.7.2
+CMU1394_INCLUDE_PATH=CMU1394_INCLUDE_PATH-NOTFOUND
+CPACK_BINARY_7Z=OFF
+CPACK_BINARY_BUNDLE=
+CPACK_BINARY_CYGWIN=
+CPACK_BINARY_DEB=
+CPACK_BINARY_DRAGNDROP=
+CPACK_BINARY_IFW=OFF
+CPACK_BINARY_NSIS=ON
+CPACK_BINARY_OSXX11=
+CPACK_BINARY_PACKAGEMAKER=
+CPACK_BINARY_PRODUCTBUILD=
+CPACK_BINARY_RPM=
+CPACK_BINARY_STGZ=
+CPACK_BINARY_TBZ2=
+CPACK_BINARY_TGZ=
+CPACK_BINARY_TXZ=
+CPACK_BINARY_TZ=
+CPACK_BINARY_WIX=OFF
+CPACK_BINARY_ZIP=OFF
+CPACK_BUILD_SOURCE_DIRS=C:/opencv/sources;C:/opencv/mingw-build
+CPACK_CMAKE_GENERATOR=MinGW Makefiles
+CPACK_COMPONENTS_ALL=dev;libs
+CPACK_COMPONENT_DEV_CONFLICTS=libopencv-dev, libopencv-calib3d-dev, libopencv-core-dev, libopencv-features2d-dev, libopencv-flann-dev, libopencv-highgui-dev, libopencv-imgcodecs-dev, libopencv-imgproc-dev, libopencv-ml-dev, libopencv-objdetect-dev, libopencv-photo-dev, libopencv-shape-dev, libopencv-stitching-dev, libopencv-superres-dev, libopencv-ts-dev, libopencv-video-dev, libopencv-videoio-dev, libopencv-videostab-dev
+CPACK_COMPONENT_DEV_DEPENDS=libs
+CPACK_COMPONENT_DEV_DESCRIPTION=Development files for Open Source Computer Vision Library
+CPACK_COMPONENT_DEV_DISPLAY_NAME=Development files
+CPACK_COMPONENT_DEV_PROVIDES=libopencv-dev, libopencv-calib3d-dev, libopencv-core-dev, libopencv-features2d-dev, libopencv-flann-dev, libopencv-highgui-dev, libopencv-imgcodecs-dev, libopencv-imgproc-dev, libopencv-ml-dev, libopencv-objdetect-dev, libopencv-photo-dev, libopencv-shape-dev, libopencv-stitching-dev, libopencv-superres-dev, libopencv-ts-dev, libopencv-video-dev, libopencv-videoio-dev, libopencv-videostab-dev
+CPACK_COMPONENT_DEV_REPLACES=libopencv-dev, libopencv-calib3d-dev, libopencv-core-dev, libopencv-features2d-dev, libopencv-flann-dev, libopencv-highgui-dev, libopencv-imgcodecs-dev, libopencv-imgproc-dev, libopencv-ml-dev, libopencv-objdetect-dev, libopencv-photo-dev, libopencv-shape-dev, libopencv-stitching-dev, libopencv-superres-dev, libopencv-ts-dev, libopencv-video-dev, libopencv-videoio-dev, libopencv-videostab-dev
+CPACK_COMPONENT_DOCS_CONFLICTS=opencv-doc
+CPACK_COMPONENT_DOCS_DEPENDS=libs
+CPACK_COMPONENT_DOCS_DESCRIPTION=Documentation for Open Source Computer Vision Library
+CPACK_COMPONENT_DOCS_DISPLAY_NAME=Documentation
+CPACK_COMPONENT_JAVA_CONFLICTS=libopencv3.0-java, libopencv3.0-jni
+CPACK_COMPONENT_JAVA_DEPENDS=libs
+CPACK_COMPONENT_JAVA_DESCRIPTION=Java bindings for Open Source Computer Vision Library
+CPACK_COMPONENT_JAVA_DISPLAY_NAME=Java bindings
+CPACK_COMPONENT_JAVA_PROVIDES=libopencv3.0-java, libopencv3.0-jni
+CPACK_COMPONENT_JAVA_REPLACES=libopencv3.0-java, libopencv3.0-jni
+CPACK_COMPONENT_LIBS_CONFLICTS=opencv-data, libopencv-calib3d3.0, libopencv-core3.0, libopencv-features2d3.0, libopencv-flann3.0, libopencv-highgui3.0, libopencv-imgcodecs3.0, libopencv-imgproc3.0, libopencv-ml3.0, libopencv-objdetect3.0, libopencv-photo3.0, libopencv-shape3.0, libopencv-stitching3.0, libopencv-superres3.0, libopencv-ts3.0, libopencv-video3.0, libopencv-videoio3.0, libopencv-videostab3.0
+CPACK_COMPONENT_LIBS_DESCRIPTION=Open Computer Vision Library
+CPACK_COMPONENT_LIBS_DISPLAY_NAME=Libraries and data
+CPACK_COMPONENT_LIBS_PROVIDES=opencv-data, libopencv-calib3d3.0, libopencv-core3.0, libopencv-features2d3.0, libopencv-flann3.0, libopencv-highgui3.0, libopencv-imgcodecs3.0, libopencv-imgproc3.0, libopencv-ml3.0, libopencv-objdetect3.0, libopencv-photo3.0, libopencv-shape3.0, libopencv-stitching3.0, libopencv-superres3.0, libopencv-ts3.0, libopencv-video3.0, libopencv-videoio3.0, libopencv-videostab3.0
+CPACK_COMPONENT_LIBS_REPLACES=opencv-data, libopencv-calib3d3.0, libopencv-core3.0, libopencv-features2d3.0, libopencv-flann3.0, libopencv-highgui3.0, libopencv-imgcodecs3.0, libopencv-imgproc3.0, libopencv-ml3.0, libopencv-objdetect3.0, libopencv-photo3.0, libopencv-shape3.0, libopencv-stitching3.0, libopencv-superres3.0, libopencv-ts3.0, libopencv-video3.0, libopencv-videoio3.0, libopencv-videostab3.0
+CPACK_COMPONENT_LIBS_REQUIRED=TRUE
+CPACK_COMPONENT_PYTHON_CONFLICTS=python-opencv
+CPACK_COMPONENT_PYTHON_DEPENDS=libs
+CPACK_COMPONENT_PYTHON_DESCRIPTION=Python bindings for Open Source Computer Vision Library
+CPACK_COMPONENT_PYTHON_DISPLAY_NAME=Python bindings
+CPACK_COMPONENT_PYTHON_PROVIDES=python-opencv
+CPACK_COMPONENT_PYTHON_REPLACES=python-opencv
+CPACK_COMPONENT_SAMPLES_CONFLICTS=opencv-doc
+CPACK_COMPONENT_SAMPLES_DEPENDS=libs
+CPACK_COMPONENT_SAMPLES_DESCRIPTION=Samples for Open Source Computer Vision Library
+CPACK_COMPONENT_SAMPLES_DISPLAY_NAME=Samples
+CPACK_COMPONENT_TESTS_DEPENDS=libs
+CPACK_COMPONENT_TESTS_DESCRIPTION=Accuracy and performance tests for Open Source Computer Vision Library
+CPACK_COMPONENT_TESTS_DISPLAY_NAME=Tests
+CPACK_COMPONENT_UNSPECIFIED_HIDDEN=TRUE
+CPACK_COMPONENT_UNSPECIFIED_REQUIRED=TRUE
+CPACK_DEBIAN_COMPONENT_DEV_NAME=libOpenCV-dev
+CPACK_DEBIAN_COMPONENT_DOCS_NAME=libOpenCV-docs
+CPACK_DEBIAN_COMPONENT_JAVA_NAME=libOpenCV-java
+CPACK_DEBIAN_COMPONENT_LIBS_NAME=libOpenCV
+CPACK_DEBIAN_COMPONENT_PYTHON_NAME=libOpenCV-python
+CPACK_DEBIAN_COMPONENT_SAMPLES_NAME=libOpenCV-samples
+CPACK_DEBIAN_COMPONENT_TESTS_NAME=libOpenCV-tests
+CPACK_DEBIAN_PACKAGE_ARCHITECTURE=amd64
+CPACK_DEBIAN_PACKAGE_HOMEPAGE=http://opencv.org
+CPACK_DEBIAN_PACKAGE_PRIORITY=optional
+CPACK_DEBIAN_PACKAGE_SECTION=libs
+CPACK_DEBIAN_PACKAGE_SHLIBDEPS=TRUE
+CPACK_DEB_COMPONENT_INSTALL=TRUE
+CPACK_GENERATOR=7Z;ZIP
+CPACK_IGNORE_FILES=/CVS/;/\\.svn/;/\\.bzr/;/\\.hg/;/\\.git/;\\.swp\$;\\.#;/#
+CPACK_INSTALLED_DIRECTORIES=C:/opencv/sources;/
+CPACK_INSTALL_CMAKE_PROJECTS=
+CPACK_INSTALL_PREFIX=C:/opencv/mingw-build/install
+CPACK_MODULE_PATH=;C:/opencv/sources/cmake
+CPACK_NSIS_DISPLAY_NAME=OpenCV unknown
+CPACK_NSIS_INSTALLER_ICON_CODE=
+CPACK_NSIS_INSTALLER_MUI_ICON_CODE=
+CPACK_NSIS_INSTALL_ROOT=$PROGRAMFILES64
+CPACK_NSIS_PACKAGE_NAME=OpenCV unknown
+CPACK_OUTPUT_CONFIG_FILE=C:/opencv/mingw-build/CPackConfig.cmake
+CPACK_PACKAGE_CONTACT=admin@opencv.org
+CPACK_PACKAGE_DEFAULT_LOCATION=/
+CPACK_PACKAGE_DESCRIPTION=OpenCV (Open Source Computer Vision Library) is an open source computer vision
+and machine learning software library. OpenCV was built to provide a common
+infrastructure for computer vision applications and to accelerate the use of
+machine perception in the commercial products. Being a BSD-licensed product,
+OpenCV makes it easy for businesses to utilize and modify the code.
+CPACK_PACKAGE_DESCRIPTION_FILE=C:/cmake-3.7.2/share/cmake-3.7/Templates/CPack.GenericDescription.txt
+CPACK_PACKAGE_DESCRIPTION_SUMMARY=Open Computer Vision Library
+CPACK_PACKAGE_FILE_NAME=OpenCV-unknown-AMD64
+CPACK_PACKAGE_INSTALL_DIRECTORY=OpenCV unknown
+CPACK_PACKAGE_INSTALL_REGISTRY_KEY=OpenCV unknown
+CPACK_PACKAGE_NAME=OpenCV
+CPACK_PACKAGE_RELOCATABLE=true
+CPACK_PACKAGE_VENDOR=OpenCV Foundation
+CPACK_PACKAGE_VERSION=unknown
+CPACK_PACKAGE_VERSION_MAJOR=3
+CPACK_PACKAGE_VERSION_MINOR=4
+CPACK_PACKAGE_VERSION_PATCH=1
+CPACK_RESOURCE_FILE_LICENSE=C:/opencv/sources/LICENSE
+CPACK_RESOURCE_FILE_README=C:/cmake-3.7.2/share/cmake-3.7/Templates/CPack.GenericDescription.txt
+CPACK_RESOURCE_FILE_WELCOME=C:/cmake-3.7.2/share/cmake-3.7/Templates/CPack.GenericWelcome.txt
+CPACK_RPM_COMPONENT_INSTALL=TRUE
+CPACK_RPM_PACKAGE_ARCHITECTURE=x86_64
+CPACK_RPM_PACKAGE_DESCRIPTION=OpenCV (Open Source Computer Vision Library) is an open source computer vision
+and machine learning software library. OpenCV was built to provide a common
+infrastructure for computer vision applications and to accelerate the use of
+machine perception in the commercial products. Being a BSD-licensed product,
+OpenCV makes it easy for businesses to utilize and modify the code.
+CPACK_RPM_PACKAGE_LICENSE=BSD
+CPACK_RPM_PACKAGE_SOURCES=ON
+CPACK_RPM_PACKAGE_SUMMARY=Open Computer Vision Library
+CPACK_RPM_PACKAGE_URL=http://opencv.org
+CPACK_SET_DESTDIR=OFF
+CPACK_SOURCE_7Z=ON
+CPACK_SOURCE_CYGWIN=
+CPACK_SOURCE_GENERATOR=7Z;ZIP
+CPACK_SOURCE_IGNORE_FILES=/CVS/;/\\.svn/;/\\.bzr/;/\\.hg/;/\\.git/;\\.swp\$;\\.#;/#
+CPACK_SOURCE_INSTALLED_DIRECTORIES=C:/opencv/sources;/
+CPACK_SOURCE_OUTPUT_CONFIG_FILE=C:/opencv/mingw-build/CPackSourceConfig.cmake
+CPACK_SOURCE_PACKAGE_FILE_NAME=OpenCV-unknown-AMD64
+CPACK_SOURCE_RPM=
+CPACK_SOURCE_TBZ2=
+CPACK_SOURCE_TGZ=
+CPACK_SOURCE_TOPLEVEL_TAG=win64-Source
+CPACK_SOURCE_TXZ=
+CPACK_SOURCE_TZ=
+CPACK_SOURCE_ZIP=ON
+CPACK_STRIP_FILES=
+CPACK_SYSTEM_NAME=win64
+CPACK_TOPLEVEL_TAG=win64-Source
+CPACK_WIX_SIZEOF_VOID_P=8
+CPACK_set_DESTDIR=on
+CPU_ALL_OPTIMIZATIONS=SSE;SSE2;SSE3;SSSE3;SSE4_1;SSE4_2;POPCNT;AVX;FP16;AVX2;FMA3;AVX_512F;AVX512_SKX;NEON;VFPV3;VSX
+CPU_AVX2_FLAGS_ON=-mavx2
+CPU_AVX2_FORCE=AVX;FMA3;FP16
+CPU_AVX2_IMPLIES=AVX;FMA3;FP16
+CPU_AVX2_TEST_FILE=C:/opencv/sources/cmake/checks/cpu_avx2.cpp
+CPU_AVX2_USAGE_COUNT=0
+CPU_AVX512_SKX_FLAGS_ON=-mavx512f -mavx512cd -mavx512vl -mavx512bw -mavx512dq
+CPU_AVX512_SKX_FORCE=AVX_512F;AVX_512CD;AVX_512BW;AVX_512DQ;AVX_512VL
+CPU_AVX512_SKX_GROUP=AVX_512F;AVX_512CD;AVX_512BW;AVX_512DQ;AVX_512VL
+CPU_AVX512_SKX_IMPLIES=AVX_512F;AVX_512CD;AVX_512BW;AVX_512DQ;AVX_512VL
+CPU_AVX512_SKX_TEST_FILE=C:/opencv/sources/cmake/checks/cpu_avx512skx.cpp
+CPU_AVX512_SKX_USAGE_COUNT=0
+CPU_AVX_512F_FLAGS_ON=-mavx512f
+CPU_AVX_512F_FORCE=
+CPU_AVX_512F_IMPLIES=AVX2
+CPU_AVX_512F_TEST_FILE=C:/opencv/sources/cmake/checks/cpu_avx512.cpp
+CPU_AVX_512F_USAGE_COUNT=0
+CPU_AVX_FLAGS_ON=-mavx
+CPU_AVX_FORCE=SSE4_2
+CPU_AVX_IMPLIES=SSE4_2
+CPU_AVX_TEST_FILE=C:/opencv/sources/cmake/checks/cpu_avx.cpp
+CPU_AVX_USAGE_COUNT=0
+CPU_BASELINE=SSE3
+CPU_BASELINE_FINAL=SSE;SSE2;SSE3
+CPU_BASELINE_FLAGS= -msse -msse2 -msse3
+CPU_DISPATCH=
+CPU_DISPATCH_FINAL=
+CPU_FMA3_FLAGS_ON=-mfma
+CPU_FMA3_FORCE=
+CPU_FMA3_IMPLIES=AVX2
+CPU_FMA3_USAGE_COUNT=0
+CPU_FP16_FLAGS_ON=-mf16c
+CPU_FP16_FORCE=
+CPU_FP16_IMPLIES=AVX
+CPU_FP16_TEST_FILE=C:/opencv/sources/cmake/checks/cpu_fp16.cpp
+CPU_FP16_USAGE_COUNT=0
+CPU_KNOWN_OPTIMIZATIONS=SSE;SSE2;SSE3;SSSE3;SSE4_1;POPCNT;SSE4_2;FP16;FMA3;AVX;AVX2;AVX_512F;AVX512_SKX
+CPU_POPCNT_FLAGS_ON=-mpopcnt
+CPU_POPCNT_FORCE=
+CPU_POPCNT_IMPLIES=SSE4_1
+CPU_POPCNT_TEST_FILE=C:/opencv/sources/cmake/checks/cpu_popcnt.cpp
+CPU_POPCNT_USAGE_COUNT=0
+CPU_SSE2_FLAGS_ON=-msse2
+CPU_SSE2_FORCE=SSE
+CPU_SSE2_IMPLIES=SSE
+CPU_SSE2_SUPPORTED=ON
+CPU_SSE2_TEST_FILE=C:/opencv/sources/cmake/checks/cpu_sse2.cpp
+CPU_SSE2_USAGE_COUNT=0
+CPU_SSE3_FLAGS_ON=-msse3
+CPU_SSE3_FORCE=SSE2
+CPU_SSE3_IMPLIES=SSE2
+CPU_SSE3_SUPPORTED=ON
+CPU_SSE3_TEST_FILE=C:/opencv/sources/cmake/checks/cpu_sse3.cpp
+CPU_SSE3_USAGE_COUNT=0
+CPU_SSE4_1_FLAGS_ON=-msse4.1
+CPU_SSE4_1_FORCE=SSE3;SSSE3
+CPU_SSE4_1_IMPLIES=SSE3;SSSE3
+CPU_SSE4_1_TEST_FILE=C:/opencv/sources/cmake/checks/cpu_sse41.cpp
+CPU_SSE4_1_USAGE_COUNT=0
+CPU_SSE4_2_FLAGS_ON=-msse4.2
+CPU_SSE4_2_FORCE=SSE4_1;POPCNT
+CPU_SSE4_2_IMPLIES=SSE4_1;POPCNT
+CPU_SSE4_2_TEST_FILE=C:/opencv/sources/cmake/checks/cpu_sse42.cpp
+CPU_SSE4_2_USAGE_COUNT=0
+CPU_SSE_FLAGS_ON=-msse
+CPU_SSE_FORCE=
+CPU_SSE_SUPPORTED=ON
+CPU_SSE_TEST_FILE=C:/opencv/sources/cmake/checks/cpu_sse.cpp
+CPU_SSE_USAGE_COUNT=0
+CPU_SSSE3_FLAGS_ON=-mssse3
+CPU_SSSE3_FORCE=SSE3
+CPU_SSSE3_IMPLIES=SSE3
+CPU_SSSE3_TEST_FILE=C:/opencv/sources/cmake/checks/cpu_ssse3.cpp
+CPU_SSSE3_USAGE_COUNT=0
+CPU_VFPV3_FEATURE_ALIAS=
+CPackComponent_CMake_INCLUDED=1
+CPack_CMake_INCLUDED=1
+CUSTOM_STATUS=protobuf
+CUSTOM_STATUS_protobuf=    Protobuf:;BUILD_PROTOBUF;THEN;build (3.5.1);ELSE; (3.5.1)
+CV_DISABLE_OPTIMIZATION=OFF
+CV_ENABLE_INTRINSICS=ON
+CV_ENABLE_UNROLLED=1
+CV_TRACE=ON
+C_HAS_inline=1
+DC1394_2_INCLUDE_PATH=DC1394_2_INCLUDE_PATH-NOTFOUND
+EIGEN_INCLUDE_PATH=EIGEN_INCLUDE_PATH-NOTFOUND
+ENABLE_BUILD_HARDENING=OFF
+ENABLE_CCACHE=OFF
+ENABLE_COVERAGE=OFF
+ENABLE_CXX11=ON
+ENABLE_FAST_MATH=OFF
+ENABLE_GNU_STL_DEBUG=OFF
+ENABLE_IMPL_COLLECTION=OFF
+ENABLE_INSTRUMENTATION=OFF
+ENABLE_LTO=OFF
+ENABLE_NOISY_WARNINGS=OFF
+ENABLE_OMIT_FRAME_POINTER=ON
+ENABLE_PIC=ON
+ENABLE_PRECOMPILED_HEADERS=ON
+ENABLE_PROFILING=OFF
+ENABLE_PYLINT=OFF
+ENABLE_SOLUTION_FOLDERS=OFF
+EXECUTABLE_OUTPUT_PATH=C:/opencv/mingw-build/bin
+FFMPEG_BINARIES_COMMIT=0a0e88972a7ea97708378d0488a65f83e7cc5e69
+FFMPEG_CMAKE_SCRIPT=C:/opencv/mingw-build/3rdparty/ffmpeg/ffmpeg_version.cmake
+FFMPEG_FILE_HASH_BIN32=b8120c07962d591e2e9071a1bf566fd0
+FFMPEG_FILE_HASH_BIN64=dc9c50e7b05482acc25d6ce0ac61bf1d
+FFMPEG_FILE_HASH_CMAKE=3b90f67f4b429e77d3da36698cef700c
+FFMPEG_libavcodec_FOUND=1
+FFMPEG_libavcodec_VERSION=57.107.100
+FFMPEG_libavformat_FOUND=1
+FFMPEG_libavformat_VERSION=57.83.100
+FFMPEG_libavresample_FOUND=1
+FFMPEG_libavresample_VERSION=3.7.0
+FFMPEG_libavutil_FOUND=1
+FFMPEG_libavutil_VERSION=55.78.100
+FFMPEG_libswscale_FOUND=1
+FFMPEG_libswscale_VERSION=4.8.100
+FIND_PACKAGE_MESSAGE_DETAILS_Threads=[TRUE][v()]
+GIT_EXECUTABLE=C:/Program Files/Git/cmd/git.exe
+GIT_FOUND=TRUE
+GIT_RESULT=128
+GIT_VERSION_STRING=2.16.2.windows.1
+GLIB_LIBRARY=GLIB_LIBRARY-NOTFOUND
+GLIB_gstcdda_LIBRARY=GLIB_gstcdda_LIBRARY-NOTFOUND
+GOBJECT_LIBRARY=GOBJECT_LIBRARY-NOTFOUND
+GSTREAMER_DIR=
+GSTREAMER_glib_INCLUDE_DIR=GSTREAMER_glib_INCLUDE_DIR-NOTFOUND
+GSTREAMER_glibconfig_INCLUDE_DIR=GSTREAMER_glibconfig_INCLUDE_DIR-NOTFOUND
+GSTREAMER_gst_INCLUDE_DIR=GSTREAMER_gst_INCLUDE_DIR-NOTFOUND
+GSTREAMER_gstapp_LIBRARY=GSTREAMER_gstapp_LIBRARY-NOTFOUND
+GSTREAMER_gstaudio_LIBRARY=GSTREAMER_gstaudio_LIBRARY-NOTFOUND
+GSTREAMER_gstbase_LIBRARY=GSTREAMER_gstbase_LIBRARY-NOTFOUND
+GSTREAMER_gstconfig_INCLUDE_DIR=GSTREAMER_gstconfig_INCLUDE_DIR-NOTFOUND
+GSTREAMER_gstcontroller_LIBRARY=GSTREAMER_gstcontroller_LIBRARY-NOTFOUND
+GSTREAMER_gstnet_LIBRARY=GSTREAMER_gstnet_LIBRARY-NOTFOUND
+GSTREAMER_gstpbutils_LIBRARY=GSTREAMER_gstpbutils_LIBRARY-NOTFOUND
+GSTREAMER_gstreamer_LIBRARY=GSTREAMER_gstreamer_LIBRARY-NOTFOUND
+GSTREAMER_gstriff_LIBRARY=GSTREAMER_gstriff_LIBRARY-NOTFOUND
+GSTREAMER_gstrtp_LIBRARY=GSTREAMER_gstrtp_LIBRARY-NOTFOUND
+GSTREAMER_gstrtsp_LIBRARY=GSTREAMER_gstrtsp_LIBRARY-NOTFOUND
+GSTREAMER_gstsdp_LIBRARY=GSTREAMER_gstsdp_LIBRARY-NOTFOUND
+GSTREAMER_gsttag_LIBRARY=GSTREAMER_gsttag_LIBRARY-NOTFOUND
+GSTREAMER_gstvideo_LIBRARY=GSTREAMER_gstvideo_LIBRARY-NOTFOUND
+Git_FOUND=TRUE
+HAVE_ASSERT_H=1
+HAVE_CMAKE_SIZEOF_UNSIGNED_SHORT=TRUE
+HAVE_CONCURRENCY=0
+HAVE_CPU_BASELINE_FLAGS=1
+HAVE_CPU_DISPATCH_FLAGS_AVX=1
+HAVE_CPU_DISPATCH_FLAGS_AVX2=1
+HAVE_CPU_DISPATCH_FLAGS_AVX512_SKX=1
+HAVE_CPU_DISPATCH_FLAGS_FP16=1
+HAVE_CPU_DISPATCH_FLAGS_SSE4_1=1
+HAVE_CPU_DISPATCH_FLAGS_SSE4_2=1
+HAVE_CSTRIPES=0
+HAVE_CXX11=ON
+HAVE_CXX11=ON
+HAVE_CXX_FDATA_SECTIONS=1
+HAVE_CXX_FDIAGNOSTICS_SHOW_OPTION=1
+HAVE_CXX_FFUNCTION_SECTIONS=1
+HAVE_CXX_FOMIT_FRAME_POINTER=1
+HAVE_CXX_FSIGNED_CHAR=1
+HAVE_CXX_FVISIBILITY_HIDDEN=1
+HAVE_CXX_FVISIBILITY_INLINES_HIDDEN=1
+HAVE_CXX_MAVX=1
+HAVE_CXX_MAVX2=1
+HAVE_CXX_MAVX512F=1
+HAVE_CXX_MAVX512F_MAVX512CD_MAVX512VL_MAVX512BW_MAVX512DQ=1
+HAVE_CXX_MF16C=1
+HAVE_CXX_MFMA=1
+HAVE_CXX_MPOPCNT=1
+HAVE_CXX_MSSE=1
+HAVE_CXX_MSSE2=1
+HAVE_CXX_MSSE3=1
+HAVE_CXX_MSSE4_1=1
+HAVE_CXX_MSSE4_2=1
+HAVE_CXX_MSSSE3=1
+HAVE_CXX_W=1
+HAVE_CXX_WALL=1
+HAVE_CXX_WERROR_ADDRESS=1
+HAVE_CXX_WERROR_FORMAT_SECURITY=1
+HAVE_CXX_WERROR_NON_VIRTUAL_DTOR=1
+HAVE_CXX_WERROR_RETURN_TYPE=1
+HAVE_CXX_WERROR_SEQUENCE_POINT=1
+HAVE_CXX_WFORMAT=1
+HAVE_CXX_WINIT_SELF=1
+HAVE_CXX_WMISSING_DECLARATIONS=1
+HAVE_CXX_WMISSING_PROTOTYPES=
+HAVE_CXX_WNO_ARRAY_BOUNDS=1
+HAVE_CXX_WNO_COMMENT=1
+HAVE_CXX_WNO_DELETE_NON_VIRTUAL_DTOR=1
+HAVE_CXX_WNO_DEPRECATED=1
+HAVE_CXX_WNO_DEPRECATED_DECLARATIONS=1
+HAVE_CXX_WNO_ENUM_COMPARE=1
+HAVE_CXX_WNO_ENUM_COMPARE_SWITCH=
+HAVE_CXX_WNO_ERROR_NON_VIRTUAL_DTOR=1
+HAVE_CXX_WNO_EXTRA=1
+HAVE_CXX_WNO_IGNORED_QUALIFIERS=1
+HAVE_CXX_WNO_IMPLICIT_FALLTHROUGH=
+HAVE_CXX_WNO_INVALID_OFFSETOF=1
+HAVE_CXX_WNO_LONG_LONG=1
+HAVE_CXX_WNO_MAYBE_UNINITIALIZED=1
+HAVE_CXX_WNO_MISLEADING_INDENTATION=
+HAVE_CXX_WNO_MISSING_DECLARATIONS=1
+HAVE_CXX_WNO_MISSING_PROTOTYPES=
+HAVE_CXX_WNO_NARROWING=1
+HAVE_CXX_WNO_OVERLOADED_VIRTUAL=1
+HAVE_CXX_WNO_PARENTHESES=1
+HAVE_CXX_WNO_SHADOW=1
+HAVE_CXX_WNO_SHORTEN_64_TO_32=
+HAVE_CXX_WNO_SIGN_COMPARE=1
+HAVE_CXX_WNO_SIGN_PROMO=1
+HAVE_CXX_WNO_SWITCH=1
+HAVE_CXX_WNO_TAUTOLOGICAL_UNDEFINED_COMPARE=
+HAVE_CXX_WNO_UNDEF=1
+HAVE_CXX_WNO_UNINITIALIZED=1
+HAVE_CXX_WNO_UNNAMED_TYPE_TEMPLATE_ARGS=
+HAVE_CXX_WNO_UNUSED=1
+HAVE_CXX_WNO_UNUSED_CONST_VARIABLE=
+HAVE_CXX_WNO_UNUSED_FUNCTION=1
+HAVE_CXX_WNO_UNUSED_LOCAL_TYPEDEFS=1
+HAVE_CXX_WNO_UNUSED_PARAMETER=1
+HAVE_CXX_WPOINTER_ARITH=1
+HAVE_CXX_WSHADOW=1
+HAVE_CXX_WSIGN_PROMO=1
+HAVE_CXX_WSTRICT_PROTOTYPES=
+HAVE_CXX_WUNDEF=1
+HAVE_CXX_WUNINITIALIZED=1
+HAVE_C_FDATA_SECTIONS=1
+HAVE_C_FDIAGNOSTICS_SHOW_OPTION=1
+HAVE_C_FFUNCTION_SECTIONS=1
+HAVE_C_FOMIT_FRAME_POINTER=1
+HAVE_C_FSIGNED_CHAR=1
+HAVE_C_FVISIBILITY_HIDDEN=1
+HAVE_C_FVISIBILITY_INLINES_HIDDEN=
+HAVE_C_W=1
+HAVE_C_WALL=1
+HAVE_C_WERROR_ADDRESS=1
+HAVE_C_WERROR_FORMAT_SECURITY=1
+HAVE_C_WERROR_NON_VIRTUAL_DTOR=1
+HAVE_C_WERROR_RETURN_TYPE=1
+HAVE_C_WERROR_SEQUENCE_POINT=1
+HAVE_C_WFORMAT=1
+HAVE_C_WINIT_SELF=1
+HAVE_C_WMISSING_DECLARATIONS=1
+HAVE_C_WMISSING_PROTOTYPES=1
+HAVE_C_WNO_ABSOLUTE_VALUE=
+HAVE_C_WNO_ATTRIBUTES=1
+HAVE_C_WNO_CAST_ALIGN=1
+HAVE_C_WNO_COMMENT=1
+HAVE_C_WNO_DELETE_NON_VIRTUAL_DTOR=
+HAVE_C_WNO_IMPLICIT_FALLTHROUGH=
+HAVE_C_WNO_IMPLICIT_FUNCTION_DECLARATION=1
+HAVE_C_WNO_INT_TO_POINTER_CAST=1
+HAVE_C_WNO_LONG_LONG=1
+HAVE_C_WNO_MAYBE_UNINITIALIZED=1
+HAVE_C_WNO_MISLEADING_INDENTATION=
+HAVE_C_WNO_MISSING_DECLARATIONS=1
+HAVE_C_WNO_MISSING_PROTOTYPES=1
+HAVE_C_WNO_NARROWING=1
+HAVE_C_WNO_POINTER_COMPARE=
+HAVE_C_WNO_POINTER_TO_INT_CAST=1
+HAVE_C_WNO_SHADOW=1
+HAVE_C_WNO_SHIFT_NEGATIVE_VALUE=
+HAVE_C_WNO_SHORTEN_64_TO_32=
+HAVE_C_WNO_SIGN_COMPARE=1
+HAVE_C_WNO_STRICT_OVERFLOW=1
+HAVE_C_WNO_STRICT_PROTOTYPES=1
+HAVE_C_WNO_UNDEF=1
+HAVE_C_WNO_UNINITIALIZED=1
+HAVE_C_WNO_UNNAMED_TYPE_TEMPLATE_ARGS=
+HAVE_C_WNO_UNUSED=1
+HAVE_C_WNO_UNUSED_BUT_SET_PARAMETER=1
+HAVE_C_WNO_UNUSED_BUT_SET_VARIABLE=1
+HAVE_C_WNO_UNUSED_FUNCTION=1
+HAVE_C_WNO_UNUSED_PARAMETER=1
+HAVE_C_WNO_UNUSED_VARIABLE=1
+HAVE_C_WPOINTER_ARITH=1
+HAVE_C_WSHADOW=1
+HAVE_C_WSIGN_PROMO=
+HAVE_C_WSTRICT_PROTOTYPES=1
+HAVE_C_WUNDEF=1
+HAVE_C_WUNINITIALIZED=1
+HAVE_DLFCN_H=
+HAVE_DSHOW=1
+HAVE_FCNTL_H=1
+HAVE_FFMPEG=TRUE
+HAVE_FLOOR=1
+HAVE_FSEEKO=1
+HAVE_GCD=0
+HAVE_GETOPT=1
+HAVE_GSTREAMER_APP=0
+HAVE_GSTREAMER_BASE=0
+HAVE_GSTREAMER_PBUTILS=0
+HAVE_GSTREAMER_RIFF=0
+HAVE_GSTREAMER_VIDEO=0
+HAVE_IEEEFP=1
+HAVE_INTTYPES_H=1
+HAVE_IO_H=1
+HAVE_ISASCII=1
+HAVE_JASPER=YES
+HAVE_JPEG=YES
+HAVE_LFIND=1
+HAVE_LIMITS_H=1
+HAVE_MALLOC_H=1
+HAVE_MEMMOVE=1
+HAVE_MEMORY_H=1
+HAVE_MEMSET=1
+HAVE_MKL=OFF
+HAVE_MMAP=
+HAVE_OFF64_T=TRUE
+HAVE_OPENCL=1
+HAVE_OPENCL_STATIC=OFF
+HAVE_OPENEXR=YES
+HAVE_PNG=YES
+HAVE_POW=1
+HAVE_PROTOBUF=TRUE
+HAVE_PTHREADS_PF=0
+HAVE_SEARCH_H=1
+HAVE_SETMODE=1
+HAVE_SIZEOF_PTRDIFF_T=TRUE
+HAVE_SIZEOF_SIGNED_INT=TRUE
+HAVE_SIZEOF_SIGNED_LONG=TRUE
+HAVE_SIZEOF_SIGNED_LONG_LONG=TRUE
+HAVE_SIZEOF_SIGNED_SHORT=TRUE
+HAVE_SIZEOF_SIZE_T=TRUE
+HAVE_SIZEOF_UNSIGNED_CHAR_P=TRUE
+HAVE_SIZEOF_UNSIGNED_INT=TRUE
+HAVE_SIZEOF_UNSIGNED_LONG=TRUE
+HAVE_SIZEOF_UNSIGNED_LONG_LONG=TRUE
+HAVE_SIZEOF_UNSIGNED_SHORT=TRUE
+HAVE_SNPRINTF=1
+HAVE_SQRT=1
+HAVE_STDDEF_H=1
+HAVE_STDINT_H=1
+HAVE_STRCASECMP=1
+HAVE_STRCHR=1
+HAVE_STRINGS_H=1
+HAVE_STRING_H=1
+HAVE_STRRCHR=1
+HAVE_STRSTR=1
+HAVE_STRTOL=1
+HAVE_STRTOUL=1
+HAVE_STRTOULL=1
+HAVE_SYS_TIME_H=1
+HAVE_SYS_TYPES_H=1
+HAVE_TIFF=YES
+HAVE_UNISTD_H=1
+HAVE_VFW=TRUE
+HAVE_VTK=OFF
+HAVE_WEBP=1
+HAVE_WIN32UI=TRUE
+HAVE_WORDS_BIGENDIAN=TRUE
+HAVE_bigendian=TRUE
+HAVE_int16=FALSE
+HAVE_int32=FALSE
+HAVE_int8=FALSE
+HAVE_opencv_calib3d=ON
+HAVE_opencv_core=ON
+HAVE_opencv_cudaarithm=OFF
+HAVE_opencv_cudabgsegm=OFF
+HAVE_opencv_cudacodec=OFF
+HAVE_opencv_cudafeatures2d=OFF
+HAVE_opencv_cudafilters=OFF
+HAVE_opencv_cudaimgproc=OFF
+HAVE_opencv_cudalegacy=OFF
+HAVE_opencv_cudaobjdetect=OFF
+HAVE_opencv_cudaoptflow=OFF
+HAVE_opencv_cudastereo=OFF
+HAVE_opencv_cudawarping=OFF
+HAVE_opencv_cudev=OFF
+HAVE_opencv_dnn=ON
+HAVE_opencv_features2d=ON
+HAVE_opencv_flann=ON
+HAVE_opencv_highgui=ON
+HAVE_opencv_imgcodecs=ON
+HAVE_opencv_imgproc=ON
+HAVE_opencv_java=OFF
+HAVE_opencv_java_bindings_generator=ON
+HAVE_opencv_js=OFF
+HAVE_opencv_ml=ON
+HAVE_opencv_objdetect=ON
+HAVE_opencv_photo=ON
+HAVE_opencv_python2=OFF
+HAVE_opencv_python3=OFF
+HAVE_opencv_python_bindings_generator=ON
+HAVE_opencv_shape=ON
+HAVE_opencv_stitching=ON
+HAVE_opencv_superres=ON
+HAVE_opencv_ts=ON
+HAVE_opencv_video=ON
+HAVE_opencv_videoio=ON
+HAVE_opencv_videostab=ON
+HAVE_opencv_viz=OFF
+HAVE_opencv_world=OFF
+HELPER_SCRIPT=
+set(BUILD_SHARED_LIBS "ON")
+
+set(CMAKE_BINARY_DIR "C:/opencv/mingw-build")
+
+set(CMAKE_INSTALL_PREFIX "C:/opencv/mingw-build/install")
+
+set(OpenCV_SOURCE_DIR "C:/opencv/sources")
+
+set(OPENCV_PC_FILE_NAME "opencv.pc")
+
+set(OPENCV_VERSION_PLAIN "3.4.1")
+
+set(OPENCV_LIB_INSTALL_PATH "x64/mingw/lib")
+
+set(OPENCV_INCLUDE_INSTALL_PATH "include")
+
+set(OPENCV_3P_LIB_INSTALL_PATH "x64/mingw/staticlib")
+
+set(_modules "opencv_dnn;opencv_ml;opencv_objdetect;opencv_shape;opencv_stitching;opencv_superres;opencv_videostab;opencv_calib3d;opencv_features2d;opencv_highgui;opencv_videoio;opencv_imgcodecs;opencv_video;opencv_photo;opencv_imgproc;opencv_flann;opencv_core")
+
+set(_extra "")
+
+set(_3rdparty "")
+
+set(TARGET_LOCATION_opencv_dnn "$<TARGET_FILE:opencv_dnn>")
+
+set(TARGET_LOCATION_opencv_ml "$<TARGET_FILE:opencv_ml>")
+
+set(TARGET_LOCATION_opencv_objdetect "$<TARGET_FILE:opencv_objdetect>")
+
+set(TARGET_LOCATION_opencv_shape "$<TARGET_FILE:opencv_shape>")
+
+set(TARGET_LOCATION_opencv_stitching "$<TARGET_FILE:opencv_stitching>")
+
+set(TARGET_LOCATION_opencv_superres "$<TARGET_FILE:opencv_superres>")
+
+set(TARGET_LOCATION_opencv_videostab "$<TARGET_FILE:opencv_videostab>")
+
+set(TARGET_LOCATION_opencv_calib3d "$<TARGET_FILE:opencv_calib3d>")
+
+set(TARGET_LOCATION_opencv_features2d "$<TARGET_FILE:opencv_features2d>")
+
+set(TARGET_LOCATION_opencv_highgui "$<TARGET_FILE:opencv_highgui>")
+
+set(TARGET_LOCATION_opencv_videoio "$<TARGET_FILE:opencv_videoio>")
+
+set(TARGET_LOCATION_opencv_imgcodecs "$<TARGET_FILE:opencv_imgcodecs>")
+
+set(TARGET_LOCATION_opencv_video "$<TARGET_FILE:opencv_video>")
+
+set(TARGET_LOCATION_opencv_photo "$<TARGET_FILE:opencv_photo>")
+
+set(TARGET_LOCATION_opencv_imgproc "$<TARGET_FILE:opencv_imgproc>")
+
+set(TARGET_LOCATION_opencv_flann "$<TARGET_FILE:opencv_flann>")
+
+set(TARGET_LOCATION_opencv_core "$<TARGET_FILE:opencv_core>")
+
+HELP_CPU_BASELINE=Specify list of enabled baseline CPU optimizations
+HELP_CPU_BASELINE_DISABLE=Specify list of forbidden baseline CPU optimizations
+HELP_CPU_BASELINE_REQUIRE=Specify list of required baseline CPU optimizations
+HELP_CPU_DISPATCH=Specify list of dispatched CPU optimizations
+HELP_CPU_DISPATCH_REQUIRE=Specify list of required dispatched CPU optimizations
+HELP_OPENCV_DOWNLOAD_PATH=Cache directory for downloaded files
+HIGHGUI_LIBRARIES=comctl32;gdi32;ole32;setupapi;ws2_32
+HOST_BIG_ENDIAN=OFF
+HOST_FILLORDER=FILLORDER_MSB2LSB
+INSTALL_CREATE_DISTRIB=OFF
+INSTALL_C_EXAMPLES=OFF
+INSTALL_PYTHON_EXAMPLES=OFF
+INSTALL_TESTS=OFF
+IT=
+IlmImf_LIB_DEPENDS=general;zlib;
+JASPER_H=#define	JAS_VERSION "1.900.1"
+JASPER_INCLUDE_DIR=C:/opencv/sources/3rdparty/libjasper
+JASPER_LIBRARIES=libjasper
+JASPER_LIBRARY=libjasper
+JASPER_VERSION_MAJOR=1
+JASPER_VERSION_MINOR=900
+JASPER_VERSION_PATCH=1
+JASPER_VERSION_STRING=1.900.1
+JASPER_VERSION_TWEAK=
+JAVA_AWT_INCLUDE_DIRECTORIES=[HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft\Java Development Kit\1.4;JavaHome]/include;[HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft\Java Development Kit\1.3;JavaHome]/include;[HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft\Java Development Kit\registry;JavaHome]/include
+JAVA_AWT_INCLUDE_PATH=JAVA_AWT_INCLUDE_PATH-NOTFOUND
+JAVA_AWT_LIBRARY=JAVA_AWT_LIBRARY-NOTFOUND
+JAVA_AWT_LIBRARY_DIRECTORIES=[HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft\Java Development Kit\1.4;JavaHome]/lib;[HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft\Java Development Kit\1.3;JavaHome]/lib;[HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft\Java Development Kit\registry;JavaHome]/lib
+JAVA_INCLUDE_PATH=JAVA_INCLUDE_PATH-NOTFOUND
+JAVA_INCLUDE_PATH2=JAVA_INCLUDE_PATH2-NOTFOUND
+JAVA_INC_PATH=
+JAVA_JVM_LIBRARY=JAVA_JVM_LIBRARY-NOTFOUND
+JAVA_JVM_LIBRARY_DIRECTORIES=[HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft\Java Development Kit\1.4;JavaHome]/lib;[HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft\Java Development Kit\1.4;JavaHome]/lib/client;[HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft\Java Development Kit\1.4;JavaHome]/lib/server;[HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft\Java Development Kit\1.4;JavaHome]/lib/j9vm;[HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft\Java Development Kit\1.4;JavaHome]/lib/default;[HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft\Java Development Kit\1.3;JavaHome]/lib;[HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft\Java Development Kit\1.3;JavaHome]/lib/client;[HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft\Java Development Kit\1.3;JavaHome]/lib/server;[HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft\Java Development Kit\1.3;JavaHome]/lib/j9vm;[HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft\Java Development Kit\1.3;JavaHome]/lib/default;[HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft\Java Development Kit\registry;JavaHome]/lib;[HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft\Java Development Kit\registry;JavaHome]/lib/client;[HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft\Java Development Kit\registry;JavaHome]/lib/server;[HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft\Java Development Kit\registry;JavaHome]/lib/j9vm;[HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft\Java Development Kit\registry;JavaHome]/lib/default
+JAVA_LIB_PATH=
+JAVA_PROG=
+JNI_FOUND=FALSE
+JNI_INCLUDE_DIRS=JAVA_INCLUDE_PATH-NOTFOUND;JAVA_INCLUDE_PATH2-NOTFOUND;JAVA_AWT_INCLUDE_PATH-NOTFOUND
+JNI_LIBRARIES=JAVA_AWT_LIBRARY-NOTFOUND;JAVA_JVM_LIBRARY-NOTFOUND
+JPEG_INCLUDE_DIR=C:/opencv/sources/3rdparty/libjpeg
+JPEG_LIBRARIES=libjpeg
+JPEG_LIBRARY=libjpeg
+JPEG_LIB_VERSION=90
+JPEG_VERSION_LINES=#define JPEG_LIB_VERSION        90	/* Compatibility version 9.0 */
+LAPACK95_FOUND=FALSE
+LAPACK_CBLAS_H=
+LAPACK_FOUND=FALSE
+LAPACK_IMPL=Unknown
+LAPACK_INCLUDE_DIR=
+LAPACK_LAPACKE_H=
+LAPACK_LIBRARIES=
+LIBRARY_OUTPUT_PATH=C:/opencv/mingw-build/lib
+MAIN=
+MATLAB_FOUND=FALSE
+MATLAB_ROOT_DIR_=MATLAB_ROOT_DIR_-NOTFOUND
+MINGW=1
+MINGW64=1
+MIN_VER_CMAKE=2.8.12.2
+MIN_VER_CUDA=6.5
+MIN_VER_GTK=2.18.0
+MIN_VER_PYTHON2=2.6
+MIN_VER_PYTHON3=3.2
+MIN_VER_ZLIB=1.2.3
+MKL_INCLUDE_DIRS=MKL_ROOT_DIR-NOTFOUND/include
+MKL_ROOT_DIR=MKL_ROOT_DIR-NOTFOUND
+MKL_WITH_OPENMP=OFF
+MKL_WITH_TBB=OFF
+M_LIBRARY=M_LIBRARY-NOTFOUND
+Matlab_FOUND=FALSE
+OCV_COMPILER_FAIL_REGEX=command line option .* is valid for .* but not for C\+\+;command line option .* is valid for .* but not for C;unrecognized .*option;unknown .*option;ignoring unknown option;warning D9002;option .*not supported;[Uu]nknown option;[Ww]arning: [Oo]ption;command option .* is not recognized;not supported in this configuration, ignored;File with unknown suffix passed to linker;WARNING: unknown flag:
+OCV_DOWNLOAD_FFMPEG_HASH_3rdparty_ffmpeg_ffmpeg_version_cmake=3b90f67f4b429e77d3da36698cef700c
+OCV_DOWNLOAD_FFMPEG_HASH_3rdparty_ffmpeg_opencv_ffmpeg_64_dll=dc9c50e7b05482acc25d6ce0ac61bf1d
+OCV_DOWNLOAD_FFMPEG_HASH_3rdparty_ffmpeg_opencv_ffmpeg_dll=b8120c07962d591e2e9071a1bf566fd0
+OFF64_T=8
+OPENCL_FOUND=ON
+OPENCL_INCLUDE_DIR=C:/opencv/sources/3rdparty/include/opencl/1.2
+OPENCL_INCLUDE_DIRS=C:/opencv/sources/3rdparty/include/opencl/1.2
+OPENCL_LIBRARY=
+OPENCV_3P_LIB_INSTALL_PATH=x64/mingw/staticlib
+OPENCV_BIN_INSTALL_PATH=x64/mingw/bin
+OPENCV_BUILD_INFO_FILE=C:/opencv/mingw-build/version_string.tmp
+OPENCV_COMPILER_STR=C:/Program Files (x86)/TDM-GCC/bin/g++.exe  (ver 5.1.0)
+OPENCV_CONFIG_FILE_INCLUDE_DIR=C:/opencv/mingw-build
+OPENCV_CONFIG_INSTALL_PATH=.
+OPENCV_CPU_BASELINE_DEFINITIONS_CONFIGMAKE=
+#define CV_CPU_COMPILE_SSE 1
+#define CV_CPU_BASELINE_COMPILE_SSE 1
+
+#define CV_CPU_COMPILE_SSE2 1
+#define CV_CPU_BASELINE_COMPILE_SSE2 1
+
+#define CV_CPU_COMPILE_SSE3 1
+#define CV_CPU_BASELINE_COMPILE_SSE3 1
+
+#define CV_CPU_BASELINE_FEATURES 0 \
+    , CV_CPU_SSE \
+    , CV_CPU_SSE2 \
+    , CV_CPU_SSE3 \
+
+OPENCV_CPU_CONTROL_DEFINITIONS_CONFIGMAKE=// AUTOGENERATED, DO NOT EDIT
+
+#if !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_COMPILE_SSE
+#  define CV_TRY_SSE 1
+#  define CV_CPU_HAS_SUPPORT_SSE 1
+#  define CV_CPU_CALL_SSE(fn, args) return (cpu_baseline::fn args)
+#  define CV_CPU_CALL_SSE_(fn, args) return (opt_SSE::fn args)
+#elif !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_DISPATCH_COMPILE_SSE
+#  define CV_TRY_SSE 1
+#  define CV_CPU_HAS_SUPPORT_SSE (cv::checkHardwareSupport(CV_CPU_SSE))
+#  define CV_CPU_CALL_SSE(fn, args) if (CV_CPU_HAS_SUPPORT_SSE) return (opt_SSE::fn args)
+#  define CV_CPU_CALL_SSE_(fn, args) if (CV_CPU_HAS_SUPPORT_SSE) return (opt_SSE::fn args)
+#else
+#  define CV_TRY_SSE 0
+#  define CV_CPU_HAS_SUPPORT_SSE 0
+#  define CV_CPU_CALL_SSE(fn, args)
+#  define CV_CPU_CALL_SSE_(fn, args)
+#endif
+#define __CV_CPU_DISPATCH_CHAIN_SSE(fn, args, mode, ...)  CV_CPU_CALL_SSE(fn, args); __CV_EXPAND(__CV_CPU_DISPATCH_CHAIN_ ## mode(fn, args, __VA_ARGS__))
+
+#if !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_COMPILE_SSE2
+#  define CV_TRY_SSE2 1
+#  define CV_CPU_HAS_SUPPORT_SSE2 1
+#  define CV_CPU_CALL_SSE2(fn, args) return (cpu_baseline::fn args)
+#  define CV_CPU_CALL_SSE2_(fn, args) return (opt_SSE2::fn args)
+#elif !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_DISPATCH_COMPILE_SSE2
+#  define CV_TRY_SSE2 1
+#  define CV_CPU_HAS_SUPPORT_SSE2 (cv::checkHardwareSupport(CV_CPU_SSE2))
+#  define CV_CPU_CALL_SSE2(fn, args) if (CV_CPU_HAS_SUPPORT_SSE2) return (opt_SSE2::fn args)
+#  define CV_CPU_CALL_SSE2_(fn, args) if (CV_CPU_HAS_SUPPORT_SSE2) return (opt_SSE2::fn args)
+#else
+#  define CV_TRY_SSE2 0
+#  define CV_CPU_HAS_SUPPORT_SSE2 0
+#  define CV_CPU_CALL_SSE2(fn, args)
+#  define CV_CPU_CALL_SSE2_(fn, args)
+#endif
+#define __CV_CPU_DISPATCH_CHAIN_SSE2(fn, args, mode, ...)  CV_CPU_CALL_SSE2(fn, args); __CV_EXPAND(__CV_CPU_DISPATCH_CHAIN_ ## mode(fn, args, __VA_ARGS__))
+
+#if !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_COMPILE_SSE3
+#  define CV_TRY_SSE3 1
+#  define CV_CPU_HAS_SUPPORT_SSE3 1
+#  define CV_CPU_CALL_SSE3(fn, args) return (cpu_baseline::fn args)
+#  define CV_CPU_CALL_SSE3_(fn, args) return (opt_SSE3::fn args)
+#elif !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_DISPATCH_COMPILE_SSE3
+#  define CV_TRY_SSE3 1
+#  define CV_CPU_HAS_SUPPORT_SSE3 (cv::checkHardwareSupport(CV_CPU_SSE3))
+#  define CV_CPU_CALL_SSE3(fn, args) if (CV_CPU_HAS_SUPPORT_SSE3) return (opt_SSE3::fn args)
+#  define CV_CPU_CALL_SSE3_(fn, args) if (CV_CPU_HAS_SUPPORT_SSE3) return (opt_SSE3::fn args)
+#else
+#  define CV_TRY_SSE3 0
+#  define CV_CPU_HAS_SUPPORT_SSE3 0
+#  define CV_CPU_CALL_SSE3(fn, args)
+#  define CV_CPU_CALL_SSE3_(fn, args)
+#endif
+#define __CV_CPU_DISPATCH_CHAIN_SSE3(fn, args, mode, ...)  CV_CPU_CALL_SSE3(fn, args); __CV_EXPAND(__CV_CPU_DISPATCH_CHAIN_ ## mode(fn, args, __VA_ARGS__))
+
+#if !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_COMPILE_SSSE3
+#  define CV_TRY_SSSE3 1
+#  define CV_CPU_HAS_SUPPORT_SSSE3 1
+#  define CV_CPU_CALL_SSSE3(fn, args) return (cpu_baseline::fn args)
+#  define CV_CPU_CALL_SSSE3_(fn, args) return (opt_SSSE3::fn args)
+#elif !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_DISPATCH_COMPILE_SSSE3
+#  define CV_TRY_SSSE3 1
+#  define CV_CPU_HAS_SUPPORT_SSSE3 (cv::checkHardwareSupport(CV_CPU_SSSE3))
+#  define CV_CPU_CALL_SSSE3(fn, args) if (CV_CPU_HAS_SUPPORT_SSSE3) return (opt_SSSE3::fn args)
+#  define CV_CPU_CALL_SSSE3_(fn, args) if (CV_CPU_HAS_SUPPORT_SSSE3) return (opt_SSSE3::fn args)
+#else
+#  define CV_TRY_SSSE3 0
+#  define CV_CPU_HAS_SUPPORT_SSSE3 0
+#  define CV_CPU_CALL_SSSE3(fn, args)
+#  define CV_CPU_CALL_SSSE3_(fn, args)
+#endif
+#define __CV_CPU_DISPATCH_CHAIN_SSSE3(fn, args, mode, ...)  CV_CPU_CALL_SSSE3(fn, args); __CV_EXPAND(__CV_CPU_DISPATCH_CHAIN_ ## mode(fn, args, __VA_ARGS__))
+
+#if !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_COMPILE_SSE4_1
+#  define CV_TRY_SSE4_1 1
+#  define CV_CPU_HAS_SUPPORT_SSE4_1 1
+#  define CV_CPU_CALL_SSE4_1(fn, args) return (cpu_baseline::fn args)
+#  define CV_CPU_CALL_SSE4_1_(fn, args) return (opt_SSE4_1::fn args)
+#elif !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_DISPATCH_COMPILE_SSE4_1
+#  define CV_TRY_SSE4_1 1
+#  define CV_CPU_HAS_SUPPORT_SSE4_1 (cv::checkHardwareSupport(CV_CPU_SSE4_1))
+#  define CV_CPU_CALL_SSE4_1(fn, args) if (CV_CPU_HAS_SUPPORT_SSE4_1) return (opt_SSE4_1::fn args)
+#  define CV_CPU_CALL_SSE4_1_(fn, args) if (CV_CPU_HAS_SUPPORT_SSE4_1) return (opt_SSE4_1::fn args)
+#else
+#  define CV_TRY_SSE4_1 0
+#  define CV_CPU_HAS_SUPPORT_SSE4_1 0
+#  define CV_CPU_CALL_SSE4_1(fn, args)
+#  define CV_CPU_CALL_SSE4_1_(fn, args)
+#endif
+#define __CV_CPU_DISPATCH_CHAIN_SSE4_1(fn, args, mode, ...)  CV_CPU_CALL_SSE4_1(fn, args); __CV_EXPAND(__CV_CPU_DISPATCH_CHAIN_ ## mode(fn, args, __VA_ARGS__))
+
+#if !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_COMPILE_SSE4_2
+#  define CV_TRY_SSE4_2 1
+#  define CV_CPU_HAS_SUPPORT_SSE4_2 1
+#  define CV_CPU_CALL_SSE4_2(fn, args) return (cpu_baseline::fn args)
+#  define CV_CPU_CALL_SSE4_2_(fn, args) return (opt_SSE4_2::fn args)
+#elif !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_DISPATCH_COMPILE_SSE4_2
+#  define CV_TRY_SSE4_2 1
+#  define CV_CPU_HAS_SUPPORT_SSE4_2 (cv::checkHardwareSupport(CV_CPU_SSE4_2))
+#  define CV_CPU_CALL_SSE4_2(fn, args) if (CV_CPU_HAS_SUPPORT_SSE4_2) return (opt_SSE4_2::fn args)
+#  define CV_CPU_CALL_SSE4_2_(fn, args) if (CV_CPU_HAS_SUPPORT_SSE4_2) return (opt_SSE4_2::fn args)
+#else
+#  define CV_TRY_SSE4_2 0
+#  define CV_CPU_HAS_SUPPORT_SSE4_2 0
+#  define CV_CPU_CALL_SSE4_2(fn, args)
+#  define CV_CPU_CALL_SSE4_2_(fn, args)
+#endif
+#define __CV_CPU_DISPATCH_CHAIN_SSE4_2(fn, args, mode, ...)  CV_CPU_CALL_SSE4_2(fn, args); __CV_EXPAND(__CV_CPU_DISPATCH_CHAIN_ ## mode(fn, args, __VA_ARGS__))
+
+#if !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_COMPILE_POPCNT
+#  define CV_TRY_POPCNT 1
+#  define CV_CPU_HAS_SUPPORT_POPCNT 1
+#  define CV_CPU_CALL_POPCNT(fn, args) return (cpu_baseline::fn args)
+#  define CV_CPU_CALL_POPCNT_(fn, args) return (opt_POPCNT::fn args)
+#elif !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_DISPATCH_COMPILE_POPCNT
+#  define CV_TRY_POPCNT 1
+#  define CV_CPU_HAS_SUPPORT_POPCNT (cv::checkHardwareSupport(CV_CPU_POPCNT))
+#  define CV_CPU_CALL_POPCNT(fn, args) if (CV_CPU_HAS_SUPPORT_POPCNT) return (opt_POPCNT::fn args)
+#  define CV_CPU_CALL_POPCNT_(fn, args) if (CV_CPU_HAS_SUPPORT_POPCNT) return (opt_POPCNT::fn args)
+#else
+#  define CV_TRY_POPCNT 0
+#  define CV_CPU_HAS_SUPPORT_POPCNT 0
+#  define CV_CPU_CALL_POPCNT(fn, args)
+#  define CV_CPU_CALL_POPCNT_(fn, args)
+#endif
+#define __CV_CPU_DISPATCH_CHAIN_POPCNT(fn, args, mode, ...)  CV_CPU_CALL_POPCNT(fn, args); __CV_EXPAND(__CV_CPU_DISPATCH_CHAIN_ ## mode(fn, args, __VA_ARGS__))
+
+#if !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_COMPILE_AVX
+#  define CV_TRY_AVX 1
+#  define CV_CPU_HAS_SUPPORT_AVX 1
+#  define CV_CPU_CALL_AVX(fn, args) return (cpu_baseline::fn args)
+#  define CV_CPU_CALL_AVX_(fn, args) return (opt_AVX::fn args)
+#elif !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_DISPATCH_COMPILE_AVX
+#  define CV_TRY_AVX 1
+#  define CV_CPU_HAS_SUPPORT_AVX (cv::checkHardwareSupport(CV_CPU_AVX))
+#  define CV_CPU_CALL_AVX(fn, args) if (CV_CPU_HAS_SUPPORT_AVX) return (opt_AVX::fn args)
+#  define CV_CPU_CALL_AVX_(fn, args) if (CV_CPU_HAS_SUPPORT_AVX) return (opt_AVX::fn args)
+#else
+#  define CV_TRY_AVX 0
+#  define CV_CPU_HAS_SUPPORT_AVX 0
+#  define CV_CPU_CALL_AVX(fn, args)
+#  define CV_CPU_CALL_AVX_(fn, args)
+#endif
+#define __CV_CPU_DISPATCH_CHAIN_AVX(fn, args, mode, ...)  CV_CPU_CALL_AVX(fn, args); __CV_EXPAND(__CV_CPU_DISPATCH_CHAIN_ ## mode(fn, args, __VA_ARGS__))
+
+#if !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_COMPILE_FP16
+#  define CV_TRY_FP16 1
+#  define CV_CPU_HAS_SUPPORT_FP16 1
+#  define CV_CPU_CALL_FP16(fn, args) return (cpu_baseline::fn args)
+#  define CV_CPU_CALL_FP16_(fn, args) return (opt_FP16::fn args)
+#elif !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_DISPATCH_COMPILE_FP16
+#  define CV_TRY_FP16 1
+#  define CV_CPU_HAS_SUPPORT_FP16 (cv::checkHardwareSupport(CV_CPU_FP16))
+#  define CV_CPU_CALL_FP16(fn, args) if (CV_CPU_HAS_SUPPORT_FP16) return (opt_FP16::fn args)
+#  define CV_CPU_CALL_FP16_(fn, args) if (CV_CPU_HAS_SUPPORT_FP16) return (opt_FP16::fn args)
+#else
+#  define CV_TRY_FP16 0
+#  define CV_CPU_HAS_SUPPORT_FP16 0
+#  define CV_CPU_CALL_FP16(fn, args)
+#  define CV_CPU_CALL_FP16_(fn, args)
+#endif
+#define __CV_CPU_DISPATCH_CHAIN_FP16(fn, args, mode, ...)  CV_CPU_CALL_FP16(fn, args); __CV_EXPAND(__CV_CPU_DISPATCH_CHAIN_ ## mode(fn, args, __VA_ARGS__))
+
+#if !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_COMPILE_AVX2
+#  define CV_TRY_AVX2 1
+#  define CV_CPU_HAS_SUPPORT_AVX2 1
+#  define CV_CPU_CALL_AVX2(fn, args) return (cpu_baseline::fn args)
+#  define CV_CPU_CALL_AVX2_(fn, args) return (opt_AVX2::fn args)
+#elif !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_DISPATCH_COMPILE_AVX2
+#  define CV_TRY_AVX2 1
+#  define CV_CPU_HAS_SUPPORT_AVX2 (cv::checkHardwareSupport(CV_CPU_AVX2))
+#  define CV_CPU_CALL_AVX2(fn, args) if (CV_CPU_HAS_SUPPORT_AVX2) return (opt_AVX2::fn args)
+#  define CV_CPU_CALL_AVX2_(fn, args) if (CV_CPU_HAS_SUPPORT_AVX2) return (opt_AVX2::fn args)
+#else
+#  define CV_TRY_AVX2 0
+#  define CV_CPU_HAS_SUPPORT_AVX2 0
+#  define CV_CPU_CALL_AVX2(fn, args)
+#  define CV_CPU_CALL_AVX2_(fn, args)
+#endif
+#define __CV_CPU_DISPATCH_CHAIN_AVX2(fn, args, mode, ...)  CV_CPU_CALL_AVX2(fn, args); __CV_EXPAND(__CV_CPU_DISPATCH_CHAIN_ ## mode(fn, args, __VA_ARGS__))
+
+#if !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_COMPILE_FMA3
+#  define CV_TRY_FMA3 1
+#  define CV_CPU_HAS_SUPPORT_FMA3 1
+#  define CV_CPU_CALL_FMA3(fn, args) return (cpu_baseline::fn args)
+#  define CV_CPU_CALL_FMA3_(fn, args) return (opt_FMA3::fn args)
+#elif !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_DISPATCH_COMPILE_FMA3
+#  define CV_TRY_FMA3 1
+#  define CV_CPU_HAS_SUPPORT_FMA3 (cv::checkHardwareSupport(CV_CPU_FMA3))
+#  define CV_CPU_CALL_FMA3(fn, args) if (CV_CPU_HAS_SUPPORT_FMA3) return (opt_FMA3::fn args)
+#  define CV_CPU_CALL_FMA3_(fn, args) if (CV_CPU_HAS_SUPPORT_FMA3) return (opt_FMA3::fn args)
+#else
+#  define CV_TRY_FMA3 0
+#  define CV_CPU_HAS_SUPPORT_FMA3 0
+#  define CV_CPU_CALL_FMA3(fn, args)
+#  define CV_CPU_CALL_FMA3_(fn, args)
+#endif
+#define __CV_CPU_DISPATCH_CHAIN_FMA3(fn, args, mode, ...)  CV_CPU_CALL_FMA3(fn, args); __CV_EXPAND(__CV_CPU_DISPATCH_CHAIN_ ## mode(fn, args, __VA_ARGS__))
+
+#if !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_COMPILE_AVX_512F
+#  define CV_TRY_AVX_512F 1
+#  define CV_CPU_HAS_SUPPORT_AVX_512F 1
+#  define CV_CPU_CALL_AVX_512F(fn, args) return (cpu_baseline::fn args)
+#  define CV_CPU_CALL_AVX_512F_(fn, args) return (opt_AVX_512F::fn args)
+#elif !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_DISPATCH_COMPILE_AVX_512F
+#  define CV_TRY_AVX_512F 1
+#  define CV_CPU_HAS_SUPPORT_AVX_512F (cv::checkHardwareSupport(CV_CPU_AVX_512F))
+#  define CV_CPU_CALL_AVX_512F(fn, args) if (CV_CPU_HAS_SUPPORT_AVX_512F) return (opt_AVX_512F::fn args)
+#  define CV_CPU_CALL_AVX_512F_(fn, args) if (CV_CPU_HAS_SUPPORT_AVX_512F) return (opt_AVX_512F::fn args)
+#else
+#  define CV_TRY_AVX_512F 0
+#  define CV_CPU_HAS_SUPPORT_AVX_512F 0
+#  define CV_CPU_CALL_AVX_512F(fn, args)
+#  define CV_CPU_CALL_AVX_512F_(fn, args)
+#endif
+#define __CV_CPU_DISPATCH_CHAIN_AVX_512F(fn, args, mode, ...)  CV_CPU_CALL_AVX_512F(fn, args); __CV_EXPAND(__CV_CPU_DISPATCH_CHAIN_ ## mode(fn, args, __VA_ARGS__))
+
+#if !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_COMPILE_AVX512_SKX
+#  define CV_TRY_AVX512_SKX 1
+#  define CV_CPU_HAS_SUPPORT_AVX512_SKX 1
+#  define CV_CPU_CALL_AVX512_SKX(fn, args) return (cpu_baseline::fn args)
+#  define CV_CPU_CALL_AVX512_SKX_(fn, args) return (opt_AVX512_SKX::fn args)
+#elif !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_DISPATCH_COMPILE_AVX512_SKX
+#  define CV_TRY_AVX512_SKX 1
+#  define CV_CPU_HAS_SUPPORT_AVX512_SKX (cv::checkHardwareSupport(CV_CPU_AVX512_SKX))
+#  define CV_CPU_CALL_AVX512_SKX(fn, args) if (CV_CPU_HAS_SUPPORT_AVX512_SKX) return (opt_AVX512_SKX::fn args)
+#  define CV_CPU_CALL_AVX512_SKX_(fn, args) if (CV_CPU_HAS_SUPPORT_AVX512_SKX) return (opt_AVX512_SKX::fn args)
+#else
+#  define CV_TRY_AVX512_SKX 0
+#  define CV_CPU_HAS_SUPPORT_AVX512_SKX 0
+#  define CV_CPU_CALL_AVX512_SKX(fn, args)
+#  define CV_CPU_CALL_AVX512_SKX_(fn, args)
+#endif
+#define __CV_CPU_DISPATCH_CHAIN_AVX512_SKX(fn, args, mode, ...)  CV_CPU_CALL_AVX512_SKX(fn, args); __CV_EXPAND(__CV_CPU_DISPATCH_CHAIN_ ## mode(fn, args, __VA_ARGS__))
+
+#if !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_COMPILE_NEON
+#  define CV_TRY_NEON 1
+#  define CV_CPU_HAS_SUPPORT_NEON 1
+#  define CV_CPU_CALL_NEON(fn, args) return (cpu_baseline::fn args)
+#  define CV_CPU_CALL_NEON_(fn, args) return (opt_NEON::fn args)
+#elif !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_DISPATCH_COMPILE_NEON
+#  define CV_TRY_NEON 1
+#  define CV_CPU_HAS_SUPPORT_NEON (cv::checkHardwareSupport(CV_CPU_NEON))
+#  define CV_CPU_CALL_NEON(fn, args) if (CV_CPU_HAS_SUPPORT_NEON) return (opt_NEON::fn args)
+#  define CV_CPU_CALL_NEON_(fn, args) if (CV_CPU_HAS_SUPPORT_NEON) return (opt_NEON::fn args)
+#else
+#  define CV_TRY_NEON 0
+#  define CV_CPU_HAS_SUPPORT_NEON 0
+#  define CV_CPU_CALL_NEON(fn, args)
+#  define CV_CPU_CALL_NEON_(fn, args)
+#endif
+#define __CV_CPU_DISPATCH_CHAIN_NEON(fn, args, mode, ...)  CV_CPU_CALL_NEON(fn, args); __CV_EXPAND(__CV_CPU_DISPATCH_CHAIN_ ## mode(fn, args, __VA_ARGS__))
+
+#if !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_COMPILE_VSX
+#  define CV_TRY_VSX 1
+#  define CV_CPU_HAS_SUPPORT_VSX 1
+#  define CV_CPU_CALL_VSX(fn, args) return (cpu_baseline::fn args)
+#  define CV_CPU_CALL_VSX_(fn, args) return (opt_VSX::fn args)
+#elif !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_DISPATCH_COMPILE_VSX
+#  define CV_TRY_VSX 1
+#  define CV_CPU_HAS_SUPPORT_VSX (cv::checkHardwareSupport(CV_CPU_VSX))
+#  define CV_CPU_CALL_VSX(fn, args) if (CV_CPU_HAS_SUPPORT_VSX) return (opt_VSX::fn args)
+#  define CV_CPU_CALL_VSX_(fn, args) if (CV_CPU_HAS_SUPPORT_VSX) return (opt_VSX::fn args)
+#else
+#  define CV_TRY_VSX 0
+#  define CV_CPU_HAS_SUPPORT_VSX 0
+#  define CV_CPU_CALL_VSX(fn, args)
+#  define CV_CPU_CALL_VSX_(fn, args)
+#endif
+#define __CV_CPU_DISPATCH_CHAIN_VSX(fn, args, mode, ...)  CV_CPU_CALL_VSX(fn, args); __CV_EXPAND(__CV_CPU_DISPATCH_CHAIN_ ## mode(fn, args, __VA_ARGS__))
+
+#define CV_CPU_CALL_BASELINE(fn, args) return (cpu_baseline::fn args)
+#define __CV_CPU_DISPATCH_CHAIN_BASELINE(fn, args, mode, ...)  CV_CPU_CALL_BASELINE(fn, args) /* last in sequence */
+
+OPENCV_CPU_DISPATCH_DEFINITIONS_CONFIGMAKE=
+OPENCV_DEBUG_POSTFIX=d
+OPENCV_DEPHELPER=C:/opencv/mingw-build/CMakeFiles/dephelper
+OPENCV_DLLVERSION=341
+OPENCV_DOC_INSTALL_PATH=doc
+OPENCV_DOWNLOAD_LOG=C:/opencv/mingw-build/CMakeDownloadLog.txt
+OPENCV_DOWNLOAD_PATH=C:/opencv/sources/.cache
+OPENCV_DUMP_HOOKS_FLOW=OFF
+OPENCV_ENABLE_NONFREE=OFF
+OPENCV_EXTRA_CXX_FLAGS= -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden
+OPENCV_EXTRA_C_FLAGS= -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden
+OPENCV_EXTRA_EXE_LINKER_FLAGS= -Wl,--gc-sections
+OPENCV_EXTRA_FLAGS_DEBUG= -O0 -DDEBUG -D_DEBUG
+OPENCV_EXTRA_FLAGS_RELEASE= -DNDEBUG
+OPENCV_EXTRA_MODULES_PATH=
+OPENCV_GCC_TARGET_MACHINE=x86_64-w64-mingw32
+OPENCV_INCLUDE_INSTALL_PATH=include
+OPENCV_INITIAL_PASS=OFF
+OPENCV_JAR_INSTALL_PATH=java
+OPENCV_JAVA_BINDINGS_DIR=C:/opencv/mingw-build/modules/java_bindings_generator
+OPENCV_JAVA_SIGNATURES_FILE=C:/opencv/mingw-build/modules/java_bindings_generator/opencv_java_signatures.json
+OPENCV_JNI_BIN_INSTALL_PATH=java
+OPENCV_JNI_INSTALL_PATH=java
+OPENCV_LIBVERSION=3.4.1
+OPENCV_LIB_ARCHIVE_INSTALL_PATH=x64/mingw/lib
+OPENCV_LIB_INSTALL_PATH=x64/mingw/lib
+OPENCV_LICENSE_FILE=C:/opencv/sources/LICENSE
+OPENCV_MODULES_BUILD=opencv_core;opencv_flann;opencv_imgproc;opencv_java_bindings_generator;opencv_ml;opencv_objdetect;opencv_photo;opencv_video;opencv_dnn;opencv_imgcodecs;opencv_shape;opencv_videoio;opencv_highgui;opencv_superres;opencv_ts;opencv_features2d;opencv_calib3d;opencv_stitching;opencv_videostab;opencv_python_bindings_generator
+OPENCV_MODULES_BUILD_ST=calib3d;core;dnn;features2d;flann;highgui;imgcodecs;imgproc;java_bindings_generator;ml;objdetect;photo;python_bindings_generator;shape;stitching;superres;ts;video;videoio;videostab
+OPENCV_MODULES_CONFIGCMAKE=opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_shape;opencv_stitching;opencv_superres;opencv_video;opencv_videoio;opencv_videostab
+OPENCV_MODULES_DISABLED_AUTO=
+OPENCV_MODULES_DISABLED_AUTO_ST=
+OPENCV_MODULES_DISABLED_FORCE=opencv_cudaarithm;opencv_cudabgsegm;opencv_cudacodec;opencv_cudafeatures2d;opencv_cudafilters;opencv_cudaimgproc;opencv_cudalegacy;opencv_cudaobjdetect;opencv_cudaoptflow;opencv_cudastereo;opencv_cudawarping;opencv_cudev;opencv_java;opencv_python2;opencv_python3;opencv_viz
+OPENCV_MODULES_DISABLED_FORCE_ST=cudaarithm;cudabgsegm;cudacodec;cudafeatures2d;cudafilters;cudaimgproc;cudalegacy;cudaobjdetect;cudaoptflow;cudastereo;cudawarping;cudev;java;python2;python3;viz
+OPENCV_MODULES_DISABLED_USER=opencv_js;opencv_world
+OPENCV_MODULES_DISABLED_USER_ST=js;world
+OPENCV_MODULES_EXTRA=java_bindings_generator;python2;python3;python_bindings_generator
+OPENCV_MODULES_MAIN=core;imgproc;imgcodecs;videoio;highgui;video;calib3d;features2d;objdetect;dnn;ml;flann;photo;stitching;cudaarithm;cudabgsegm;cudacodec;cudafeatures2d;cudafilters;cudaimgproc;cudalegacy;cudaobjdetect;cudaoptflow;cudastereo;cudawarping;cudev;java;js;shape;superres;ts;videostab;viz;world
+OPENCV_MODULES_PUBLIC=opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_shape;opencv_stitching;opencv_superres;opencv_video;opencv_videoio;opencv_videostab
+OPENCV_MODULE_DEFINITIONS_CONFIGMAKE=#define HAVE_OPENCV_CALIB3D
+#define HAVE_OPENCV_CORE
+#define HAVE_OPENCV_DNN
+#define HAVE_OPENCV_FEATURES2D
+#define HAVE_OPENCV_FLANN
+#define HAVE_OPENCV_HIGHGUI
+#define HAVE_OPENCV_IMGCODECS
+#define HAVE_OPENCV_IMGPROC
+#define HAVE_OPENCV_ML
+#define HAVE_OPENCV_OBJDETECT
+#define HAVE_OPENCV_PHOTO
+#define HAVE_OPENCV_SHAPE
+#define HAVE_OPENCV_STITCHING
+#define HAVE_OPENCV_SUPERRES
+#define HAVE_OPENCV_VIDEO
+#define HAVE_OPENCV_VIDEOIO
+#define HAVE_OPENCV_VIDEOSTAB
+
+
+OPENCV_MODULE_opencv_calib3d_BINARY_DIR=C:/opencv/mingw-build/modules/calib3d
+OPENCV_MODULE_opencv_calib3d_CLASS=PUBLIC
+OPENCV_MODULE_opencv_calib3d_DEPS=opencv_core;opencv_flann;opencv_imgproc;opencv_imgcodecs;opencv_videoio;opencv_highgui;opencv_features2d
+OPENCV_MODULE_opencv_calib3d_DEPS_EXT=
+OPENCV_MODULE_opencv_calib3d_DEPS_TO_LINK=opencv_core;opencv_flann;opencv_imgproc;opencv_imgcodecs;opencv_videoio;opencv_highgui;opencv_features2d
+OPENCV_MODULE_opencv_calib3d_DESCRIPTION=Camera Calibration and 3D Reconstruction
+OPENCV_MODULE_opencv_calib3d_HEADERS=C:/opencv/sources/modules/calib3d/include/opencv2/calib3d.hpp;C:/opencv/sources/modules/calib3d/include/opencv2/calib3d/calib3d.hpp;C:/opencv/sources/modules/calib3d/include/opencv2/calib3d/calib3d_c.h
+OPENCV_MODULE_opencv_calib3d_IS_PART_OF_WORLD=ON
+OPENCV_MODULE_opencv_calib3d_LABEL=Main;opencv_calib3d
+OPENCV_MODULE_opencv_calib3d_LINK_DEPS=
+OPENCV_MODULE_opencv_calib3d_LOCATION=C:/opencv/sources/modules/calib3d
+OPENCV_MODULE_opencv_calib3d_OPT_DEPS=
+OPENCV_MODULE_opencv_calib3d_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_calib3d_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_calib3d_REQ_DEPS=opencv_imgproc;opencv_features2d
+OPENCV_MODULE_opencv_calib3d_SOURCES=C:/opencv/sources/modules/calib3d/src/ap3p.cpp;C:/opencv/sources/modules/calib3d/src/calibinit.cpp;C:/opencv/sources/modules/calib3d/src/calibration.cpp;C:/opencv/sources/modules/calib3d/src/checkchessboard.cpp;C:/opencv/sources/modules/calib3d/src/circlesgrid.cpp;C:/opencv/sources/modules/calib3d/src/compat_ptsetreg.cpp;C:/opencv/sources/modules/calib3d/src/compat_stereo.cpp;C:/opencv/sources/modules/calib3d/src/dls.cpp;C:/opencv/sources/modules/calib3d/src/epnp.cpp;C:/opencv/sources/modules/calib3d/src/fisheye.cpp;C:/opencv/sources/modules/calib3d/src/five-point.cpp;C:/opencv/sources/modules/calib3d/src/fundam.cpp;C:/opencv/sources/modules/calib3d/src/homography_decomp.cpp;C:/opencv/sources/modules/calib3d/src/levmarq.cpp;C:/opencv/sources/modules/calib3d/src/main.cpp;C:/opencv/sources/modules/calib3d/src/p3p.cpp;C:/opencv/sources/modules/calib3d/src/polynom_solver.cpp;C:/opencv/sources/modules/calib3d/src/posit.cpp;C:/opencv/sources/modules/calib3d/src/ptsetreg.cpp;C:/opencv/sources/modules/calib3d/src/quadsubpix.cpp;C:/opencv/sources/modules/calib3d/src/rho.cpp;C:/opencv/sources/modules/calib3d/src/solvepnp.cpp;C:/opencv/sources/modules/calib3d/src/stereobm.cpp;C:/opencv/sources/modules/calib3d/src/stereosgbm.cpp;C:/opencv/sources/modules/calib3d/src/triangulate.cpp;C:/opencv/sources/modules/calib3d/src/upnp.cpp;C:/opencv/sources/modules/calib3d/src/opencl/stereobm.cl;C:/opencv/mingw-build/modules/calib3d/opencl_kernels_calib3d.cpp;C:/opencv/mingw-build/modules/calib3d/opencl_kernels_calib3d.hpp;C:/opencv/sources/modules/calib3d/src/circlesgrid.hpp;C:/opencv/sources/modules/calib3d/src/fisheye.hpp;C:/opencv/sources/modules/calib3d/src/precomp.hpp;C:/opencv/sources/modules/calib3d/src/ap3p.h;C:/opencv/sources/modules/calib3d/src/dls.h;C:/opencv/sources/modules/calib3d/src/epnp.h;C:/opencv/sources/modules/calib3d/src/p3p.h;C:/opencv/sources/modules/calib3d/src/polynom_solver.h;C:/opencv/sources/modules/calib3d/src/rho.h;C:/opencv/sources/modules/calib3d/src/upnp.h
+OPENCV_MODULE_opencv_calib3d_WRAPPERS=java;python_bindings_generator;python2;python3
+OPENCV_MODULE_opencv_core_BINARY_DIR=C:/opencv/mingw-build/modules/core
+OPENCV_MODULE_opencv_core_CLASS=PUBLIC
+OPENCV_MODULE_opencv_core_DEPS=
+OPENCV_MODULE_opencv_core_DEPS_EXT=
+OPENCV_MODULE_opencv_core_DEPS_TO_LINK=
+OPENCV_MODULE_opencv_core_DESCRIPTION=The Core Functionality
+OPENCV_MODULE_opencv_core_HEADERS=C:/opencv/sources/modules/core/include/opencv2/core/opencl/ocl_defs.hpp;C:/opencv/sources/modules/core/include/opencv2/core/opencl/opencl_info.hpp;C:/opencv/sources/modules/core/include/opencv2/core/opencl/opencl_svm.hpp;C:/opencv/sources/modules/core/include/opencv2/core/opencl/runtime/autogenerated/opencl_clamdblas.hpp;C:/opencv/sources/modules/core/include/opencv2/core/opencl/runtime/autogenerated/opencl_clamdfft.hpp;C:/opencv/sources/modules/core/include/opencv2/core/opencl/runtime/autogenerated/opencl_core.hpp;C:/opencv/sources/modules/core/include/opencv2/core/opencl/runtime/autogenerated/opencl_core_wrappers.hpp;C:/opencv/sources/modules/core/include/opencv2/core/opencl/runtime/autogenerated/opencl_gl.hpp;C:/opencv/sources/modules/core/include/opencv2/core/opencl/runtime/autogenerated/opencl_gl_wrappers.hpp;C:/opencv/sources/modules/core/include/opencv2/core/opencl/runtime/opencl_clamdblas.hpp;C:/opencv/sources/modules/core/include/opencv2/core/opencl/runtime/opencl_clamdfft.hpp;C:/opencv/sources/modules/core/include/opencv2/core/opencl/runtime/opencl_core.hpp;C:/opencv/sources/modules/core/include/opencv2/core/opencl/runtime/opencl_core_wrappers.hpp;C:/opencv/sources/modules/core/include/opencv2/core/opencl/runtime/opencl_gl.hpp;C:/opencv/sources/modules/core/include/opencv2/core/opencl/runtime/opencl_gl_wrappers.hpp;C:/opencv/sources/modules/core/include/opencv2/core/opencl/runtime/opencl_svm_20.hpp;C:/opencv/sources/modules/core/include/opencv2/core/opencl/runtime/opencl_svm_definitions.hpp;C:/opencv/sources/modules/core/include/opencv2/core/opencl/runtime/opencl_svm_hsa_extension.hpp;C:/opencv/sources/modules/core/include/opencv2/core/cuda/block.hpp;C:/opencv/sources/modules/core/include/opencv2/core/cuda/border_interpolate.hpp;C:/opencv/sources/modules/core/include/opencv2/core/cuda/color.hpp;C:/opencv/sources/modules/core/include/opencv2/core/cuda/common.hpp;C:/opencv/sources/modules/core/include/opencv2/core/cuda/datamov_utils.hpp;C:/opencv/sources/modules/core/include/opencv2/core/cuda/dynamic_smem.hpp;C:/opencv/sources/modules/core/include/opencv2/core/cuda/emulation.hpp;C:/opencv/sources/modules/core/include/opencv2/core/cuda/filters.hpp;C:/opencv/sources/modules/core/include/opencv2/core/cuda/funcattrib.hpp;C:/opencv/sources/modules/core/include/opencv2/core/cuda/functional.hpp;C:/opencv/sources/modules/core/include/opencv2/core/cuda/limits.hpp;C:/opencv/sources/modules/core/include/opencv2/core/cuda/reduce.hpp;C:/opencv/sources/modules/core/include/opencv2/core/cuda/saturate_cast.hpp;C:/opencv/sources/modules/core/include/opencv2/core/cuda/scan.hpp;C:/opencv/sources/modules/core/include/opencv2/core/cuda/simd_functions.hpp;C:/opencv/sources/modules/core/include/opencv2/core/cuda/transform.hpp;C:/opencv/sources/modules/core/include/opencv2/core/cuda/type_traits.hpp;C:/opencv/sources/modules/core/include/opencv2/core/cuda/utility.hpp;C:/opencv/sources/modules/core/include/opencv2/core/cuda/vec_distance.hpp;C:/opencv/sources/modules/core/include/opencv2/core/cuda/vec_math.hpp;C:/opencv/sources/modules/core/include/opencv2/core/cuda/vec_traits.hpp;C:/opencv/sources/modules/core/include/opencv2/core/cuda/warp.hpp;C:/opencv/sources/modules/core/include/opencv2/core/cuda/warp_reduce.hpp;C:/opencv/sources/modules/core/include/opencv2/core/cuda/warp_shuffle.hpp;C:/opencv/sources/modules/core/include/opencv2/core/cuda/detail/color_detail.hpp;C:/opencv/sources/modules/core/include/opencv2/core/cuda/detail/reduce.hpp;C:/opencv/sources/modules/core/include/opencv2/core/cuda/detail/reduce_key_val.hpp;C:/opencv/sources/modules/core/include/opencv2/core/cuda/detail/transform_detail.hpp;C:/opencv/sources/modules/core/include/opencv2/core/cuda/detail/type_traits_detail.hpp;C:/opencv/sources/modules/core/include/opencv2/core/cuda/detail/vec_distance_detail.hpp;C:/opencv/sources/modules/core/include/opencv2/core.hpp;C:/opencv/sources/modules/core/include/opencv2/core/affine.hpp;C:/opencv/sources/modules/core/include/opencv2/core/base.hpp;C:/opencv/sources/modules/core/include/opencv2/core/bufferpool.hpp;C:/opencv/sources/modules/core/include/opencv2/core/core.hpp;C:/opencv/sources/modules/core/include/opencv2/core/cuda.hpp;C:/opencv/sources/modules/core/include/opencv2/core/cuda.inl.hpp;C:/opencv/sources/modules/core/include/opencv2/core/cuda_stream_accessor.hpp;C:/opencv/sources/modules/core/include/opencv2/core/cuda_types.hpp;C:/opencv/sources/modules/core/include/opencv2/core/cvstd.hpp;C:/opencv/sources/modules/core/include/opencv2/core/cvstd.inl.hpp;C:/opencv/sources/modules/core/include/opencv2/core/directx.hpp;C:/opencv/sources/modules/core/include/opencv2/core/eigen.hpp;C:/opencv/sources/modules/core/include/opencv2/core/fast_math.hpp;C:/opencv/sources/modules/core/include/opencv2/core/ippasync.hpp;C:/opencv/sources/modules/core/include/opencv2/core/mat.hpp;C:/opencv/sources/modules/core/include/opencv2/core/mat.inl.hpp;C:/opencv/sources/modules/core/include/opencv2/core/matx.hpp;C:/opencv/sources/modules/core/include/opencv2/core/neon_utils.hpp;C:/opencv/sources/modules/core/include/opencv2/core/ocl.hpp;C:/opencv/sources/modules/core/include/opencv2/core/ocl_genbase.hpp;C:/opencv/sources/modules/core/include/opencv2/core/opengl.hpp;C:/opencv/sources/modules/core/include/opencv2/core/operations.hpp;C:/opencv/sources/modules/core/include/opencv2/core/optim.hpp;C:/opencv/sources/modules/core/include/opencv2/core/ovx.hpp;C:/opencv/sources/modules/core/include/opencv2/core/persistence.hpp;C:/opencv/sources/modules/core/include/opencv2/core/private.cuda.hpp;C:/opencv/sources/modules/core/include/opencv2/core/private.hpp;C:/opencv/sources/modules/core/include/opencv2/core/ptr.inl.hpp;C:/opencv/sources/modules/core/include/opencv2/core/saturate.hpp;C:/opencv/sources/modules/core/include/opencv2/core/softfloat.hpp;C:/opencv/sources/modules/core/include/opencv2/core/sse_utils.hpp;C:/opencv/sources/modules/core/include/opencv2/core/traits.hpp;C:/opencv/sources/modules/core/include/opencv2/core/types.hpp;C:/opencv/sources/modules/core/include/opencv2/core/utility.hpp;C:/opencv/sources/modules/core/include/opencv2/core/va_intel.hpp;C:/opencv/sources/modules/core/include/opencv2/core/version.hpp;C:/opencv/sources/modules/core/include/opencv2/core/vsx_utils.hpp;C:/opencv/sources/modules/core/include/opencv2/core/wimage.hpp;C:/opencv/sources/modules/core/include/opencv2/core/core_c.h;C:/opencv/sources/modules/core/include/opencv2/core/cv_cpu_dispatch.h;C:/opencv/sources/modules/core/include/opencv2/core/cv_cpu_helper.h;C:/opencv/sources/modules/core/include/opencv2/core/cvdef.h;C:/opencv/sources/modules/core/include/opencv2/core/types_c.h;C:/opencv/sources/modules/core/include/opencv2/core/hal/hal.hpp;C:/opencv/sources/modules/core/include/opencv2/core/hal/intrin.hpp;C:/opencv/sources/modules/core/include/opencv2/core/hal/intrin_cpp.hpp;C:/opencv/sources/modules/core/include/opencv2/core/hal/intrin_neon.hpp;C:/opencv/sources/modules/core/include/opencv2/core/hal/intrin_sse.hpp;C:/opencv/sources/modules/core/include/opencv2/core/hal/intrin_vsx.hpp;C:/opencv/sources/modules/core/include/opencv2/core/hal/interface.h;C:/opencv/sources/modules/core/include/opencv2/core/utils/configuration.private.hpp;C:/opencv/sources/modules/core/include/opencv2/core/utils/filesystem.hpp;C:/opencv/sources/modules/core/include/opencv2/core/utils/filesystem.private.hpp;C:/opencv/sources/modules/core/include/opencv2/core/utils/lock.private.hpp;C:/opencv/sources/modules/core/include/opencv2/core/utils/logger.defines.hpp;C:/opencv/sources/modules/core/include/opencv2/core/utils/logger.hpp;C:/opencv/sources/modules/core/include/opencv2/core/utils/trace.hpp;C:/opencv/sources/modules/core/include/opencv2/core/utils/trace.private.hpp
+OPENCV_MODULE_opencv_core_IS_PART_OF_WORLD=ON
+OPENCV_MODULE_opencv_core_LABEL=Main;opencv_core
+OPENCV_MODULE_opencv_core_LINK_DEPS=
+OPENCV_MODULE_opencv_core_LOCATION=C:/opencv/sources/modules/core
+OPENCV_MODULE_opencv_core_OPT_DEPS=opencv_cudev
+OPENCV_MODULE_opencv_core_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_core_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_core_REQ_DEPS=
+OPENCV_MODULE_opencv_core_SOURCES=C:/opencv/mingw-build/modules/core/version_string.inc;C:/opencv/sources/modules/core/src/algorithm.cpp;C:/opencv/sources/modules/core/src/alloc.cpp;C:/opencv/sources/modules/core/src/arithm.cpp;C:/opencv/sources/modules/core/src/array.cpp;C:/opencv/sources/modules/core/src/batch_distance.cpp;C:/opencv/sources/modules/core/src/channels.cpp;C:/opencv/sources/modules/core/src/command_line_parser.cpp;C:/opencv/sources/modules/core/src/conjugate_gradient.cpp;C:/opencv/sources/modules/core/src/convert.cpp;C:/opencv/sources/modules/core/src/convert_c.cpp;C:/opencv/sources/modules/core/src/convert_scale.cpp;C:/opencv/sources/modules/core/src/copy.cpp;C:/opencv/sources/modules/core/src/count_non_zero.cpp;C:/opencv/sources/modules/core/src/cuda_gpu_mat.cpp;C:/opencv/sources/modules/core/src/cuda_host_mem.cpp;C:/opencv/sources/modules/core/src/cuda_info.cpp;C:/opencv/sources/modules/core/src/cuda_stream.cpp;C:/opencv/sources/modules/core/src/datastructs.cpp;C:/opencv/sources/modules/core/src/directx.cpp;C:/opencv/sources/modules/core/src/downhill_simplex.cpp;C:/opencv/sources/modules/core/src/dxt.cpp;C:/opencv/sources/modules/core/src/gl_core_3_1.cpp;C:/opencv/sources/modules/core/src/glob.cpp;C:/opencv/sources/modules/core/src/hal_internal.cpp;C:/opencv/sources/modules/core/src/kmeans.cpp;C:/opencv/sources/modules/core/src/lapack.cpp;C:/opencv/sources/modules/core/src/lda.cpp;C:/opencv/sources/modules/core/src/logger.cpp;C:/opencv/sources/modules/core/src/lpsolver.cpp;C:/opencv/sources/modules/core/src/lut.cpp;C:/opencv/sources/modules/core/src/mathfuncs.cpp;C:/opencv/sources/modules/core/src/mathfuncs_core.dispatch.cpp;C:/opencv/sources/modules/core/src/matmul.cpp;C:/opencv/sources/modules/core/src/matrix.cpp;C:/opencv/sources/modules/core/src/matrix_c.cpp;C:/opencv/sources/modules/core/src/matrix_decomp.cpp;C:/opencv/sources/modules/core/src/matrix_expressions.cpp;C:/opencv/sources/modules/core/src/matrix_iterator.cpp;C:/opencv/sources/modules/core/src/matrix_operations.cpp;C:/opencv/sources/modules/core/src/matrix_sparse.cpp;C:/opencv/sources/modules/core/src/matrix_wrap.cpp;C:/opencv/sources/modules/core/src/mean.cpp;C:/opencv/sources/modules/core/src/merge.cpp;C:/opencv/sources/modules/core/src/minmax.cpp;C:/opencv/sources/modules/core/src/norm.cpp;C:/opencv/sources/modules/core/src/ocl.cpp;C:/opencv/sources/modules/core/src/opencl/runtime/opencl_clamdblas.cpp;C:/opencv/sources/modules/core/src/opencl/runtime/opencl_clamdfft.cpp;C:/opencv/sources/modules/core/src/opencl/runtime/opencl_core.cpp;C:/opencv/sources/modules/core/src/opengl.cpp;C:/opencv/sources/modules/core/src/out.cpp;C:/opencv/sources/modules/core/src/ovx.cpp;C:/opencv/sources/modules/core/src/parallel.cpp;C:/opencv/sources/modules/core/src/parallel_impl.cpp;C:/opencv/sources/modules/core/src/pca.cpp;C:/opencv/sources/modules/core/src/persistence.cpp;C:/opencv/sources/modules/core/src/persistence_base64.cpp;C:/opencv/sources/modules/core/src/persistence_c.cpp;C:/opencv/sources/modules/core/src/persistence_cpp.cpp;C:/opencv/sources/modules/core/src/persistence_json.cpp;C:/opencv/sources/modules/core/src/persistence_types.cpp;C:/opencv/sources/modules/core/src/persistence_xml.cpp;C:/opencv/sources/modules/core/src/persistence_yml.cpp;C:/opencv/sources/modules/core/src/rand.cpp;C:/opencv/sources/modules/core/src/softfloat.cpp;C:/opencv/sources/modules/core/src/split.cpp;C:/opencv/sources/modules/core/src/stat.dispatch.cpp;C:/opencv/sources/modules/core/src/stat_c.cpp;C:/opencv/sources/modules/core/src/stl.cpp;C:/opencv/sources/modules/core/src/sum.cpp;C:/opencv/sources/modules/core/src/system.cpp;C:/opencv/sources/modules/core/src/tables.cpp;C:/opencv/sources/modules/core/src/trace.cpp;C:/opencv/sources/modules/core/src/types.cpp;C:/opencv/sources/modules/core/src/umatrix.cpp;C:/opencv/sources/modules/core/src/utils/filesystem.cpp;C:/opencv/sources/modules/core/src/va_intel.cpp;C:/opencv/sources/modules/core/src/opencl/arithm.cl;C:/opencv/sources/modules/core/src/opencl/convert.cl;C:/opencv/sources/modules/core/src/opencl/copymakeborder.cl;C:/opencv/sources/modules/core/src/opencl/copyset.cl;C:/opencv/sources/modules/core/src/opencl/cvtclr_dx.cl;C:/opencv/sources/modules/core/src/opencl/fft.cl;C:/opencv/sources/modules/core/src/opencl/flip.cl;C:/opencv/sources/modules/core/src/opencl/gemm.cl;C:/opencv/sources/modules/core/src/opencl/halfconvert.cl;C:/opencv/sources/modules/core/src/opencl/inrange.cl;C:/opencv/sources/modules/core/src/opencl/intel_gemm.cl;C:/opencv/sources/modules/core/src/opencl/lut.cl;C:/opencv/sources/modules/core/src/opencl/meanstddev.cl;C:/opencv/sources/modules/core/src/opencl/minmaxloc.cl;C:/opencv/sources/modules/core/src/opencl/mixchannels.cl;C:/opencv/sources/modules/core/src/opencl/mulspectrums.cl;C:/opencv/sources/modules/core/src/opencl/normalize.cl;C:/opencv/sources/modules/core/src/opencl/reduce.cl;C:/opencv/sources/modules/core/src/opencl/reduce2.cl;C:/opencv/sources/modules/core/src/opencl/repeat.cl;C:/opencv/sources/modules/core/src/opencl/set_identity.cl;C:/opencv/sources/modules/core/src/opencl/split_merge.cl;C:/opencv/sources/modules/core/src/opencl/transpose.cl;C:/opencv/mingw-build/modules/core/opencl_kernels_core.cpp;C:/opencv/mingw-build/modules/core/opencl_kernels_core.hpp;C:/opencv/sources/modules/core/src/arithm_core.hpp;C:/opencv/sources/modules/core/src/arithm_simd.hpp;C:/opencv/sources/modules/core/src/bufferpool.impl.hpp;C:/opencv/sources/modules/core/src/convert.hpp;C:/opencv/sources/modules/core/src/directx.inc.hpp;C:/opencv/sources/modules/core/src/gl_core_3_1.hpp;C:/opencv/sources/modules/core/src/hal_internal.hpp;C:/opencv/sources/modules/core/src/hal_replacement.hpp;C:/opencv/sources/modules/core/src/intel_gpu_gemm.inl.hpp;C:/opencv/sources/modules/core/src/mathfuncs_core.simd.hpp;C:/opencv/sources/modules/core/src/ocl_deprecated.hpp;C:/opencv/sources/modules/core/src/opencl/runtime/autogenerated/opencl_clamdblas_impl.hpp;C:/opencv/sources/modules/core/src/opencl/runtime/autogenerated/opencl_clamdfft_impl.hpp;C:/opencv/sources/modules/core/src/opencl/runtime/autogenerated/opencl_core_impl.hpp;C:/opencv/sources/modules/core/src/opencl/runtime/autogenerated/opencl_core_static_impl.hpp;C:/opencv/sources/modules/core/src/opencl/runtime/autogenerated/opencl_gl_impl.hpp;C:/opencv/sources/modules/core/src/opencl/runtime/autogenerated/opencl_gl_static_impl.hpp;C:/opencv/sources/modules/core/src/opencl/runtime/runtime_common.hpp;C:/opencv/sources/modules/core/src/parallel_impl.hpp;C:/opencv/sources/modules/core/src/persistence.hpp;C:/opencv/sources/modules/core/src/precomp.hpp;C:/opencv/sources/modules/core/src/stat.hpp;C:/opencv/sources/modules/core/src/stat.simd.hpp;C:/opencv/sources/modules/core/src/umatrix.hpp
+OPENCV_MODULE_opencv_core_WRAPPERS=java;js;python_bindings_generator;python2;python3
+OPENCV_MODULE_opencv_cudaarithm_LOCATION=C:/opencv/sources/modules/cudaarithm
+OPENCV_MODULE_opencv_cudabgsegm_LOCATION=C:/opencv/sources/modules/cudabgsegm
+OPENCV_MODULE_opencv_cudacodec_LOCATION=C:/opencv/sources/modules/cudacodec
+OPENCV_MODULE_opencv_cudafeatures2d_LOCATION=C:/opencv/sources/modules/cudafeatures2d
+OPENCV_MODULE_opencv_cudafilters_LOCATION=C:/opencv/sources/modules/cudafilters
+OPENCV_MODULE_opencv_cudaimgproc_LOCATION=C:/opencv/sources/modules/cudaimgproc
+OPENCV_MODULE_opencv_cudalegacy_LOCATION=C:/opencv/sources/modules/cudalegacy
+OPENCV_MODULE_opencv_cudaobjdetect_LOCATION=C:/opencv/sources/modules/cudaobjdetect
+OPENCV_MODULE_opencv_cudaoptflow_LOCATION=C:/opencv/sources/modules/cudaoptflow
+OPENCV_MODULE_opencv_cudastereo_LOCATION=C:/opencv/sources/modules/cudastereo
+OPENCV_MODULE_opencv_cudawarping_LOCATION=C:/opencv/sources/modules/cudawarping
+OPENCV_MODULE_opencv_cudev_LOCATION=C:/opencv/sources/modules/cudev
+OPENCV_MODULE_opencv_dnn_BINARY_DIR=C:/opencv/mingw-build/modules/dnn
+OPENCV_MODULE_opencv_dnn_CLASS=PUBLIC
+OPENCV_MODULE_opencv_dnn_DEPS=opencv_core;opencv_imgproc
+OPENCV_MODULE_opencv_dnn_DEPS_EXT=
+OPENCV_MODULE_opencv_dnn_DEPS_TO_LINK=opencv_core;opencv_imgproc
+OPENCV_MODULE_opencv_dnn_DESCRIPTION=Deep neural network module. It allows to load models from different frameworks and to make forward pass
+OPENCV_MODULE_opencv_dnn_HEADERS=C:/opencv/sources/modules/dnn/include/opencv2/dnn.hpp;C:/opencv/sources/modules/dnn/include/opencv2/dnn/all_layers.hpp;C:/opencv/sources/modules/dnn/include/opencv2/dnn/dict.hpp;C:/opencv/sources/modules/dnn/include/opencv2/dnn/dnn.hpp;C:/opencv/sources/modules/dnn/include/opencv2/dnn/dnn.inl.hpp;C:/opencv/sources/modules/dnn/include/opencv2/dnn/layer.details.hpp;C:/opencv/sources/modules/dnn/include/opencv2/dnn/layer.hpp;C:/opencv/sources/modules/dnn/include/opencv2/dnn/shape_utils.hpp
+OPENCV_MODULE_opencv_dnn_IS_PART_OF_WORLD=ON
+OPENCV_MODULE_opencv_dnn_LABEL=Main;opencv_dnn
+OPENCV_MODULE_opencv_dnn_LINK_DEPS=;libprotobuf
+OPENCV_MODULE_opencv_dnn_LOCATION=C:/opencv/sources/modules/dnn
+OPENCV_MODULE_opencv_dnn_OPT_DEPS=
+OPENCV_MODULE_opencv_dnn_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_dnn_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_dnn_REQ_DEPS=opencv_core;opencv_imgproc
+OPENCV_MODULE_opencv_dnn_SOURCES=C:/opencv/sources/modules/dnn/misc/tensorflow/attr_value.pb.cc;C:/opencv/sources/modules/dnn/misc/tensorflow/function.pb.cc;C:/opencv/sources/modules/dnn/misc/tensorflow/graph.pb.cc;C:/opencv/sources/modules/dnn/misc/tensorflow/op_def.pb.cc;C:/opencv/sources/modules/dnn/misc/tensorflow/tensor.pb.cc;C:/opencv/sources/modules/dnn/misc/tensorflow/tensor_shape.pb.cc;C:/opencv/sources/modules/dnn/misc/tensorflow/types.pb.cc;C:/opencv/sources/modules/dnn/misc/tensorflow/versions.pb.cc;C:/opencv/sources/modules/dnn/misc/caffe/opencv-caffe.pb.cc;C:/opencv/sources/modules/dnn/src/caffe/caffe_importer.cpp;C:/opencv/sources/modules/dnn/src/caffe/caffe_io.cpp;C:/opencv/sources/modules/dnn/src/caffe/caffe_shrinker.cpp;C:/opencv/sources/modules/dnn/src/darknet/darknet_importer.cpp;C:/opencv/sources/modules/dnn/src/darknet/darknet_io.cpp;C:/opencv/sources/modules/dnn/src/dnn.cpp;C:/opencv/sources/modules/dnn/src/halide_scheduler.cpp;C:/opencv/sources/modules/dnn/src/init.cpp;C:/opencv/sources/modules/dnn/src/layers/batch_norm_layer.cpp;C:/opencv/sources/modules/dnn/src/layers/blank_layer.cpp;C:/opencv/sources/modules/dnn/src/layers/concat_layer.cpp;C:/opencv/sources/modules/dnn/src/layers/convolution_layer.cpp;C:/opencv/sources/modules/dnn/src/layers/crop_layer.cpp;C:/opencv/sources/modules/dnn/src/layers/detection_output_layer.cpp;C:/opencv/sources/modules/dnn/src/layers/elementwise_layers.cpp;C:/opencv/sources/modules/dnn/src/layers/eltwise_layer.cpp;C:/opencv/sources/modules/dnn/src/layers/flatten_layer.cpp;C:/opencv/sources/modules/dnn/src/layers/fully_connected_layer.cpp;C:/opencv/sources/modules/dnn/src/layers/layers_common.cpp;C:/opencv/sources/modules/dnn/src/layers/lrn_layer.cpp;C:/opencv/sources/modules/dnn/src/layers/max_unpooling_layer.cpp;C:/opencv/sources/modules/dnn/src/layers/mvn_layer.cpp;C:/opencv/sources/modules/dnn/src/layers/normalize_bbox_layer.cpp;C:/opencv/sources/modules/dnn/src/layers/padding_layer.cpp;C:/opencv/sources/modules/dnn/src/layers/permute_layer.cpp;C:/opencv/sources/modules/dnn/src/layers/pooling_layer.cpp;C:/opencv/sources/modules/dnn/src/layers/prior_box_layer.cpp;C:/opencv/sources/modules/dnn/src/layers/proposal_layer.cpp;C:/opencv/sources/modules/dnn/src/layers/recurrent_layers.cpp;C:/opencv/sources/modules/dnn/src/layers/region_layer.cpp;C:/opencv/sources/modules/dnn/src/layers/reorg_layer.cpp;C:/opencv/sources/modules/dnn/src/layers/reshape_layer.cpp;C:/opencv/sources/modules/dnn/src/layers/resize_nearest_neighbor_layer.cpp;C:/opencv/sources/modules/dnn/src/layers/scale_layer.cpp;C:/opencv/sources/modules/dnn/src/layers/shift_layer.cpp;C:/opencv/sources/modules/dnn/src/layers/slice_layer.cpp;C:/opencv/sources/modules/dnn/src/layers/softmax_layer.cpp;C:/opencv/sources/modules/dnn/src/layers/split_layer.cpp;C:/opencv/sources/modules/dnn/src/nms.cpp;C:/opencv/sources/modules/dnn/src/ocl4dnn/src/common.cpp;C:/opencv/sources/modules/dnn/src/ocl4dnn/src/math_functions.cpp;C:/opencv/sources/modules/dnn/src/ocl4dnn/src/ocl4dnn_conv_spatial.cpp;C:/opencv/sources/modules/dnn/src/ocl4dnn/src/ocl4dnn_inner_product.cpp;C:/opencv/sources/modules/dnn/src/ocl4dnn/src/ocl4dnn_lrn.cpp;C:/opencv/sources/modules/dnn/src/ocl4dnn/src/ocl4dnn_pool.cpp;C:/opencv/sources/modules/dnn/src/ocl4dnn/src/ocl4dnn_softmax.cpp;C:/opencv/sources/modules/dnn/src/op_halide.cpp;C:/opencv/sources/modules/dnn/src/op_inf_engine.cpp;C:/opencv/sources/modules/dnn/src/tensorflow/tf_importer.cpp;C:/opencv/sources/modules/dnn/src/tensorflow/tf_io.cpp;C:/opencv/sources/modules/dnn/src/torch/THDiskFile.cpp;C:/opencv/sources/modules/dnn/src/torch/THFile.cpp;C:/opencv/sources/modules/dnn/src/torch/THGeneral.cpp;C:/opencv/sources/modules/dnn/src/torch/torch_importer.cpp;C:/opencv/sources/modules/dnn/src/opencl/activations.cl;C:/opencv/sources/modules/dnn/src/opencl/batchnorm.cl;C:/opencv/sources/modules/dnn/src/opencl/col2im.cl;C:/opencv/sources/modules/dnn/src/opencl/concat.cl;C:/opencv/sources/modules/dnn/src/opencl/conv_layer_spatial.cl;C:/opencv/sources/modules/dnn/src/opencl/conv_spatial_helper.cl;C:/opencv/sources/modules/dnn/src/opencl/detection_output.cl;C:/opencv/sources/modules/dnn/src/opencl/dummy.cl;C:/opencv/sources/modules/dnn/src/opencl/eltwise.cl;C:/opencv/sources/modules/dnn/src/opencl/gemm_image.cl;C:/opencv/sources/modules/dnn/src/opencl/im2col.cl;C:/opencv/sources/modules/dnn/src/opencl/lrn.cl;C:/opencv/sources/modules/dnn/src/opencl/math.cl;C:/opencv/sources/modules/dnn/src/opencl/matvec_mul.cl;C:/opencv/sources/modules/dnn/src/opencl/mvn.cl;C:/opencv/sources/modules/dnn/src/opencl/ocl4dnn_lrn.cl;C:/opencv/sources/modules/dnn/src/opencl/ocl4dnn_pooling.cl;C:/opencv/sources/modules/dnn/src/opencl/permute.cl;C:/opencv/sources/modules/dnn/src/opencl/pooling.cl;C:/opencv/sources/modules/dnn/src/opencl/prior_box.cl;C:/opencv/sources/modules/dnn/src/opencl/region.cl;C:/opencv/sources/modules/dnn/src/opencl/reorg.cl;C:/opencv/sources/modules/dnn/src/opencl/slice.cl;C:/opencv/sources/modules/dnn/src/opencl/softmax.cl;C:/opencv/sources/modules/dnn/src/opencl/softmax_loss.cl;C:/opencv/mingw-build/modules/dnn/opencl_kernels_dnn.cpp;C:/opencv/mingw-build/modules/dnn/opencl_kernels_dnn.hpp;C:/opencv/sources/modules/dnn/src/caffe/caffe_io.hpp;C:/opencv/sources/modules/dnn/src/caffe/glog_emulator.hpp;C:/opencv/sources/modules/dnn/src/darknet/darknet_io.hpp;C:/opencv/sources/modules/dnn/src/halide_scheduler.hpp;C:/opencv/sources/modules/dnn/src/layers/layers_common.hpp;C:/opencv/sources/modules/dnn/src/layers/layers_common.simd.hpp;C:/opencv/sources/modules/dnn/src/nms.inl.hpp;C:/opencv/sources/modules/dnn/src/ocl4dnn/include/common.hpp;C:/opencv/sources/modules/dnn/src/ocl4dnn/include/default_kernel_config.hpp;C:/opencv/sources/modules/dnn/src/ocl4dnn/include/math_functions.hpp;C:/opencv/sources/modules/dnn/src/ocl4dnn/include/ocl4dnn.hpp;C:/opencv/sources/modules/dnn/src/op_halide.hpp;C:/opencv/sources/modules/dnn/src/op_inf_engine.hpp;C:/opencv/sources/modules/dnn/src/precomp.hpp;C:/opencv/sources/modules/dnn/src/tensorflow/tf_io.hpp;C:/opencv/sources/modules/dnn/src/torch/THDiskFile.h;C:/opencv/sources/modules/dnn/src/torch/THFile.h;C:/opencv/sources/modules/dnn/src/torch/THFilePrivate.h;C:/opencv/sources/modules/dnn/src/torch/THGeneral.h
+OPENCV_MODULE_opencv_dnn_WRAPPERS=matlab;java;js;python_bindings_generator;python2;python3
+OPENCV_MODULE_opencv_features2d_BINARY_DIR=C:/opencv/mingw-build/modules/features2d
+OPENCV_MODULE_opencv_features2d_CLASS=PUBLIC
+OPENCV_MODULE_opencv_features2d_DEPS=opencv_core;opencv_flann;opencv_imgproc;opencv_imgcodecs;opencv_videoio;opencv_highgui
+OPENCV_MODULE_opencv_features2d_DEPS_EXT=
+OPENCV_MODULE_opencv_features2d_DEPS_TO_LINK=opencv_core;opencv_flann;opencv_imgproc;opencv_imgcodecs;opencv_videoio;opencv_highgui
+OPENCV_MODULE_opencv_features2d_DESCRIPTION=2D Features Framework
+OPENCV_MODULE_opencv_features2d_HEADERS=C:/opencv/sources/modules/features2d/include/opencv2/features2d.hpp;C:/opencv/sources/modules/features2d/include/opencv2/features2d/features2d.hpp;C:/opencv/sources/modules/features2d/include/opencv2/features2d/hal/interface.h
+OPENCV_MODULE_opencv_features2d_IS_PART_OF_WORLD=ON
+OPENCV_MODULE_opencv_features2d_LABEL=Main;opencv_features2d
+OPENCV_MODULE_opencv_features2d_LINK_DEPS=
+OPENCV_MODULE_opencv_features2d_LOCATION=C:/opencv/sources/modules/features2d
+OPENCV_MODULE_opencv_features2d_OPT_DEPS=opencv_flann;opencv_highgui
+OPENCV_MODULE_opencv_features2d_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_features2d_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_features2d_REQ_DEPS=opencv_imgproc
+OPENCV_MODULE_opencv_features2d_SOURCES=C:/opencv/sources/modules/features2d/src/agast.cpp;C:/opencv/sources/modules/features2d/src/agast_score.cpp;C:/opencv/sources/modules/features2d/src/akaze.cpp;C:/opencv/sources/modules/features2d/src/bagofwords.cpp;C:/opencv/sources/modules/features2d/src/blobdetector.cpp;C:/opencv/sources/modules/features2d/src/brisk.cpp;C:/opencv/sources/modules/features2d/src/draw.cpp;C:/opencv/sources/modules/features2d/src/dynamic.cpp;C:/opencv/sources/modules/features2d/src/evaluation.cpp;C:/opencv/sources/modules/features2d/src/fast.cpp;C:/opencv/sources/modules/features2d/src/fast_score.cpp;C:/opencv/sources/modules/features2d/src/feature2d.cpp;C:/opencv/sources/modules/features2d/src/gftt.cpp;C:/opencv/sources/modules/features2d/src/kaze.cpp;C:/opencv/sources/modules/features2d/src/kaze/AKAZEFeatures.cpp;C:/opencv/sources/modules/features2d/src/kaze/KAZEFeatures.cpp;C:/opencv/sources/modules/features2d/src/kaze/fed.cpp;C:/opencv/sources/modules/features2d/src/kaze/nldiffusion_functions.cpp;C:/opencv/sources/modules/features2d/src/keypoint.cpp;C:/opencv/sources/modules/features2d/src/main.cpp;C:/opencv/sources/modules/features2d/src/matchers.cpp;C:/opencv/sources/modules/features2d/src/mser.cpp;C:/opencv/sources/modules/features2d/src/orb.cpp;C:/opencv/sources/modules/features2d/src/opencl/akaze.cl;C:/opencv/sources/modules/features2d/src/opencl/brute_force_match.cl;C:/opencv/sources/modules/features2d/src/opencl/fast.cl;C:/opencv/sources/modules/features2d/src/opencl/orb.cl;C:/opencv/mingw-build/modules/features2d/opencl_kernels_features2d.cpp;C:/opencv/mingw-build/modules/features2d/opencl_kernels_features2d.hpp;C:/opencv/sources/modules/features2d/src/agast_score.hpp;C:/opencv/sources/modules/features2d/src/fast.hpp;C:/opencv/sources/modules/features2d/src/fast_score.hpp;C:/opencv/sources/modules/features2d/src/hal_replacement.hpp;C:/opencv/sources/modules/features2d/src/precomp.hpp;C:/opencv/sources/modules/features2d/src/kaze/AKAZEConfig.h;C:/opencv/sources/modules/features2d/src/kaze/AKAZEFeatures.h;C:/opencv/sources/modules/features2d/src/kaze/KAZEConfig.h;C:/opencv/sources/modules/features2d/src/kaze/KAZEFeatures.h;C:/opencv/sources/modules/features2d/src/kaze/TEvolution.h;C:/opencv/sources/modules/features2d/src/kaze/fed.h;C:/opencv/sources/modules/features2d/src/kaze/nldiffusion_functions.h;C:/opencv/sources/modules/features2d/src/kaze/utils.h
+OPENCV_MODULE_opencv_features2d_WRAPPERS=java;python_bindings_generator;python2;python3
+OPENCV_MODULE_opencv_flann_BINARY_DIR=C:/opencv/mingw-build/modules/flann
+OPENCV_MODULE_opencv_flann_CLASS=PUBLIC
+OPENCV_MODULE_opencv_flann_DEPS=opencv_core
+OPENCV_MODULE_opencv_flann_DEPS_EXT=
+OPENCV_MODULE_opencv_flann_DEPS_TO_LINK=opencv_core
+OPENCV_MODULE_opencv_flann_DESCRIPTION=Clustering and Search in Multi-Dimensional Spaces
+OPENCV_MODULE_opencv_flann_HEADERS=C:/opencv/sources/modules/flann/include/opencv2/flann.hpp;C:/opencv/sources/modules/flann/include/opencv2/flann/flann.hpp;C:/opencv/sources/modules/flann/include/opencv2/flann/flann_base.hpp;C:/opencv/sources/modules/flann/include/opencv2/flann/miniflann.hpp;C:/opencv/sources/modules/flann/include/opencv2/flann/all_indices.h;C:/opencv/sources/modules/flann/include/opencv2/flann/allocator.h;C:/opencv/sources/modules/flann/include/opencv2/flann/any.h;C:/opencv/sources/modules/flann/include/opencv2/flann/autotuned_index.h;C:/opencv/sources/modules/flann/include/opencv2/flann/composite_index.h;C:/opencv/sources/modules/flann/include/opencv2/flann/config.h;C:/opencv/sources/modules/flann/include/opencv2/flann/defines.h;C:/opencv/sources/modules/flann/include/opencv2/flann/dist.h;C:/opencv/sources/modules/flann/include/opencv2/flann/dummy.h;C:/opencv/sources/modules/flann/include/opencv2/flann/dynamic_bitset.h;C:/opencv/sources/modules/flann/include/opencv2/flann/general.h;C:/opencv/sources/modules/flann/include/opencv2/flann/ground_truth.h;C:/opencv/sources/modules/flann/include/opencv2/flann/hdf5.h;C:/opencv/sources/modules/flann/include/opencv2/flann/heap.h;C:/opencv/sources/modules/flann/include/opencv2/flann/hierarchical_clustering_index.h;C:/opencv/sources/modules/flann/include/opencv2/flann/index_testing.h;C:/opencv/sources/modules/flann/include/opencv2/flann/kdtree_index.h;C:/opencv/sources/modules/flann/include/opencv2/flann/kdtree_single_index.h;C:/opencv/sources/modules/flann/include/opencv2/flann/kmeans_index.h;C:/opencv/sources/modules/flann/include/opencv2/flann/linear_index.h;C:/opencv/sources/modules/flann/include/opencv2/flann/logger.h;C:/opencv/sources/modules/flann/include/opencv2/flann/lsh_index.h;C:/opencv/sources/modules/flann/include/opencv2/flann/lsh_table.h;C:/opencv/sources/modules/flann/include/opencv2/flann/matrix.h;C:/opencv/sources/modules/flann/include/opencv2/flann/nn_index.h;C:/opencv/sources/modules/flann/include/opencv2/flann/object_factory.h;C:/opencv/sources/modules/flann/include/opencv2/flann/params.h;C:/opencv/sources/modules/flann/include/opencv2/flann/random.h;C:/opencv/sources/modules/flann/include/opencv2/flann/result_set.h;C:/opencv/sources/modules/flann/include/opencv2/flann/sampling.h;C:/opencv/sources/modules/flann/include/opencv2/flann/saving.h;C:/opencv/sources/modules/flann/include/opencv2/flann/simplex_downhill.h;C:/opencv/sources/modules/flann/include/opencv2/flann/timer.h
+OPENCV_MODULE_opencv_flann_IS_PART_OF_WORLD=ON
+OPENCV_MODULE_opencv_flann_LABEL=Main;opencv_flann
+OPENCV_MODULE_opencv_flann_LINK_DEPS=
+OPENCV_MODULE_opencv_flann_LOCATION=C:/opencv/sources/modules/flann
+OPENCV_MODULE_opencv_flann_OPT_DEPS=
+OPENCV_MODULE_opencv_flann_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_flann_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_flann_REQ_DEPS=opencv_core
+OPENCV_MODULE_opencv_flann_SOURCES=C:/opencv/sources/modules/flann/src/flann.cpp;C:/opencv/sources/modules/flann/src/miniflann.cpp;C:/opencv/sources/modules/flann/src/precomp.hpp
+OPENCV_MODULE_opencv_flann_WRAPPERS=python_bindings_generator;python2;python3
+OPENCV_MODULE_opencv_highgui_BINARY_DIR=C:/opencv/mingw-build/modules/highgui
+OPENCV_MODULE_opencv_highgui_CLASS=PUBLIC
+OPENCV_MODULE_opencv_highgui_DEPS=opencv_core;opencv_imgproc;opencv_imgcodecs;opencv_videoio
+OPENCV_MODULE_opencv_highgui_DEPS_EXT=
+OPENCV_MODULE_opencv_highgui_DEPS_TO_LINK=opencv_core;opencv_imgproc;opencv_imgcodecs;opencv_videoio
+OPENCV_MODULE_opencv_highgui_DESCRIPTION=High-level GUI
+OPENCV_MODULE_opencv_highgui_HEADERS=C:/opencv/sources/modules/highgui/include/opencv2/highgui.hpp;C:/opencv/sources/modules/highgui/include/opencv2/highgui/highgui.hpp;C:/opencv/sources/modules/highgui/include/opencv2/highgui/highgui_c.h
+OPENCV_MODULE_opencv_highgui_IS_PART_OF_WORLD=ON
+OPENCV_MODULE_opencv_highgui_LABEL=Main;opencv_highgui
+OPENCV_MODULE_opencv_highgui_LINK_DEPS=;comctl32;gdi32;ole32;setupapi;ws2_32
+OPENCV_MODULE_opencv_highgui_LOCATION=C:/opencv/sources/modules/highgui
+OPENCV_MODULE_opencv_highgui_OPT_DEPS=opencv_videoio
+OPENCV_MODULE_opencv_highgui_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_highgui_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_highgui_REQ_DEPS=opencv_imgproc;opencv_imgcodecs
+OPENCV_MODULE_opencv_highgui_SOURCES=C:/opencv/sources/modules/highgui/src/window.cpp;C:/opencv/sources/modules/highgui/src/roiSelector.cpp;C:/opencv/sources/modules/highgui/src/window_w32.cpp;C:/opencv/sources/modules/highgui/src/precomp.hpp
+OPENCV_MODULE_opencv_highgui_WRAPPERS=java;python_bindings_generator;python2;python3
+OPENCV_MODULE_opencv_imgcodecs_BINARY_DIR=C:/opencv/mingw-build/modules/imgcodecs
+OPENCV_MODULE_opencv_imgcodecs_CLASS=PUBLIC
+OPENCV_MODULE_opencv_imgcodecs_DEPS=opencv_core;opencv_imgproc
+OPENCV_MODULE_opencv_imgcodecs_DEPS_EXT=
+OPENCV_MODULE_opencv_imgcodecs_DEPS_TO_LINK=opencv_core;opencv_imgproc
+OPENCV_MODULE_opencv_imgcodecs_DESCRIPTION=Image I/O
+OPENCV_MODULE_opencv_imgcodecs_HEADERS=C:/opencv/sources/modules/imgcodecs/include/opencv2/imgcodecs.hpp;C:/opencv/sources/modules/imgcodecs/include/opencv2/imgcodecs/imgcodecs.hpp;C:/opencv/sources/modules/imgcodecs/include/opencv2/imgcodecs/imgcodecs_c.h;C:/opencv/sources/modules/imgcodecs/include/opencv2/imgcodecs/ios.h
+OPENCV_MODULE_opencv_imgcodecs_IS_PART_OF_WORLD=ON
+OPENCV_MODULE_opencv_imgcodecs_LABEL=Main;opencv_imgcodecs
+OPENCV_MODULE_opencv_imgcodecs_LINK_DEPS=;zlib;libjpeg;libwebp;libpng;libtiff;libjasper;IlmImf
+OPENCV_MODULE_opencv_imgcodecs_LOCATION=C:/opencv/sources/modules/imgcodecs
+OPENCV_MODULE_opencv_imgcodecs_OPT_DEPS=
+OPENCV_MODULE_opencv_imgcodecs_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_imgcodecs_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_imgcodecs_REQ_DEPS=opencv_imgproc
+OPENCV_MODULE_opencv_imgcodecs_SOURCES=C:/opencv/sources/modules/imgcodecs/src/loadsave.cpp;C:/opencv/sources/modules/imgcodecs/src/utils.cpp;C:/opencv/sources/modules/imgcodecs/src/precomp.hpp;C:/opencv/sources/modules/imgcodecs/src/utils.hpp;C:/opencv/sources/modules/imgcodecs/src/grfmt_base.cpp;C:/opencv/sources/modules/imgcodecs/src/grfmt_bmp.cpp;C:/opencv/sources/modules/imgcodecs/src/grfmt_exr.cpp;C:/opencv/sources/modules/imgcodecs/src/grfmt_gdal.cpp;C:/opencv/sources/modules/imgcodecs/src/grfmt_gdcm.cpp;C:/opencv/sources/modules/imgcodecs/src/grfmt_hdr.cpp;C:/opencv/sources/modules/imgcodecs/src/grfmt_jpeg.cpp;C:/opencv/sources/modules/imgcodecs/src/grfmt_jpeg2000.cpp;C:/opencv/sources/modules/imgcodecs/src/grfmt_pam.cpp;C:/opencv/sources/modules/imgcodecs/src/grfmt_png.cpp;C:/opencv/sources/modules/imgcodecs/src/grfmt_pxm.cpp;C:/opencv/sources/modules/imgcodecs/src/grfmt_sunras.cpp;C:/opencv/sources/modules/imgcodecs/src/grfmt_tiff.cpp;C:/opencv/sources/modules/imgcodecs/src/grfmt_webp.cpp;C:/opencv/sources/modules/imgcodecs/src/bitstrm.cpp;C:/opencv/sources/modules/imgcodecs/src/rgbe.cpp;C:/opencv/sources/modules/imgcodecs/src/exif.cpp;C:/opencv/sources/modules/imgcodecs/src/grfmt_base.hpp;C:/opencv/sources/modules/imgcodecs/src/grfmt_bmp.hpp;C:/opencv/sources/modules/imgcodecs/src/grfmt_exr.hpp;C:/opencv/sources/modules/imgcodecs/src/grfmt_gdal.hpp;C:/opencv/sources/modules/imgcodecs/src/grfmt_gdcm.hpp;C:/opencv/sources/modules/imgcodecs/src/grfmt_hdr.hpp;C:/opencv/sources/modules/imgcodecs/src/grfmt_jpeg.hpp;C:/opencv/sources/modules/imgcodecs/src/grfmt_jpeg2000.hpp;C:/opencv/sources/modules/imgcodecs/src/grfmt_pam.hpp;C:/opencv/sources/modules/imgcodecs/src/grfmt_png.hpp;C:/opencv/sources/modules/imgcodecs/src/grfmt_pxm.hpp;C:/opencv/sources/modules/imgcodecs/src/grfmt_sunras.hpp;C:/opencv/sources/modules/imgcodecs/src/grfmt_tiff.hpp;C:/opencv/sources/modules/imgcodecs/src/grfmt_webp.hpp;C:/opencv/sources/modules/imgcodecs/src/grfmts.hpp;C:/opencv/sources/modules/imgcodecs/src/bitstrm.hpp;C:/opencv/sources/modules/imgcodecs/src/rgbe.hpp;C:/opencv/sources/modules/imgcodecs/src/exif.hpp
+OPENCV_MODULE_opencv_imgcodecs_WRAPPERS=java;python_bindings_generator;python2;python3
+OPENCV_MODULE_opencv_imgproc_BINARY_DIR=C:/opencv/mingw-build/modules/imgproc
+OPENCV_MODULE_opencv_imgproc_CLASS=PUBLIC
+OPENCV_MODULE_opencv_imgproc_DEPS=opencv_core
+OPENCV_MODULE_opencv_imgproc_DEPS_EXT=
+OPENCV_MODULE_opencv_imgproc_DEPS_TO_LINK=opencv_core
+OPENCV_MODULE_opencv_imgproc_DESCRIPTION=Image Processing
+OPENCV_MODULE_opencv_imgproc_HEADERS=C:/opencv/sources/modules/imgproc/include/opencv2/imgproc.hpp;C:/opencv/sources/modules/imgproc/include/opencv2/imgproc/imgproc.hpp;C:/opencv/sources/modules/imgproc/include/opencv2/imgproc/imgproc_c.h;C:/opencv/sources/modules/imgproc/include/opencv2/imgproc/types_c.h;C:/opencv/sources/modules/imgproc/include/opencv2/imgproc/hal/hal.hpp;C:/opencv/sources/modules/imgproc/include/opencv2/imgproc/hal/interface.h;C:/opencv/sources/modules/imgproc/include/opencv2/imgproc/detail/distortion_model.hpp
+OPENCV_MODULE_opencv_imgproc_IS_PART_OF_WORLD=ON
+OPENCV_MODULE_opencv_imgproc_LABEL=Main;opencv_imgproc
+OPENCV_MODULE_opencv_imgproc_LINK_DEPS=
+OPENCV_MODULE_opencv_imgproc_LOCATION=C:/opencv/sources/modules/imgproc
+OPENCV_MODULE_opencv_imgproc_OPT_DEPS=
+OPENCV_MODULE_opencv_imgproc_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_imgproc_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_imgproc_REQ_DEPS=opencv_core
+OPENCV_MODULE_opencv_imgproc_SOURCES=C:/opencv/sources/modules/imgproc/src/accum.cpp;C:/opencv/sources/modules/imgproc/src/accum.dispatch.cpp;C:/opencv/sources/modules/imgproc/src/approx.cpp;C:/opencv/sources/modules/imgproc/src/blend.cpp;C:/opencv/sources/modules/imgproc/src/canny.cpp;C:/opencv/sources/modules/imgproc/src/clahe.cpp;C:/opencv/sources/modules/imgproc/src/color.cpp;C:/opencv/sources/modules/imgproc/src/colormap.cpp;C:/opencv/sources/modules/imgproc/src/connectedcomponents.cpp;C:/opencv/sources/modules/imgproc/src/contours.cpp;C:/opencv/sources/modules/imgproc/src/convhull.cpp;C:/opencv/sources/modules/imgproc/src/corner.cpp;C:/opencv/sources/modules/imgproc/src/cornersubpix.cpp;C:/opencv/sources/modules/imgproc/src/demosaicing.cpp;C:/opencv/sources/modules/imgproc/src/deriv.cpp;C:/opencv/sources/modules/imgproc/src/distransform.cpp;C:/opencv/sources/modules/imgproc/src/drawing.cpp;C:/opencv/sources/modules/imgproc/src/emd.cpp;C:/opencv/sources/modules/imgproc/src/featureselect.cpp;C:/opencv/sources/modules/imgproc/src/filter.cpp;C:/opencv/sources/modules/imgproc/src/floodfill.cpp;C:/opencv/sources/modules/imgproc/src/gabor.cpp;C:/opencv/sources/modules/imgproc/src/generalized_hough.cpp;C:/opencv/sources/modules/imgproc/src/geometry.cpp;C:/opencv/sources/modules/imgproc/src/grabcut.cpp;C:/opencv/sources/modules/imgproc/src/hershey_fonts.cpp;C:/opencv/sources/modules/imgproc/src/histogram.cpp;C:/opencv/sources/modules/imgproc/src/hough.cpp;C:/opencv/sources/modules/imgproc/src/imgwarp.cpp;C:/opencv/sources/modules/imgproc/src/intersection.cpp;C:/opencv/sources/modules/imgproc/src/linefit.cpp;C:/opencv/sources/modules/imgproc/src/lsd.cpp;C:/opencv/sources/modules/imgproc/src/main.cpp;C:/opencv/sources/modules/imgproc/src/matchcontours.cpp;C:/opencv/sources/modules/imgproc/src/min_enclosing_triangle.cpp;C:/opencv/sources/modules/imgproc/src/moments.cpp;C:/opencv/sources/modules/imgproc/src/morph.cpp;C:/opencv/sources/modules/imgproc/src/phasecorr.cpp;C:/opencv/sources/modules/imgproc/src/pyramids.cpp;C:/opencv/sources/modules/imgproc/src/resize.cpp;C:/opencv/sources/modules/imgproc/src/rotcalipers.cpp;C:/opencv/sources/modules/imgproc/src/samplers.cpp;C:/opencv/sources/modules/imgproc/src/segmentation.cpp;C:/opencv/sources/modules/imgproc/src/shapedescr.cpp;C:/opencv/sources/modules/imgproc/src/smooth.cpp;C:/opencv/sources/modules/imgproc/src/spatialgradient.cpp;C:/opencv/sources/modules/imgproc/src/subdivision2d.cpp;C:/opencv/sources/modules/imgproc/src/sumpixels.cpp;C:/opencv/sources/modules/imgproc/src/tables.cpp;C:/opencv/sources/modules/imgproc/src/templmatch.cpp;C:/opencv/sources/modules/imgproc/src/thresh.cpp;C:/opencv/sources/modules/imgproc/src/undistort.cpp;C:/opencv/sources/modules/imgproc/src/utils.cpp;C:/opencv/sources/modules/imgproc/src/opencl/accumulate.cl;C:/opencv/sources/modules/imgproc/src/opencl/bilateral.cl;C:/opencv/sources/modules/imgproc/src/opencl/blend_linear.cl;C:/opencv/sources/modules/imgproc/src/opencl/boxFilter.cl;C:/opencv/sources/modules/imgproc/src/opencl/boxFilter3x3.cl;C:/opencv/sources/modules/imgproc/src/opencl/calc_back_project.cl;C:/opencv/sources/modules/imgproc/src/opencl/canny.cl;C:/opencv/sources/modules/imgproc/src/opencl/clahe.cl;C:/opencv/sources/modules/imgproc/src/opencl/corner.cl;C:/opencv/sources/modules/imgproc/src/opencl/covardata.cl;C:/opencv/sources/modules/imgproc/src/opencl/cvtcolor.cl;C:/opencv/sources/modules/imgproc/src/opencl/filter2D.cl;C:/opencv/sources/modules/imgproc/src/opencl/filter2DSmall.cl;C:/opencv/sources/modules/imgproc/src/opencl/filterSepCol.cl;C:/opencv/sources/modules/imgproc/src/opencl/filterSepRow.cl;C:/opencv/sources/modules/imgproc/src/opencl/filterSep_singlePass.cl;C:/opencv/sources/modules/imgproc/src/opencl/filterSmall.cl;C:/opencv/sources/modules/imgproc/src/opencl/gaussianBlur3x3.cl;C:/opencv/sources/modules/imgproc/src/opencl/gaussianBlur5x5.cl;C:/opencv/sources/modules/imgproc/src/opencl/gftt.cl;C:/opencv/sources/modules/imgproc/src/opencl/histogram.cl;C:/opencv/sources/modules/imgproc/src/opencl/hough_lines.cl;C:/opencv/sources/modules/imgproc/src/opencl/integral_sum.cl;C:/opencv/sources/modules/imgproc/src/opencl/laplacian3.cl;C:/opencv/sources/modules/imgproc/src/opencl/laplacian5.cl;C:/opencv/sources/modules/imgproc/src/opencl/linearPolar.cl;C:/opencv/sources/modules/imgproc/src/opencl/logPolar.cl;C:/opencv/sources/modules/imgproc/src/opencl/match_template.cl;C:/opencv/sources/modules/imgproc/src/opencl/medianFilter.cl;C:/opencv/sources/modules/imgproc/src/opencl/moments.cl;C:/opencv/sources/modules/imgproc/src/opencl/morph.cl;C:/opencv/sources/modules/imgproc/src/opencl/morph3x3.cl;C:/opencv/sources/modules/imgproc/src/opencl/precornerdetect.cl;C:/opencv/sources/modules/imgproc/src/opencl/pyr_down.cl;C:/opencv/sources/modules/imgproc/src/opencl/pyr_up.cl;C:/opencv/sources/modules/imgproc/src/opencl/pyramid_up.cl;C:/opencv/sources/modules/imgproc/src/opencl/remap.cl;C:/opencv/sources/modules/imgproc/src/opencl/resize.cl;C:/opencv/sources/modules/imgproc/src/opencl/sepFilter3x3.cl;C:/opencv/sources/modules/imgproc/src/opencl/threshold.cl;C:/opencv/sources/modules/imgproc/src/opencl/warp_affine.cl;C:/opencv/sources/modules/imgproc/src/opencl/warp_perspective.cl;C:/opencv/sources/modules/imgproc/src/opencl/warp_transform.cl;C:/opencv/mingw-build/modules/imgproc/opencl_kernels_imgproc.cpp;C:/opencv/mingw-build/modules/imgproc/opencl_kernels_imgproc.hpp;C:/opencv/sources/modules/imgproc/src/accum.simd.hpp;C:/opencv/sources/modules/imgproc/src/corner.hpp;C:/opencv/sources/modules/imgproc/src/filter.hpp;C:/opencv/sources/modules/imgproc/src/filterengine.hpp;C:/opencv/sources/modules/imgproc/src/fixedpoint.inl.hpp;C:/opencv/sources/modules/imgproc/src/gcgraph.hpp;C:/opencv/sources/modules/imgproc/src/hal_replacement.hpp;C:/opencv/sources/modules/imgproc/src/imgwarp.hpp;C:/opencv/sources/modules/imgproc/src/precomp.hpp;C:/opencv/sources/modules/imgproc/src/resize.hpp;C:/opencv/sources/modules/imgproc/src/undistort.hpp;C:/opencv/sources/modules/imgproc/src/_geom.h
+OPENCV_MODULE_opencv_imgproc_WRAPPERS=java;js;python_bindings_generator;python2;python3
+OPENCV_MODULE_opencv_java_LOCATION=C:/opencv/sources/modules/java
+OPENCV_MODULE_opencv_java_OPT_DEPS=opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_video;opencv_videoio
+OPENCV_MODULE_opencv_java_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_java_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_java_REQ_DEPS=
+OPENCV_MODULE_opencv_java_WRAPPERS=
+OPENCV_MODULE_opencv_java_bindings_generator_BINARY_DIR=C:/opencv/mingw-build/modules/java_bindings_generator
+OPENCV_MODULE_opencv_java_bindings_generator_CLASS=INTERNAL
+OPENCV_MODULE_opencv_java_bindings_generator_DEPS=
+OPENCV_MODULE_opencv_java_bindings_generator_DEPS_EXT=
+OPENCV_MODULE_opencv_java_bindings_generator_DEPS_TO_LINK=
+OPENCV_MODULE_opencv_java_bindings_generator_DESCRIPTION=The java_bindings_generator OpenCV module
+OPENCV_MODULE_opencv_java_bindings_generator_IS_PART_OF_WORLD=OFF
+OPENCV_MODULE_opencv_java_bindings_generator_LABEL=Main;opencv_java_bindings_generator
+OPENCV_MODULE_opencv_java_bindings_generator_LINK_DEPS=
+OPENCV_MODULE_opencv_java_bindings_generator_LOCATION=C:/opencv/sources/modules/java/generator
+OPENCV_MODULE_opencv_java_bindings_generator_OPT_DEPS=
+OPENCV_MODULE_opencv_java_bindings_generator_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_java_bindings_generator_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_java_bindings_generator_REQ_DEPS=
+OPENCV_MODULE_opencv_java_bindings_generator_WRAPPERS=
+OPENCV_MODULE_opencv_js_CLASS=BINDINGS
+OPENCV_MODULE_opencv_js_DESCRIPTION=The js bindings
+OPENCV_MODULE_opencv_js_IS_PART_OF_WORLD=OFF
+OPENCV_MODULE_opencv_js_LABEL=Main;opencv_js
+OPENCV_MODULE_opencv_js_LINK_DEPS=
+OPENCV_MODULE_opencv_js_LOCATION=C:/opencv/sources/modules/js
+OPENCV_MODULE_opencv_js_OPT_DEPS=opencv_core;opencv_dnn;opencv_imgproc;opencv_objdetect;opencv_video
+OPENCV_MODULE_opencv_js_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_js_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_js_REQ_DEPS=
+OPENCV_MODULE_opencv_js_WRAPPERS=
+OPENCV_MODULE_opencv_matlab_OPT_DEPS=opencv_dnn
+OPENCV_MODULE_opencv_matlab_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_matlab_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_matlab_REQ_DEPS=
+OPENCV_MODULE_opencv_matlab_WRAPPERS=
+OPENCV_MODULE_opencv_ml_BINARY_DIR=C:/opencv/mingw-build/modules/ml
+OPENCV_MODULE_opencv_ml_CLASS=PUBLIC
+OPENCV_MODULE_opencv_ml_DEPS=opencv_core
+OPENCV_MODULE_opencv_ml_DEPS_EXT=
+OPENCV_MODULE_opencv_ml_DEPS_TO_LINK=opencv_core
+OPENCV_MODULE_opencv_ml_DESCRIPTION=Machine Learning
+OPENCV_MODULE_opencv_ml_HEADERS=C:/opencv/sources/modules/ml/include/opencv2/ml.hpp;C:/opencv/sources/modules/ml/include/opencv2/ml/ml.hpp;C:/opencv/sources/modules/ml/include/opencv2/ml/ml.inl.hpp
+OPENCV_MODULE_opencv_ml_IS_PART_OF_WORLD=ON
+OPENCV_MODULE_opencv_ml_LABEL=Main;opencv_ml
+OPENCV_MODULE_opencv_ml_LINK_DEPS=
+OPENCV_MODULE_opencv_ml_LOCATION=C:/opencv/sources/modules/ml
+OPENCV_MODULE_opencv_ml_OPT_DEPS=
+OPENCV_MODULE_opencv_ml_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_ml_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_ml_REQ_DEPS=opencv_core
+OPENCV_MODULE_opencv_ml_SOURCES=C:/opencv/sources/modules/ml/src/ann_mlp.cpp;C:/opencv/sources/modules/ml/src/boost.cpp;C:/opencv/sources/modules/ml/src/data.cpp;C:/opencv/sources/modules/ml/src/em.cpp;C:/opencv/sources/modules/ml/src/gbt.cpp;C:/opencv/sources/modules/ml/src/inner_functions.cpp;C:/opencv/sources/modules/ml/src/kdtree.cpp;C:/opencv/sources/modules/ml/src/knearest.cpp;C:/opencv/sources/modules/ml/src/lr.cpp;C:/opencv/sources/modules/ml/src/nbayes.cpp;C:/opencv/sources/modules/ml/src/rtrees.cpp;C:/opencv/sources/modules/ml/src/svm.cpp;C:/opencv/sources/modules/ml/src/svmsgd.cpp;C:/opencv/sources/modules/ml/src/testset.cpp;C:/opencv/sources/modules/ml/src/tree.cpp;C:/opencv/sources/modules/ml/src/kdtree.hpp;C:/opencv/sources/modules/ml/src/precomp.hpp
+OPENCV_MODULE_opencv_ml_WRAPPERS=java;python_bindings_generator;python2;python3
+OPENCV_MODULE_opencv_objdetect_BINARY_DIR=C:/opencv/mingw-build/modules/objdetect
+OPENCV_MODULE_opencv_objdetect_CLASS=PUBLIC
+OPENCV_MODULE_opencv_objdetect_DEPS=opencv_core;opencv_imgproc
+OPENCV_MODULE_opencv_objdetect_DEPS_EXT=
+OPENCV_MODULE_opencv_objdetect_DEPS_TO_LINK=opencv_core;opencv_imgproc
+OPENCV_MODULE_opencv_objdetect_DESCRIPTION=Object Detection
+OPENCV_MODULE_opencv_objdetect_HEADERS=C:/opencv/sources/modules/objdetect/include/opencv2/objdetect.hpp;C:/opencv/sources/modules/objdetect/include/opencv2/objdetect/detection_based_tracker.hpp;C:/opencv/sources/modules/objdetect/include/opencv2/objdetect/objdetect.hpp;C:/opencv/sources/modules/objdetect/include/opencv2/objdetect/objdetect_c.h
+OPENCV_MODULE_opencv_objdetect_IS_PART_OF_WORLD=ON
+OPENCV_MODULE_opencv_objdetect_LABEL=Main;opencv_objdetect
+OPENCV_MODULE_opencv_objdetect_LINK_DEPS=
+OPENCV_MODULE_opencv_objdetect_LOCATION=C:/opencv/sources/modules/objdetect
+OPENCV_MODULE_opencv_objdetect_OPT_DEPS=
+OPENCV_MODULE_opencv_objdetect_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_objdetect_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_objdetect_REQ_DEPS=opencv_core;opencv_imgproc
+OPENCV_MODULE_opencv_objdetect_SOURCES=C:/opencv/sources/modules/objdetect/src/cascadedetect.cpp;C:/opencv/sources/modules/objdetect/src/cascadedetect_convert.cpp;C:/opencv/sources/modules/objdetect/src/detection_based_tracker.cpp;C:/opencv/sources/modules/objdetect/src/haar.cpp;C:/opencv/sources/modules/objdetect/src/hog.cpp;C:/opencv/sources/modules/objdetect/src/main.cpp;C:/opencv/sources/modules/objdetect/src/opencl/cascadedetect.cl;C:/opencv/sources/modules/objdetect/src/opencl/objdetect_hog.cl;C:/opencv/mingw-build/modules/objdetect/opencl_kernels_objdetect.cpp;C:/opencv/mingw-build/modules/objdetect/opencl_kernels_objdetect.hpp;C:/opencv/sources/modules/objdetect/src/cascadedetect.hpp;C:/opencv/sources/modules/objdetect/src/haar.hpp;C:/opencv/sources/modules/objdetect/src/precomp.hpp
+OPENCV_MODULE_opencv_objdetect_WRAPPERS=java;js;python_bindings_generator;python2;python3
+OPENCV_MODULE_opencv_photo_BINARY_DIR=C:/opencv/mingw-build/modules/photo
+OPENCV_MODULE_opencv_photo_CLASS=PUBLIC
+OPENCV_MODULE_opencv_photo_DEPS=opencv_core;opencv_imgproc
+OPENCV_MODULE_opencv_photo_DEPS_EXT=
+OPENCV_MODULE_opencv_photo_DEPS_TO_LINK=opencv_core;opencv_imgproc
+OPENCV_MODULE_opencv_photo_DESCRIPTION=Computational Photography
+OPENCV_MODULE_opencv_photo_HEADERS=C:/opencv/sources/modules/photo/include/opencv2/photo.hpp;C:/opencv/sources/modules/photo/include/opencv2/photo/cuda.hpp;C:/opencv/sources/modules/photo/include/opencv2/photo/photo.hpp;C:/opencv/sources/modules/photo/include/opencv2/photo/photo_c.h
+OPENCV_MODULE_opencv_photo_IS_PART_OF_WORLD=ON
+OPENCV_MODULE_opencv_photo_LABEL=Main;opencv_photo
+OPENCV_MODULE_opencv_photo_LINK_DEPS=
+OPENCV_MODULE_opencv_photo_LOCATION=C:/opencv/sources/modules/photo
+OPENCV_MODULE_opencv_photo_OPT_DEPS=opencv_cudaarithm;opencv_cudaimgproc
+OPENCV_MODULE_opencv_photo_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_photo_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_photo_REQ_DEPS=opencv_imgproc
+OPENCV_MODULE_opencv_photo_SOURCES=C:/opencv/sources/modules/photo/src/align.cpp;C:/opencv/sources/modules/photo/src/calibrate.cpp;C:/opencv/sources/modules/photo/src/contrast_preserve.cpp;C:/opencv/sources/modules/photo/src/denoise_tvl1.cpp;C:/opencv/sources/modules/photo/src/denoising.cpp;C:/opencv/sources/modules/photo/src/denoising.cuda.cpp;C:/opencv/sources/modules/photo/src/hdr_common.cpp;C:/opencv/sources/modules/photo/src/inpaint.cpp;C:/opencv/sources/modules/photo/src/merge.cpp;C:/opencv/sources/modules/photo/src/npr.cpp;C:/opencv/sources/modules/photo/src/seamless_cloning.cpp;C:/opencv/sources/modules/photo/src/seamless_cloning_impl.cpp;C:/opencv/sources/modules/photo/src/tonemap.cpp;C:/opencv/sources/modules/photo/src/opencl/nlmeans.cl;C:/opencv/mingw-build/modules/photo/opencl_kernels_photo.cpp;C:/opencv/mingw-build/modules/photo/opencl_kernels_photo.hpp;C:/opencv/sources/modules/photo/src/arrays.hpp;C:/opencv/sources/modules/photo/src/contrast_preserve.hpp;C:/opencv/sources/modules/photo/src/fast_nlmeans_denoising_invoker.hpp;C:/opencv/sources/modules/photo/src/fast_nlmeans_denoising_invoker_commons.hpp;C:/opencv/sources/modules/photo/src/fast_nlmeans_denoising_opencl.hpp;C:/opencv/sources/modules/photo/src/fast_nlmeans_multi_denoising_invoker.hpp;C:/opencv/sources/modules/photo/src/hdr_common.hpp;C:/opencv/sources/modules/photo/src/npr.hpp;C:/opencv/sources/modules/photo/src/precomp.hpp;C:/opencv/sources/modules/photo/src/seamless_cloning.hpp
+OPENCV_MODULE_opencv_photo_WRAPPERS=java;python_bindings_generator;python2;python3
+OPENCV_MODULE_opencv_python2_LOCATION=C:/opencv/sources/modules/python/python2
+OPENCV_MODULE_opencv_python2_OPT_DEPS=opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_shape;opencv_stitching;opencv_superres;opencv_video;opencv_videoio;opencv_videostab
+OPENCV_MODULE_opencv_python2_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_python2_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_python2_REQ_DEPS=
+OPENCV_MODULE_opencv_python2_WRAPPERS=
+OPENCV_MODULE_opencv_python3_LOCATION=C:/opencv/sources/modules/python/python3
+OPENCV_MODULE_opencv_python3_OPT_DEPS=opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_shape;opencv_stitching;opencv_superres;opencv_video;opencv_videoio;opencv_videostab
+OPENCV_MODULE_opencv_python3_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_python3_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_python3_REQ_DEPS=
+OPENCV_MODULE_opencv_python3_WRAPPERS=
+OPENCV_MODULE_opencv_python_bindings_generator_BINARY_DIR=C:/opencv/mingw-build/modules/python_bindings_generator
+OPENCV_MODULE_opencv_python_bindings_generator_CLASS=INTERNAL
+OPENCV_MODULE_opencv_python_bindings_generator_DEPS=opencv_core;opencv_flann;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_video;opencv_dnn;opencv_imgcodecs;opencv_shape;opencv_videoio;opencv_highgui;opencv_superres;opencv_features2d;opencv_calib3d;opencv_stitching;opencv_videostab
+OPENCV_MODULE_opencv_python_bindings_generator_DEPS_EXT=
+OPENCV_MODULE_opencv_python_bindings_generator_DEPS_TO_LINK=opencv_core;opencv_flann;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_video;opencv_dnn;opencv_imgcodecs;opencv_shape;opencv_videoio;opencv_highgui;opencv_superres;opencv_features2d;opencv_calib3d;opencv_stitching;opencv_videostab
+OPENCV_MODULE_opencv_python_bindings_generator_DESCRIPTION=The python_bindings_generator OpenCV module
+OPENCV_MODULE_opencv_python_bindings_generator_IS_PART_OF_WORLD=OFF
+OPENCV_MODULE_opencv_python_bindings_generator_LABEL=Main;opencv_python_bindings_generator
+OPENCV_MODULE_opencv_python_bindings_generator_LINK_DEPS=
+OPENCV_MODULE_opencv_python_bindings_generator_LOCATION=C:/opencv/sources/modules/python/bindings
+OPENCV_MODULE_opencv_python_bindings_generator_OPT_DEPS=opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_shape;opencv_stitching;opencv_superres;opencv_video;opencv_videoio;opencv_videostab
+OPENCV_MODULE_opencv_python_bindings_generator_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_python_bindings_generator_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_python_bindings_generator_REQ_DEPS=
+OPENCV_MODULE_opencv_python_bindings_generator_WRAPPERS=
+OPENCV_MODULE_opencv_shape_BINARY_DIR=C:/opencv/mingw-build/modules/shape
+OPENCV_MODULE_opencv_shape_CLASS=PUBLIC
+OPENCV_MODULE_opencv_shape_DEPS=opencv_core;opencv_imgproc;opencv_video
+OPENCV_MODULE_opencv_shape_DEPS_EXT=
+OPENCV_MODULE_opencv_shape_DEPS_TO_LINK=opencv_core;opencv_imgproc;opencv_video
+OPENCV_MODULE_opencv_shape_DESCRIPTION=Shape descriptors and matchers
+OPENCV_MODULE_opencv_shape_HEADERS=C:/opencv/sources/modules/shape/include/opencv2/shape.hpp;C:/opencv/sources/modules/shape/include/opencv2/shape/emdL1.hpp;C:/opencv/sources/modules/shape/include/opencv2/shape/hist_cost.hpp;C:/opencv/sources/modules/shape/include/opencv2/shape/shape.hpp;C:/opencv/sources/modules/shape/include/opencv2/shape/shape_distance.hpp;C:/opencv/sources/modules/shape/include/opencv2/shape/shape_transformer.hpp
+OPENCV_MODULE_opencv_shape_IS_PART_OF_WORLD=ON
+OPENCV_MODULE_opencv_shape_LABEL=Main;opencv_shape
+OPENCV_MODULE_opencv_shape_LINK_DEPS=
+OPENCV_MODULE_opencv_shape_LOCATION=C:/opencv/sources/modules/shape
+OPENCV_MODULE_opencv_shape_OPT_DEPS=
+OPENCV_MODULE_opencv_shape_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_shape_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_shape_REQ_DEPS=opencv_core;opencv_imgproc;opencv_video
+OPENCV_MODULE_opencv_shape_SOURCES=C:/opencv/sources/modules/shape/src/aff_trans.cpp;C:/opencv/sources/modules/shape/src/emdL1.cpp;C:/opencv/sources/modules/shape/src/haus_dis.cpp;C:/opencv/sources/modules/shape/src/hist_cost.cpp;C:/opencv/sources/modules/shape/src/sc_dis.cpp;C:/opencv/sources/modules/shape/src/tps_trans.cpp;C:/opencv/sources/modules/shape/src/emdL1_def.hpp;C:/opencv/sources/modules/shape/src/precomp.hpp;C:/opencv/sources/modules/shape/src/scd_def.hpp
+OPENCV_MODULE_opencv_shape_WRAPPERS=python_bindings_generator;python2;python3
+OPENCV_MODULE_opencv_stitching_BINARY_DIR=C:/opencv/mingw-build/modules/stitching
+OPENCV_MODULE_opencv_stitching_CLASS=PUBLIC
+OPENCV_MODULE_opencv_stitching_DEPS=opencv_core;opencv_flann;opencv_imgproc;opencv_imgcodecs;opencv_videoio;opencv_highgui;opencv_features2d;opencv_calib3d
+OPENCV_MODULE_opencv_stitching_DEPS_EXT=
+OPENCV_MODULE_opencv_stitching_DEPS_TO_LINK=opencv_core;opencv_flann;opencv_imgproc;opencv_imgcodecs;opencv_videoio;opencv_highgui;opencv_features2d;opencv_calib3d
+OPENCV_MODULE_opencv_stitching_DESCRIPTION=Images stitching
+OPENCV_MODULE_opencv_stitching_HEADERS=C:/opencv/sources/modules/stitching/include/opencv2/stitching.hpp;C:/opencv/sources/modules/stitching/include/opencv2/stitching/warpers.hpp;C:/opencv/sources/modules/stitching/include/opencv2/stitching/detail/autocalib.hpp;C:/opencv/sources/modules/stitching/include/opencv2/stitching/detail/blenders.hpp;C:/opencv/sources/modules/stitching/include/opencv2/stitching/detail/camera.hpp;C:/opencv/sources/modules/stitching/include/opencv2/stitching/detail/exposure_compensate.hpp;C:/opencv/sources/modules/stitching/include/opencv2/stitching/detail/matchers.hpp;C:/opencv/sources/modules/stitching/include/opencv2/stitching/detail/motion_estimators.hpp;C:/opencv/sources/modules/stitching/include/opencv2/stitching/detail/seam_finders.hpp;C:/opencv/sources/modules/stitching/include/opencv2/stitching/detail/timelapsers.hpp;C:/opencv/sources/modules/stitching/include/opencv2/stitching/detail/util.hpp;C:/opencv/sources/modules/stitching/include/opencv2/stitching/detail/util_inl.hpp;C:/opencv/sources/modules/stitching/include/opencv2/stitching/detail/warpers.hpp;C:/opencv/sources/modules/stitching/include/opencv2/stitching/detail/warpers_inl.hpp
+OPENCV_MODULE_opencv_stitching_IS_PART_OF_WORLD=ON
+OPENCV_MODULE_opencv_stitching_LABEL=Main;opencv_stitching
+OPENCV_MODULE_opencv_stitching_LINK_DEPS=
+OPENCV_MODULE_opencv_stitching_LOCATION=C:/opencv/sources/modules/stitching
+OPENCV_MODULE_opencv_stitching_OPT_DEPS=opencv_cudaarithm;opencv_cudawarping;opencv_cudafeatures2d;opencv_cudalegacy;opencv_xfeatures2d
+OPENCV_MODULE_opencv_stitching_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_stitching_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_stitching_REQ_DEPS=opencv_imgproc;opencv_features2d;opencv_calib3d;opencv_flann
+OPENCV_MODULE_opencv_stitching_SOURCES=C:/opencv/sources/modules/stitching/src/autocalib.cpp;C:/opencv/sources/modules/stitching/src/blenders.cpp;C:/opencv/sources/modules/stitching/src/camera.cpp;C:/opencv/sources/modules/stitching/src/exposure_compensate.cpp;C:/opencv/sources/modules/stitching/src/matchers.cpp;C:/opencv/sources/modules/stitching/src/motion_estimators.cpp;C:/opencv/sources/modules/stitching/src/seam_finders.cpp;C:/opencv/sources/modules/stitching/src/stitcher.cpp;C:/opencv/sources/modules/stitching/src/timelapsers.cpp;C:/opencv/sources/modules/stitching/src/util.cpp;C:/opencv/sources/modules/stitching/src/warpers.cpp;C:/opencv/sources/modules/stitching/src/warpers_cuda.cpp;C:/opencv/sources/modules/stitching/src/opencl/multibandblend.cl;C:/opencv/sources/modules/stitching/src/opencl/warpers.cl;C:/opencv/mingw-build/modules/stitching/opencl_kernels_stitching.cpp;C:/opencv/mingw-build/modules/stitching/opencl_kernels_stitching.hpp;C:/opencv/sources/modules/stitching/src/precomp.hpp;C:/opencv/sources/modules/stitching/src/util_log.hpp
+OPENCV_MODULE_opencv_stitching_WRAPPERS=python_bindings_generator;python2;python3
+OPENCV_MODULE_opencv_superres_BINARY_DIR=C:/opencv/mingw-build/modules/superres
+OPENCV_MODULE_opencv_superres_CLASS=PUBLIC
+OPENCV_MODULE_opencv_superres_DEPS=opencv_core;opencv_imgproc;opencv_video;opencv_imgcodecs;opencv_videoio
+OPENCV_MODULE_opencv_superres_DEPS_EXT=
+OPENCV_MODULE_opencv_superres_DEPS_TO_LINK=opencv_core;opencv_imgproc;opencv_video;opencv_imgcodecs;opencv_videoio
+OPENCV_MODULE_opencv_superres_DESCRIPTION=Super Resolution
+OPENCV_MODULE_opencv_superres_HEADERS=C:/opencv/sources/modules/superres/include/opencv2/superres.hpp;C:/opencv/sources/modules/superres/include/opencv2/superres/optical_flow.hpp
+OPENCV_MODULE_opencv_superres_IS_PART_OF_WORLD=ON
+OPENCV_MODULE_opencv_superres_LABEL=Main;opencv_superres
+OPENCV_MODULE_opencv_superres_LINK_DEPS=
+OPENCV_MODULE_opencv_superres_LOCATION=C:/opencv/sources/modules/superres
+OPENCV_MODULE_opencv_superres_OPT_DEPS=opencv_videoio;opencv_cudaarithm;opencv_cudafilters;opencv_cudawarping;opencv_cudaimgproc;opencv_cudaoptflow;opencv_cudacodec
+OPENCV_MODULE_opencv_superres_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_superres_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_superres_REQ_DEPS=opencv_imgproc;opencv_video
+OPENCV_MODULE_opencv_superres_SOURCES=C:/opencv/sources/modules/superres/src/btv_l1.cpp;C:/opencv/sources/modules/superres/src/btv_l1_cuda.cpp;C:/opencv/sources/modules/superres/src/frame_source.cpp;C:/opencv/sources/modules/superres/src/input_array_utility.cpp;C:/opencv/sources/modules/superres/src/optical_flow.cpp;C:/opencv/sources/modules/superres/src/super_resolution.cpp;C:/opencv/sources/modules/superres/src/opencl/superres_btvl1.cl;C:/opencv/mingw-build/modules/superres/opencl_kernels_superres.cpp;C:/opencv/mingw-build/modules/superres/opencl_kernels_superres.hpp;C:/opencv/sources/modules/superres/src/input_array_utility.hpp;C:/opencv/sources/modules/superres/src/precomp.hpp;C:/opencv/sources/modules/superres/src/ring_buffer.hpp
+OPENCV_MODULE_opencv_superres_WRAPPERS=python_bindings_generator;python2;python3
+OPENCV_MODULE_opencv_ts_BINARY_DIR=C:/opencv/mingw-build/modules/ts
+OPENCV_MODULE_opencv_ts_CLASS=INTERNAL
+OPENCV_MODULE_opencv_ts_DEPS=opencv_core;opencv_imgproc;opencv_imgcodecs;opencv_videoio;opencv_highgui
+OPENCV_MODULE_opencv_ts_DEPS_EXT=
+OPENCV_MODULE_opencv_ts_DEPS_TO_LINK=opencv_core;opencv_imgproc;opencv_imgcodecs;opencv_videoio;opencv_highgui
+OPENCV_MODULE_opencv_ts_DESCRIPTION=The ts module
+OPENCV_MODULE_opencv_ts_HEADERS=C:/opencv/sources/modules/ts/include/opencv2/ts.hpp;C:/opencv/sources/modules/ts/include/opencv2/ts/cuda_perf.hpp;C:/opencv/sources/modules/ts/include/opencv2/ts/cuda_test.hpp;C:/opencv/sources/modules/ts/include/opencv2/ts/ocl_perf.hpp;C:/opencv/sources/modules/ts/include/opencv2/ts/ocl_test.hpp;C:/opencv/sources/modules/ts/include/opencv2/ts/ts_ext.hpp;C:/opencv/sources/modules/ts/include/opencv2/ts/ts_perf.hpp;C:/opencv/sources/modules/ts/include/opencv2/ts/ts_gtest.h
+OPENCV_MODULE_opencv_ts_IS_PART_OF_WORLD=OFF
+OPENCV_MODULE_opencv_ts_LABEL=Main;opencv_ts
+OPENCV_MODULE_opencv_ts_LINK_DEPS=
+OPENCV_MODULE_opencv_ts_LOCATION=C:/opencv/sources/modules/ts
+OPENCV_MODULE_opencv_ts_OPT_DEPS=
+OPENCV_MODULE_opencv_ts_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_ts_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_ts_REQ_DEPS=opencv_core;opencv_imgproc;opencv_imgcodecs;opencv_videoio;opencv_highgui
+OPENCV_MODULE_opencv_ts_SOURCES=C:/opencv/sources/modules/ts/src/cuda_perf.cpp;C:/opencv/sources/modules/ts/src/cuda_test.cpp;C:/opencv/sources/modules/ts/src/ocl_perf.cpp;C:/opencv/sources/modules/ts/src/ocl_test.cpp;C:/opencv/sources/modules/ts/src/ts.cpp;C:/opencv/sources/modules/ts/src/ts_arrtest.cpp;C:/opencv/sources/modules/ts/src/ts_func.cpp;C:/opencv/sources/modules/ts/src/ts_gtest.cpp;C:/opencv/sources/modules/ts/src/ts_perf.cpp;C:/opencv/sources/modules/ts/src/precomp.hpp
+OPENCV_MODULE_opencv_ts_WRAPPERS=
+OPENCV_MODULE_opencv_video_BINARY_DIR=C:/opencv/mingw-build/modules/video
+OPENCV_MODULE_opencv_video_CLASS=PUBLIC
+OPENCV_MODULE_opencv_video_DEPS=opencv_core;opencv_imgproc
+OPENCV_MODULE_opencv_video_DEPS_EXT=
+OPENCV_MODULE_opencv_video_DEPS_TO_LINK=opencv_core;opencv_imgproc
+OPENCV_MODULE_opencv_video_DESCRIPTION=Video Analysis
+OPENCV_MODULE_opencv_video_HEADERS=C:/opencv/sources/modules/video/include/opencv2/video.hpp;C:/opencv/sources/modules/video/include/opencv2/video/background_segm.hpp;C:/opencv/sources/modules/video/include/opencv2/video/tracking.hpp;C:/opencv/sources/modules/video/include/opencv2/video/video.hpp;C:/opencv/sources/modules/video/include/opencv2/video/tracking_c.h
+OPENCV_MODULE_opencv_video_IS_PART_OF_WORLD=ON
+OPENCV_MODULE_opencv_video_LABEL=Main;opencv_video
+OPENCV_MODULE_opencv_video_LINK_DEPS=
+OPENCV_MODULE_opencv_video_LOCATION=C:/opencv/sources/modules/video
+OPENCV_MODULE_opencv_video_OPT_DEPS=
+OPENCV_MODULE_opencv_video_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_video_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_video_REQ_DEPS=opencv_imgproc
+OPENCV_MODULE_opencv_video_SOURCES=C:/opencv/sources/modules/video/src/bgfg_KNN.cpp;C:/opencv/sources/modules/video/src/bgfg_gaussmix2.cpp;C:/opencv/sources/modules/video/src/camshift.cpp;C:/opencv/sources/modules/video/src/compat_video.cpp;C:/opencv/sources/modules/video/src/ecc.cpp;C:/opencv/sources/modules/video/src/kalman.cpp;C:/opencv/sources/modules/video/src/lkpyramid.cpp;C:/opencv/sources/modules/video/src/optflowgf.cpp;C:/opencv/sources/modules/video/src/tvl1flow.cpp;C:/opencv/sources/modules/video/src/opencl/bgfg_knn.cl;C:/opencv/sources/modules/video/src/opencl/bgfg_mog2.cl;C:/opencv/sources/modules/video/src/opencl/optical_flow_farneback.cl;C:/opencv/sources/modules/video/src/opencl/optical_flow_tvl1.cl;C:/opencv/sources/modules/video/src/opencl/pyrlk.cl;C:/opencv/mingw-build/modules/video/opencl_kernels_video.cpp;C:/opencv/mingw-build/modules/video/opencl_kernels_video.hpp;C:/opencv/sources/modules/video/src/lkpyramid.hpp;C:/opencv/sources/modules/video/src/precomp.hpp
+OPENCV_MODULE_opencv_video_WRAPPERS=java;js;python_bindings_generator;python2;python3
+OPENCV_MODULE_opencv_videoio_BINARY_DIR=C:/opencv/mingw-build/modules/videoio
+OPENCV_MODULE_opencv_videoio_CLASS=PUBLIC
+OPENCV_MODULE_opencv_videoio_DEPS=opencv_core;opencv_imgproc;opencv_imgcodecs
+OPENCV_MODULE_opencv_videoio_DEPS_EXT=
+OPENCV_MODULE_opencv_videoio_DEPS_TO_LINK=opencv_core;opencv_imgproc;opencv_imgcodecs
+OPENCV_MODULE_opencv_videoio_DESCRIPTION=Media I/O
+OPENCV_MODULE_opencv_videoio_HEADERS=C:/opencv/sources/modules/videoio/include/opencv2/videoio.hpp;C:/opencv/sources/modules/videoio/include/opencv2/videoio/container_avi.private.hpp;C:/opencv/sources/modules/videoio/include/opencv2/videoio/videoio.hpp;C:/opencv/sources/modules/videoio/include/opencv2/videoio/cap_ios.h;C:/opencv/sources/modules/videoio/include/opencv2/videoio/videoio_c.h
+OPENCV_MODULE_opencv_videoio_IS_PART_OF_WORLD=ON
+OPENCV_MODULE_opencv_videoio_LABEL=Main;opencv_videoio
+OPENCV_MODULE_opencv_videoio_LINK_DEPS=;avifil32;avicap32;winmm;msvfw32
+OPENCV_MODULE_opencv_videoio_LOCATION=C:/opencv/sources/modules/videoio
+OPENCV_MODULE_opencv_videoio_OPT_DEPS=
+OPENCV_MODULE_opencv_videoio_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_videoio_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_videoio_REQ_DEPS=opencv_imgproc;opencv_imgcodecs
+OPENCV_MODULE_opencv_videoio_SOURCES=C:/opencv/sources/modules/videoio/src/cap.cpp;C:/opencv/sources/modules/videoio/src/cap_images.cpp;C:/opencv/sources/modules/videoio/src/cap_mjpeg_encoder.cpp;C:/opencv/sources/modules/videoio/src/cap_mjpeg_decoder.cpp;C:/opencv/sources/modules/videoio/src/container_avi.cpp;C:/opencv/sources/modules/videoio/src/cap_cmu.cpp;C:/opencv/sources/modules/videoio/src/cap_dshow.cpp;C:/opencv/sources/modules/videoio/src/cap_vfw.cpp;C:/opencv/sources/modules/videoio/src/cap_ffmpeg.cpp;C:/opencv/sources/modules/videoio/src/precomp.hpp;C:/opencv/sources/modules/videoio/src/cap_dshow.hpp;C:/opencv/sources/modules/videoio/src/cap_ffmpeg_impl.hpp
+OPENCV_MODULE_opencv_videoio_WRAPPERS=java;python_bindings_generator;python2;python3
+OPENCV_MODULE_opencv_videostab_BINARY_DIR=C:/opencv/mingw-build/modules/videostab
+OPENCV_MODULE_opencv_videostab_CLASS=PUBLIC
+OPENCV_MODULE_opencv_videostab_DEPS=opencv_core;opencv_flann;opencv_imgproc;opencv_photo;opencv_video;opencv_imgcodecs;opencv_videoio;opencv_highgui;opencv_features2d;opencv_calib3d
+OPENCV_MODULE_opencv_videostab_DEPS_EXT=
+OPENCV_MODULE_opencv_videostab_DEPS_TO_LINK=opencv_core;opencv_flann;opencv_imgproc;opencv_photo;opencv_video;opencv_imgcodecs;opencv_videoio;opencv_highgui;opencv_features2d;opencv_calib3d
+OPENCV_MODULE_opencv_videostab_DESCRIPTION=Video stabilization
+OPENCV_MODULE_opencv_videostab_HEADERS=C:/opencv/sources/modules/videostab/include/opencv2/videostab.hpp;C:/opencv/sources/modules/videostab/include/opencv2/videostab/deblurring.hpp;C:/opencv/sources/modules/videostab/include/opencv2/videostab/fast_marching.hpp;C:/opencv/sources/modules/videostab/include/opencv2/videostab/fast_marching_inl.hpp;C:/opencv/sources/modules/videostab/include/opencv2/videostab/frame_source.hpp;C:/opencv/sources/modules/videostab/include/opencv2/videostab/global_motion.hpp;C:/opencv/sources/modules/videostab/include/opencv2/videostab/inpainting.hpp;C:/opencv/sources/modules/videostab/include/opencv2/videostab/log.hpp;C:/opencv/sources/modules/videostab/include/opencv2/videostab/motion_core.hpp;C:/opencv/sources/modules/videostab/include/opencv2/videostab/motion_stabilizing.hpp;C:/opencv/sources/modules/videostab/include/opencv2/videostab/optical_flow.hpp;C:/opencv/sources/modules/videostab/include/opencv2/videostab/outlier_rejection.hpp;C:/opencv/sources/modules/videostab/include/opencv2/videostab/ring_buffer.hpp;C:/opencv/sources/modules/videostab/include/opencv2/videostab/stabilizer.hpp;C:/opencv/sources/modules/videostab/include/opencv2/videostab/wobble_suppression.hpp
+OPENCV_MODULE_opencv_videostab_IS_PART_OF_WORLD=ON
+OPENCV_MODULE_opencv_videostab_LABEL=Main;opencv_videostab
+OPENCV_MODULE_opencv_videostab_LINK_DEPS=
+OPENCV_MODULE_opencv_videostab_LOCATION=C:/opencv/sources/modules/videostab
+OPENCV_MODULE_opencv_videostab_OPT_DEPS=opencv_cudawarping;opencv_cudaoptflow;opencv_videoio
+OPENCV_MODULE_opencv_videostab_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_videostab_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_videostab_REQ_DEPS=opencv_imgproc;opencv_features2d;opencv_video;opencv_photo;opencv_calib3d
+OPENCV_MODULE_opencv_videostab_SOURCES=C:/opencv/sources/modules/videostab/src/deblurring.cpp;C:/opencv/sources/modules/videostab/src/fast_marching.cpp;C:/opencv/sources/modules/videostab/src/frame_source.cpp;C:/opencv/sources/modules/videostab/src/global_motion.cpp;C:/opencv/sources/modules/videostab/src/inpainting.cpp;C:/opencv/sources/modules/videostab/src/log.cpp;C:/opencv/sources/modules/videostab/src/motion_stabilizing.cpp;C:/opencv/sources/modules/videostab/src/optical_flow.cpp;C:/opencv/sources/modules/videostab/src/outlier_rejection.cpp;C:/opencv/sources/modules/videostab/src/stabilizer.cpp;C:/opencv/sources/modules/videostab/src/wobble_suppression.cpp;C:/opencv/sources/modules/videostab/src/clp.hpp;C:/opencv/sources/modules/videostab/src/precomp.hpp
+OPENCV_MODULE_opencv_videostab_WRAPPERS=python_bindings_generator;python2;python3
+OPENCV_MODULE_opencv_viz_LOCATION=C:/opencv/sources/modules/viz
+OPENCV_MODULE_opencv_world_CLASS=PUBLIC
+OPENCV_MODULE_opencv_world_DESCRIPTION=All OpenCV modules
+OPENCV_MODULE_opencv_world_IS_PART_OF_WORLD=OFF
+OPENCV_MODULE_opencv_world_LABEL=Main;opencv_world
+OPENCV_MODULE_opencv_world_LINK_DEPS=
+OPENCV_MODULE_opencv_world_LOCATION=C:/opencv/sources/modules/world
+OPENCV_MODULE_opencv_world_OPT_DEPS=opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_shape;opencv_stitching;opencv_superres;opencv_video;opencv_videoio;opencv_videostab
+OPENCV_MODULE_opencv_world_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_world_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_world_REQ_DEPS=opencv_core
+OPENCV_MODULE_opencv_world_WRAPPERS=
+OPENCV_MOD_LIST=opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_shape;opencv_stitching;opencv_superres;opencv_video;opencv_videoio;opencv_videostab
+OPENCV_OTHER_INSTALL_PATH=etc
+OPENCV_PACKAGE_ARCH_SUFFIX=AMD64
+OPENCV_PC_FILE_NAME=opencv.pc
+OPENCV_PYTHON_BINDINGS_DIR=C:/opencv/mingw-build/modules/python_bindings_generator
+OPENCV_PYTHON_SIGNATURES_FILE=C:/opencv/mingw-build/modules/python_bindings_generator/pyopencv_signatures.json
+OPENCV_SAMPLES_BIN_INSTALL_PATH=x64/mingw/samples
+OPENCV_SAMPLES_SRC_INSTALL_PATH=samples
+OPENCV_SOVERSION=3.4
+OPENCV_TEST_DATA_INSTALL_PATH=testdata
+OPENCV_TEST_INSTALL_PATH=x64/mingw/bin
+OPENCV_TIMESTAMP=2018-04-09T11:20:39Z
+OPENCV_TRACE=1
+OPENCV_VCSVERSION=unknown
+OPENCV_VERSION=3.4.1
+OPENCV_VERSION_FILE=C:/opencv/sources/modules/core/include/opencv2/core/version.hpp
+OPENCV_VERSION_MAJOR=3
+OPENCV_VERSION_MINOR=4
+OPENCV_VERSION_PARTS=#define CV_VERSION_MAJOR    3;#define CV_VERSION_MINOR    4;#define CV_VERSION_REVISION 1;#define CV_VERSION_STATUS   ""
+OPENCV_VERSION_PATCH=1
+OPENCV_VERSION_PLAIN=3.4.1
+OPENCV_VERSION_STATUS=
+OPENCV_VS_VER_COMMENTS_STR=http://opencv.org/
+OPENCV_VS_VER_FILEVERSION_QUAD=3,4,1,0
+OPENCV_VS_VER_FILEVERSION_STR=3.4.1
+OPENCV_VS_VER_PRODUCTNAME_STR=OpenCV library
+OPENCV_VS_VER_PRODUCTVERSION_QUAD=3,4,1,0
+OPENCV_VS_VER_PRODUCTVERSION_STR=3.4.1
+OPENCV_WARNINGS_ARE_ERRORS=OFF
+OPENCV_WORLD_MODULES=
+OPENEXR_ILMIMF_LIBRARY=IlmImf
+OPENEXR_INCLUDE_PATHS=C:/opencv/sources/3rdparty/openexr/Half;C:/opencv/sources/3rdparty/openexr/Iex;C:/opencv/sources/3rdparty/openexr/IlmThread;C:/opencv/sources/3rdparty/openexr/Imath;C:/opencv/sources/3rdparty/openexr/IlmImf
+OPENEXR_LIBRARIES=IlmImf
+OPENEXR_VERSION=1.7.1
+OPT=
+OPT2=
+OpenBLAS=
+OpenBLAS_FOUND=OFF
+OpenBLAS_INCLUDE_DIR=OpenBLAS_INCLUDE_DIR-NOTFOUND
+OpenBLAS_LIB=OpenBLAS_LIB-NOTFOUND
+OpenCVModules_TARGETS=opencv_core;opencv_flann;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_video;opencv_dnn;opencv_imgcodecs;opencv_shape;opencv_videoio;opencv_highgui;opencv_superres;opencv_features2d;opencv_calib3d;opencv_stitching;opencv_videostab
+OpenCV_ARCH=x64
+OpenCV_BINARY_DIR=C:/opencv/mingw-build
+OpenCV_HAL=OpenCV_HAL
+OpenCV_HAL_CONSIDERED_CONFIGS=
+OpenCV_HAL_CONSIDERED_VERSIONS=
+OpenCV_HAL_DIR=OpenCV_HAL_DIR-NOTFOUND
+OpenCV_HAL_FOUND=0
+OpenCV_INCLUDE_DIRS_CONFIGCMAKE="${OpenCV_INSTALL_PATH}/include" "${OpenCV_INSTALL_PATH}/include/opencv"
+OpenCV_INSTALL_BINARIES_PREFIX=x64/mingw/
+OpenCV_INSTALL_PATH_RELATIVE_CONFIGCMAKE=
+OpenCV_RUNTIME=mingw
+OpenCV_SOURCE_DIR=C:/opencv/sources
+OpenCV_STATIC=OFF
+OpenCV_USE_MANGLED_PATHS_CONFIGCMAKE=FALSE
+Open_BLAS_INCLUDE_SEARCH_PATHS=/include;/opt/OpenBLAS/include;/usr/local/include/openblas;/usr/include/openblas;/usr/local/include/openblas-base;/usr/include/openblas-base;/usr/local/include;/usr/include
+Open_BLAS_LIB_SEARCH_PATHS=cd;/lib;/lib;/opt/OpenBLAS/lib;/usr/local/lib64;/usr/local/lib;/lib/openblas-base;/lib64/;/lib/;/usr/lib/openblas-base;/usr/lib64;/usr/lib
+PCHSupport_FOUND=TRUE
+PNG_DEFINITIONS=
+PNG_INCLUDE_DIR=C:/opencv/sources/3rdparty/libpng
+PNG_LIBPNG_VER_MAJOR=1
+PNG_LIBPNG_VER_MINOR=6
+PNG_LIBPNG_VER_RELEASE=34
+PNG_LIBRARIES=libpng
+PNG_LIBRARY=libpng
+PNG_VERSION=1.6.34
+PNG_VERSION_LINES=#define PNG_LIBPNG_VER_MAJOR   1;#define PNG_LIBPNG_VER_MINOR   6;#define PNG_LIBPNG_VER_RELEASE 34
+PROJECT_BINARY_DIR=C:/opencv/mingw-build
+PROJECT_NAME=OpenCV
+PROJECT_SOURCE_DIR=C:/opencv/sources
+PROTOBUF_UPDATE_FILES=OFF
+PYTHON2INTERP_FOUND=
+PYTHON2LIBS_FOUND=
+PYTHON2LIBS_VERSION_STRING=
+PYTHON2_DEBUG_LIBRARIES=
+PYTHON2_EXECUTABLE=
+PYTHON2_INCLUDE_DIR=
+PYTHON2_INCLUDE_DIR2=
+PYTHON2_INCLUDE_PATH=
+PYTHON2_LIBRARIES=
+PYTHON2_LIBRARY=
+PYTHON2_LIBRARY_DEBUG=
+PYTHON2_NUMPY_INCLUDE_DIRS=
+PYTHON2_NUMPY_VERSION=
+PYTHON2_PACKAGES_PATH=
+PYTHON2_VERSION_MAJOR=
+PYTHON2_VERSION_MINOR=
+PYTHON2_VERSION_STRING=
+PYTHON3INTERP_FOUND=
+PYTHON3LIBS_FOUND=
+PYTHON3LIBS_VERSION_STRING=
+PYTHON3_DEBUG_LIBRARIES=
+PYTHON3_EXECUTABLE=
+PYTHON3_INCLUDE_DIR=
+PYTHON3_INCLUDE_DIR2=
+PYTHON3_INCLUDE_PATH=
+PYTHON3_LIBRARIES=
+PYTHON3_LIBRARY=
+PYTHON3_LIBRARY_DEBUG=
+PYTHON3_NUMPY_INCLUDE_DIRS=
+PYTHON3_NUMPY_VERSION=
+PYTHON3_PACKAGES_PATH=
+PYTHON3_VERSION_MAJOR=
+PYTHON3_VERSION_MINOR=
+PYTHON3_VERSION_STRING=
+PYTHON_EXECUTABLE=PYTHON_EXECUTABLE-NOTFOUND
+ProgramFiles_ENV_PATH=C:/Program Files
+Protobuf_VERSION=3.5.1
+RUN_CONFIGURE=ON
+SEARCH_LIBS=mkl_intel_lp64;mkl_sequential;mkl_core
+SIZEOF_PTRDIFF_T=8
+SIZEOF_SIGNED_INT=4
+SIZEOF_SIGNED_LONG=4
+SIZEOF_SIGNED_LONG_LONG=8
+SIZEOF_SIGNED_SHORT=2
+SIZEOF_SIZE_T=8
+SIZEOF_UNSIGNED_CHAR_P=8
+SIZEOF_UNSIGNED_INT=4
+SIZEOF_UNSIGNED_LONG=4
+SIZEOF_UNSIGNED_LONG_LONG=8
+SIZEOF_UNSIGNED_SHORT=2
+STD_OPENCV_DEV=libopencv-dev;libopencv-calib3d-dev;libopencv-core-dev;libopencv-features2d-dev;libopencv-flann-dev;libopencv-highgui-dev;libopencv-imgcodecs-dev;libopencv-imgproc-dev;libopencv-ml-dev;libopencv-objdetect-dev;libopencv-photo-dev;libopencv-shape-dev;libopencv-stitching-dev;libopencv-superres-dev;libopencv-ts-dev;libopencv-video-dev;libopencv-videoio-dev;libopencv-videostab-dev
+STD_OPENCV_LIBS=opencv-data;libopencv-calib3d3.0;libopencv-core3.0;libopencv-features2d3.0;libopencv-flann3.0;libopencv-highgui3.0;libopencv-imgcodecs3.0;libopencv-imgproc3.0;libopencv-ml3.0;libopencv-objdetect3.0;libopencv-photo3.0;libopencv-shape3.0;libopencv-stitching3.0;libopencv-superres3.0;libopencv-ts3.0;libopencv-video3.0;libopencv-videoio3.0;libopencv-videostab3.0
+THREAD=
+THREADS_FOUND=TRUE
+TIFF_BIGTIFF_VERSION=
+TIFF_INCLUDE_DIR=C:/opencv/sources/3rdparty/libtiff;C:/opencv/mingw-build/3rdparty/libtiff
+TIFF_LIBRARIES=libtiff
+TIFF_LIBRARY=libtiff
+TIFF_VERSION=42
+TIFF_VERSION_BIG=43
+TIFF_VERSION_CLASSIC=42
+TIFF_VERSION_LINES=#define TIFF_VERSION_CLASSIC 42;#define TIFF_VERSION_BIG 43
+TIFF_VERSION_STRING=4.0.9
+TRY1_DIR=
+TRY2_DIR=
+TRY_OUT=Change Dir: C:/opencv/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe" "cmTC_5ee09/fast"
+C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_5ee09.dir\build.make CMakeFiles/cmTC_5ee09.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5ee09.dir/directx.cpp.obj
+C:\PROGRA~2\TDM-GCC\bin\G__~1.EXE     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG   -o CMakeFiles\cmTC_5ee09.dir\directx.cpp.obj -c C:\opencv\sources\cmake\checks\directx.cpp
+C:\opencv\sources\cmake\checks\directx.cpp:4:0: warning: ignoring #pragma comment  [-Wunknown-pragmas]
+ #pragma comment (lib, "d3d11.lib")
+ ^
+C:\opencv\sources\cmake\checks\directx.cpp: In function 'HRESULT InitDevice()':
+C:\opencv\sources\cmake\checks\directx.cpp:60:108: error: 'D3D11CreateDeviceAndSwapChain' was not declared in this scope
+                 D3D11_SDK_VERSION, &sd, &g_pSwapChain, &g_pd3dDevice, &g_featureLevel, &g_pImmediateContext);
+                                                                                                            ^
+CMakeFiles\cmTC_5ee09.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_5ee09.dir/directx.cpp.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_5ee09.dir/directx.cpp.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_5ee09/fast' failed
+mingw32-make.exe: *** [cmTC_5ee09/fast] Error 2
+
+Threads_FOUND=TRUE
+USE_IPPICV=FALSE
+USE_IPPIW=FALSE
+USE_WIN32_FILEIO=ON
+VIDEOIO_LIBRARIES=avifil32;avicap32;winmm;msvfw32
+VTK_CONSIDERED_CONFIGS=
+VTK_CONSIDERED_VERSIONS=
+VTK_DIR=VTK_DIR-NOTFOUND
+VTK_FOUND=0
+WEBP_ENCODER_ABI_VERSION=0x020e
+WEBP_INCLUDE_DIR=C:/opencv/sources/3rdparty/libwebp/src
+WEBP_LIBRARIES=libwebp
+WEBP_LIBRARY=libwebp
+WEBP_VERSION=encoder: 0x020e
+WIN32=1
+WITH_1394=ON
+WITH_CLP=OFF
+WITH_CSTRIPES=OFF
+WITH_CUBLAS=ON
+WITH_CUDA=ON
+WITH_CUFFT=ON
+WITH_DIRECTX=ON
+WITH_DSHOW=ON
+WITH_EIGEN=ON
+WITH_FFMPEG=ON
+WITH_GDAL=OFF
+WITH_GDCM=OFF
+WITH_GIGEAPI=OFF
+WITH_GSTREAMER=ON
+WITH_GSTREAMER_0_10=OFF
+WITH_HALIDE=OFF
+WITH_INF_ENGINE=OFF
+WITH_INTELPERC=OFF
+WITH_IPP=OFF
+WITH_ITT=ON
+WITH_JASPER=ON
+WITH_JPEG=ON
+WITH_LAPACK=ON
+WITH_MATLAB=ON
+WITH_MSMF=OFF
+WITH_NVCUVID=ON
+WITH_OPENCL=ON
+WITH_OPENCLAMDBLAS=ON
+WITH_OPENCLAMDFFT=ON
+WITH_OPENCL_SVM=OFF
+WITH_OPENEXR=ON
+WITH_OPENGL=OFF
+WITH_OPENMP=OFF
+WITH_OPENNI=OFF
+WITH_OPENNI2=OFF
+WITH_OPENVX=OFF
+WITH_PNG=ON
+WITH_PROTOBUF=ON
+WITH_PTHREADS_PF=ON
+WITH_PVAPI=OFF
+WITH_QT=OFF
+WITH_TBB=OFF
+WITH_TIFF=ON
+WITH_VFW=ON
+WITH_VTK=ON
+WITH_WEBP=ON
+WITH_WIN32UI=ON
+WITH_XIMEA=OFF
+WORDS_BIGENDIAN=0
+X86_64=1
+ZLIB_H=#define ZLIB_VERSION "1.2.11"
+ZLIB_INCLUDE_DIRS=C:/opencv/sources/3rdparty/zlib;C:/opencv/mingw-build/3rdparty/zlib
+ZLIB_LIBRARIES=zlib
+ZLIB_LIBRARY=zlib
+ZLIB_VERSION_MAJOR=1
+ZLIB_VERSION_MINOR=2
+ZLIB_VERSION_PATCH=11
+ZLIB_VERSION_STRING=1.2.11
+ZLIB_VERSION_TWEAK=
+Z_HAVE_UNISTD_H=1
+_3rdparty=
+_CMAKE_INSTALL_DIR=C:/cmake-3.7.2
+_CMAKE_PUSH_CHECK_STATE_COUNTER=0
+_CPACK_OTHER_VARIABLES_=
+SET(CPACK_BINARY_7Z "OFF")
+SET(CPACK_BINARY_BUNDLE "")
+SET(CPACK_BINARY_CYGWIN "")
+SET(CPACK_BINARY_DEB "")
+SET(CPACK_BINARY_DRAGNDROP "")
+SET(CPACK_BINARY_IFW "OFF")
+SET(CPACK_BINARY_NSIS "ON")
+SET(CPACK_BINARY_OSXX11 "")
+SET(CPACK_BINARY_PACKAGEMAKER "")
+SET(CPACK_BINARY_PRODUCTBUILD "")
+SET(CPACK_BINARY_RPM "")
+SET(CPACK_BINARY_STGZ "")
+SET(CPACK_BINARY_TBZ2 "")
+SET(CPACK_BINARY_TGZ "")
+SET(CPACK_BINARY_TXZ "")
+SET(CPACK_BINARY_TZ "")
+SET(CPACK_BINARY_WIX "OFF")
+SET(CPACK_BINARY_ZIP "OFF")
+SET(CPACK_BUILD_SOURCE_DIRS "C:/opencv/sources;C:/opencv/mingw-build")
+SET(CPACK_CMAKE_GENERATOR "MinGW Makefiles")
+SET(CPACK_COMPONENTS_ALL "dev;libs")
+SET(CPACK_COMPONENT_DEV_CONFLICTS "libopencv-dev, libopencv-calib3d-dev, libopencv-core-dev, libopencv-features2d-dev, libopencv-flann-dev, libopencv-highgui-dev, libopencv-imgcodecs-dev, libopencv-imgproc-dev, libopencv-ml-dev, libopencv-objdetect-dev, libopencv-photo-dev, libopencv-shape-dev, libopencv-stitching-dev, libopencv-superres-dev, libopencv-ts-dev, libopencv-video-dev, libopencv-videoio-dev, libopencv-videostab-dev")
+SET(CPACK_COMPONENT_DEV_DEPENDS "libs")
+SET(CPACK_COMPONENT_DEV_DESCRIPTION "Development files for Open Source Computer Vision Library")
+SET(CPACK_COMPONENT_DEV_DISPLAY_NAME "Development files")
+SET(CPACK_COMPONENT_DEV_PROVIDES "libopencv-dev, libopencv-calib3d-dev, libopencv-core-dev, libopencv-features2d-dev, libopencv-flann-dev, libopencv-highgui-dev, libopencv-imgcodecs-dev, libopencv-imgproc-dev, libopencv-ml-dev, libopencv-objdetect-dev, libopencv-photo-dev, libopencv-shape-dev, libopencv-stitching-dev, libopencv-superres-dev, libopencv-ts-dev, libopencv-video-dev, libopencv-videoio-dev, libopencv-videostab-dev")
+SET(CPACK_COMPONENT_DEV_REPLACES "libopencv-dev, libopencv-calib3d-dev, libopencv-core-dev, libopencv-features2d-dev, libopencv-flann-dev, libopencv-highgui-dev, libopencv-imgcodecs-dev, libopencv-imgproc-dev, libopencv-ml-dev, libopencv-objdetect-dev, libopencv-photo-dev, libopencv-shape-dev, libopencv-stitching-dev, libopencv-superres-dev, libopencv-ts-dev, libopencv-video-dev, libopencv-videoio-dev, libopencv-videostab-dev")
+SET(CPACK_COMPONENT_DOCS_CONFLICTS "opencv-doc")
+SET(CPACK_COMPONENT_DOCS_DEPENDS "libs")
+SET(CPACK_COMPONENT_DOCS_DESCRIPTION "Documentation for Open Source Computer Vision Library")
+SET(CPACK_COMPONENT_DOCS_DISPLAY_NAME "Documentation")
+SET(CPACK_COMPONENT_JAVA_CONFLICTS "libopencv3.0-java, libopencv3.0-jni")
+SET(CPACK_COMPONENT_JAVA_DEPENDS "libs")
+SET(CPACK_COMPONENT_JAVA_DESCRIPTION "Java bindings for Open Source Computer Vision Library")
+SET(CPACK_COMPONENT_JAVA_DISPLAY_NAME "Java bindings")
+SET(CPACK_COMPONENT_JAVA_PROVIDES "libopencv3.0-java, libopencv3.0-jni")
+SET(CPACK_COMPONENT_JAVA_REPLACES "libopencv3.0-java, libopencv3.0-jni")
+SET(CPACK_COMPONENT_LIBS_CONFLICTS "opencv-data, libopencv-calib3d3.0, libopencv-core3.0, libopencv-features2d3.0, libopencv-flann3.0, libopencv-highgui3.0, libopencv-imgcodecs3.0, libopencv-imgproc3.0, libopencv-ml3.0, libopencv-objdetect3.0, libopencv-photo3.0, libopencv-shape3.0, libopencv-stitching3.0, libopencv-superres3.0, libopencv-ts3.0, libopencv-video3.0, libopencv-videoio3.0, libopencv-videostab3.0")
+SET(CPACK_COMPONENT_LIBS_DESCRIPTION "Open Computer Vision Library")
+SET(CPACK_COMPONENT_LIBS_DISPLAY_NAME "Libraries and data")
+SET(CPACK_COMPONENT_LIBS_PROVIDES "opencv-data, libopencv-calib3d3.0, libopencv-core3.0, libopencv-features2d3.0, libopencv-flann3.0, libopencv-highgui3.0, libopencv-imgcodecs3.0, libopencv-imgproc3.0, libopencv-ml3.0, libopencv-objdetect3.0, libopencv-photo3.0, libopencv-shape3.0, libopencv-stitching3.0, libopencv-superres3.0, libopencv-ts3.0, libopencv-video3.0, libopencv-videoio3.0, libopencv-videostab3.0")
+SET(CPACK_COMPONENT_LIBS_REPLACES "opencv-data, libopencv-calib3d3.0, libopencv-core3.0, libopencv-features2d3.0, libopencv-flann3.0, libopencv-highgui3.0, libopencv-imgcodecs3.0, libopencv-imgproc3.0, libopencv-ml3.0, libopencv-objdetect3.0, libopencv-photo3.0, libopencv-shape3.0, libopencv-stitching3.0, libopencv-superres3.0, libopencv-ts3.0, libopencv-video3.0, libopencv-videoio3.0, libopencv-videostab3.0")
+SET(CPACK_COMPONENT_LIBS_REQUIRED "TRUE")
+SET(CPACK_COMPONENT_PYTHON_CONFLICTS "python-opencv")
+SET(CPACK_COMPONENT_PYTHON_DEPENDS "libs")
+SET(CPACK_COMPONENT_PYTHON_DESCRIPTION "Python bindings for Open Source Computer Vision Library")
+SET(CPACK_COMPONENT_PYTHON_DISPLAY_NAME "Python bindings")
+SET(CPACK_COMPONENT_PYTHON_PROVIDES "python-opencv")
+SET(CPACK_COMPONENT_PYTHON_REPLACES "python-opencv")
+SET(CPACK_COMPONENT_SAMPLES_CONFLICTS "opencv-doc")
+SET(CPACK_COMPONENT_SAMPLES_DEPENDS "libs")
+SET(CPACK_COMPONENT_SAMPLES_DESCRIPTION "Samples for Open Source Computer Vision Library")
+SET(CPACK_COMPONENT_SAMPLES_DISPLAY_NAME "Samples")
+SET(CPACK_COMPONENT_TESTS_DEPENDS "libs")
+SET(CPACK_COMPONENT_TESTS_DESCRIPTION "Accuracy and performance tests for Open Source Computer Vision Library")
+SET(CPACK_COMPONENT_TESTS_DISPLAY_NAME "Tests")
+SET(CPACK_COMPONENT_UNSPECIFIED_HIDDEN "TRUE")
+SET(CPACK_COMPONENT_UNSPECIFIED_REQUIRED "TRUE")
+SET(CPACK_DEBIAN_COMPONENT_DEV_NAME "libOpenCV-dev")
+SET(CPACK_DEBIAN_COMPONENT_DOCS_NAME "libOpenCV-docs")
+SET(CPACK_DEBIAN_COMPONENT_JAVA_NAME "libOpenCV-java")
+SET(CPACK_DEBIAN_COMPONENT_LIBS_NAME "libOpenCV")
+SET(CPACK_DEBIAN_COMPONENT_PYTHON_NAME "libOpenCV-python")
+SET(CPACK_DEBIAN_COMPONENT_SAMPLES_NAME "libOpenCV-samples")
+SET(CPACK_DEBIAN_COMPONENT_TESTS_NAME "libOpenCV-tests")
+SET(CPACK_DEBIAN_PACKAGE_ARCHITECTURE "amd64")
+SET(CPACK_DEBIAN_PACKAGE_HOMEPAGE "http://opencv.org")
+SET(CPACK_DEBIAN_PACKAGE_PRIORITY "optional")
+SET(CPACK_DEBIAN_PACKAGE_SECTION "libs")
+SET(CPACK_DEBIAN_PACKAGE_SHLIBDEPS "TRUE")
+SET(CPACK_DEB_COMPONENT_INSTALL "TRUE")
+SET(CPACK_GENERATOR "7Z;ZIP")
+SET(CPACK_IGNORE_FILES "/CVS/;/\\.svn/;/\\.bzr/;/\\.hg/;/\\.git/;\\.swp\$;\\.#;/#")
+SET(CPACK_INSTALLED_DIRECTORIES "C:/opencv/sources;/")
+SET(CPACK_INSTALL_CMAKE_PROJECTS "")
+SET(CPACK_INSTALL_PREFIX "C:/opencv/mingw-build/install")
+SET(CPACK_MODULE_PATH ";C:/opencv/sources/cmake")
+SET(CPACK_NSIS_DISPLAY_NAME "OpenCV unknown")
+SET(CPACK_NSIS_INSTALLER_ICON_CODE "")
+SET(CPACK_NSIS_INSTALLER_MUI_ICON_CODE "")
+SET(CPACK_NSIS_INSTALL_ROOT "$PROGRAMFILES64")
+SET(CPACK_NSIS_PACKAGE_NAME "OpenCV unknown")
+SET(CPACK_OUTPUT_CONFIG_FILE "C:/opencv/mingw-build/CPackConfig.cmake")
+SET(CPACK_PACKAGE_CONTACT "admin@opencv.org")
+SET(CPACK_PACKAGE_DEFAULT_LOCATION "/")
+SET(CPACK_PACKAGE_DESCRIPTION "OpenCV (Open Source Computer Vision Library) is an open source computer vision
+and machine learning software library. OpenCV was built to provide a common
+infrastructure for computer vision applications and to accelerate the use of
+machine perception in the commercial products. Being a BSD-licensed product,
+OpenCV makes it easy for businesses to utilize and modify the code.")
+SET(CPACK_PACKAGE_DESCRIPTION_FILE "C:/cmake-3.7.2/share/cmake-3.7/Templates/CPack.GenericDescription.txt")
+SET(CPACK_PACKAGE_DESCRIPTION_SUMMARY "Open Computer Vision Library")
+SET(CPACK_PACKAGE_FILE_NAME "OpenCV-unknown-AMD64")
+SET(CPACK_PACKAGE_INSTALL_DIRECTORY "OpenCV unknown")
+SET(CPACK_PACKAGE_INSTALL_REGISTRY_KEY "OpenCV unknown")
+SET(CPACK_PACKAGE_NAME "OpenCV")
+SET(CPACK_PACKAGE_RELOCATABLE "true")
+SET(CPACK_PACKAGE_VENDOR "OpenCV Foundation")
+SET(CPACK_PACKAGE_VERSION "unknown")
+SET(CPACK_PACKAGE_VERSION_MAJOR "3")
+SET(CPACK_PACKAGE_VERSION_MINOR "4")
+SET(CPACK_PACKAGE_VERSION_PATCH "1")
+SET(CPACK_RESOURCE_FILE_LICENSE "C:/opencv/sources/LICENSE")
+SET(CPACK_RESOURCE_FILE_README "C:/cmake-3.7.2/share/cmake-3.7/Templates/CPack.GenericDescription.txt")
+SET(CPACK_RESOURCE_FILE_WELCOME "C:/cmake-3.7.2/share/cmake-3.7/Templates/CPack.GenericWelcome.txt")
+SET(CPACK_RPM_COMPONENT_INSTALL "TRUE")
+SET(CPACK_RPM_PACKAGE_ARCHITECTURE "x86_64")
+SET(CPACK_RPM_PACKAGE_DESCRIPTION "OpenCV (Open Source Computer Vision Library) is an open source computer vision
+and machine learning software library. OpenCV was built to provide a common
+infrastructure for computer vision applications and to accelerate the use of
+machine perception in the commercial products. Being a BSD-licensed product,
+OpenCV makes it easy for businesses to utilize and modify the code.")
+SET(CPACK_RPM_PACKAGE_LICENSE "BSD")
+SET(CPACK_RPM_PACKAGE_SOURCES "ON")
+SET(CPACK_RPM_PACKAGE_SUMMARY "Open Computer Vision Library")
+SET(CPACK_RPM_PACKAGE_URL "http://opencv.org")
+SET(CPACK_SET_DESTDIR "OFF")
+SET(CPACK_SOURCE_7Z "ON")
+SET(CPACK_SOURCE_CYGWIN "")
+SET(CPACK_SOURCE_GENERATOR "7Z;ZIP")
+SET(CPACK_SOURCE_IGNORE_FILES "/CVS/;/\\.svn/;/\\.bzr/;/\\.hg/;/\\.git/;\\.swp\$;\\.#;/#")
+SET(CPACK_SOURCE_INSTALLED_DIRECTORIES "C:/opencv/sources;/")
+SET(CPACK_SOURCE_OUTPUT_CONFIG_FILE "C:/opencv/mingw-build/CPackSourceConfig.cmake")
+SET(CPACK_SOURCE_PACKAGE_FILE_NAME "OpenCV-unknown-AMD64")
+SET(CPACK_SOURCE_RPM "")
+SET(CPACK_SOURCE_TBZ2 "")
+SET(CPACK_SOURCE_TGZ "")
+SET(CPACK_SOURCE_TOPLEVEL_TAG "win64-Source")
+SET(CPACK_SOURCE_TXZ "")
+SET(CPACK_SOURCE_TZ "")
+SET(CPACK_SOURCE_ZIP "ON")
+SET(CPACK_STRIP_FILES "")
+SET(CPACK_SYSTEM_NAME "win64")
+SET(CPACK_TOPLEVEL_TAG "win64-Source")
+SET(CPACK_WIX_SIZEOF_VOID_P "8")
+SET(CPACK_set_DESTDIR "on")
+_INCLUDED_FILE=C:/cmake-3.7.2/share/cmake-3.7/Modules/Platform/Windows-GNU-C.cmake
+_INCLUDED_SYSTEM_INFO_FILE=C:/cmake-3.7.2/share/cmake-3.7/Modules/Platform/Windows.cmake
+_IN_TC=0
+_JAVA_HOME=
+_LIBRARIES=BLAS_LIBRARIES
+_PCH_define_prefix=-D
+_PCH_include_prefix=-I
+_PCH_isystem_prefix=-isystem
+_blas_ORIG_CMAKE_FIND_LIBRARY_SUFFIXES=.dll;.dll.a;.a;.lib
+_combined_name=_mkl_intel_lp64_mkl_sequential_mkl_core
+_extra=
+_fname=
+_help=GNU ld (GNU Binutils) 2.25
+
+_java_libarch=AMD64;i386;amd64;ppc
+_lang=C
+_lapack_ORIG_CMAKE_FIND_LIBRARY_SUFFIXES=.dll;.dll.a;.a;.lib
+_lib_suffix=lib
+_libarch=
+_libdir=ENV;LIB
+_libraries_work=BLAS_mkl_intel_lp64_LIBRARY-NOTFOUND
+_library=
+_list=
+_modules=opencv_dnn;opencv_ml;opencv_objdetect;opencv_shape;opencv_stitching;opencv_superres;opencv_videostab;opencv_calib3d;opencv_features2d;opencv_highgui;opencv_videoio;opencv_imgcodecs;opencv_video;opencv_photo;opencv_imgproc;opencv_flann;opencv_core
+_newpath=/usr/lib/jvm/java-6-openjdk-ppc/include
+_path=
+_rev_deps=opencv_videostab;opencv_calib3d;opencv_features2d;opencv_highgui;opencv_videoio;opencv_imgcodecs;opencv_video;opencv_photo;opencv_imgproc;opencv_flann;opencv_core
+_var=
+_varname=HAVE_C_FVISIBILITY_INLINES_HIDDEN
+_ver=gcc.exe (tdm64-1) 5.1.0
+Copyright (C) 2015 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+annotation_BINARY_DIR=C:/opencv/mingw-build/apps/annotation
+annotation_SOURCE_DIR=C:/opencv/sources/apps/annotation
+apps_status=tests;perf_tests;apps
+arg=
+bigendian=0
+c=
+ccitt=ON
+compatible_MESSAGE_NEVER=MESSAGE_NEVER
+cpack_input_file=C:/cmake-3.7.2/share/cmake-3.7/Templates/CPackConfig.cmake.in
+cpack_source_input_file=C:/cmake-3.7.2/share/cmake-3.7/Templates/CPackConfig.cmake.in
+createsamples_BINARY_DIR=C:/opencv/mingw-build/apps/createsamples
+createsamples_SOURCE_DIR=C:/opencv/sources/apps/createsamples
+cuda_features=no extra features
+d=
+dep=
+deps=opencv_core;opencv_flann;opencv_imgproc;opencv_photo;opencv_video;opencv_imgcodecs;opencv_videoio;opencv_highgui;opencv_features2d;opencv_calib3d
+deps_3rdparty=
+deps_extra=
+deps_modules=opencv_dnn;opencv_ml;opencv_objdetect;opencv_shape;opencv_stitching;opencv_superres;opencv_videostab;opencv_calib3d;opencv_features2d;opencv_highgui;opencv_videoio;opencv_imgcodecs;opencv_video;opencv_photo;opencv_imgproc;opencv_flann;opencv_core
+dir=
+docs_status=NO
+f=
+github_path=
+hal=
+int16=
+int32=
+int8=
+interactive-calibration_BINARY_DIR=C:/opencv/mingw-build/apps/interactive-calibration
+interactive-calibration_SOURCE_DIR=C:/opencv/sources/apps/interactive-calibration
+item=
+java_install_version=registry
+jpath=
+libjasper_BINARY_DIR=C:/opencv/mingw-build/3rdparty/libjasper
+libjasper_LIB_DEPENDS=
+libjasper_SOURCE_DIR=C:/opencv/sources/3rdparty/libjasper
+libjpeg_BINARY_DIR=C:/opencv/mingw-build/3rdparty/libjpeg
+libjpeg_LIB_DEPENDS=
+libjpeg_SOURCE_DIR=C:/opencv/sources/3rdparty/libjpeg
+libpng_BINARY_DIR=C:/opencv/mingw-build/3rdparty/libpng
+libpng_LIB_DEPENDS=general;zlib;
+libpng_SOURCE_DIR=C:/opencv/sources/3rdparty/libpng
+libprotobuf_BINARY_DIR=C:/opencv/mingw-build/3rdparty/protobuf
+libprotobuf_LIB_DEPENDS=
+libprotobuf_SOURCE_DIR=C:/opencv/sources/3rdparty/protobuf
+libtiff_BINARY_DIR=C:/opencv/mingw-build/3rdparty/libtiff
+libtiff_LIB_DEPENDS=general;zlib;
+libtiff_SOURCE_DIR=C:/opencv/sources/3rdparty/libtiff
+libwebp_BINARY_DIR=C:/opencv/mingw-build/3rdparty/libwebp
+libwebp_LIB_DEPENDS=
+libwebp_SOURCE_DIR=C:/opencv/sources/3rdparty/libwebp
+logluv=ON
+lst=
+lzw=ON
+m=
+mdi=ON
+mkl_root_paths=MKL_ROOT_DIR-NOTFOUND
+mod=
+module=
+name=
+next=ON
+old-jpeg=OFF
+opencl_features=no extra features
+opencv_calib3d_BINARY_DIR=C:/opencv/mingw-build/modules/calib3d
+opencv_calib3d_LIB_DEPENDS=general;opencv_core;general;opencv_flann;general;opencv_imgproc;general;opencv_imgcodecs;general;opencv_videoio;general;opencv_highgui;general;opencv_features2d;
+opencv_calib3d_SOURCE_DIR=C:/opencv/sources/modules/calib3d
+opencv_calib3d_pch_dephelp_LIB_DEPENDS=
+opencv_core_BINARY_DIR=C:/opencv/mingw-build/modules/core
+opencv_core_LIB_DEPENDS=general;zlib;
+opencv_core_SOURCE_DIR=C:/opencv/sources/modules/core
+opencv_core_pch_dephelp_LIB_DEPENDS=
+opencv_dnn_BINARY_DIR=C:/opencv/mingw-build/modules/dnn
+opencv_dnn_LIB_DEPENDS=general;opencv_core;general;opencv_imgproc;general;libprotobuf;
+opencv_dnn_PERF_CAFFE=OFF
+opencv_dnn_PERF_CLCAFFE=OFF
+opencv_dnn_SOURCE_DIR=C:/opencv/sources/modules/dnn
+opencv_dnn_pch_dephelp_LIB_DEPENDS=
+opencv_features2d_BINARY_DIR=C:/opencv/mingw-build/modules/features2d
+opencv_features2d_LIB_DEPENDS=general;opencv_core;general;opencv_flann;general;opencv_imgproc;general;opencv_imgcodecs;general;opencv_videoio;general;opencv_highgui;
+opencv_features2d_SOURCE_DIR=C:/opencv/sources/modules/features2d
+opencv_features2d_pch_dephelp_LIB_DEPENDS=
+opencv_flann_BINARY_DIR=C:/opencv/mingw-build/modules/flann
+opencv_flann_LIB_DEPENDS=general;opencv_core;
+opencv_flann_SOURCE_DIR=C:/opencv/sources/modules/flann
+opencv_flann_pch_dephelp_LIB_DEPENDS=
+opencv_highgui_BINARY_DIR=C:/opencv/mingw-build/modules/highgui
+opencv_highgui_LIB_DEPENDS=general;opencv_core;general;opencv_imgproc;general;opencv_imgcodecs;general;opencv_videoio;general;comctl32;general;gdi32;general;ole32;general;setupapi;general;ws2_32;
+opencv_highgui_SOURCE_DIR=C:/opencv/sources/modules/highgui
+opencv_highgui_pch_dephelp_LIB_DEPENDS=
+opencv_imgcodecs_BINARY_DIR=C:/opencv/mingw-build/modules/imgcodecs
+opencv_imgcodecs_LIB_DEPENDS=general;opencv_core;general;opencv_imgproc;general;zlib;general;libjpeg;general;libwebp;general;libpng;general;libtiff;general;libjasper;general;IlmImf;
+opencv_imgcodecs_SOURCE_DIR=C:/opencv/sources/modules/imgcodecs
+opencv_imgcodecs_pch_dephelp_LIB_DEPENDS=
+opencv_imgproc_BINARY_DIR=C:/opencv/mingw-build/modules/imgproc
+opencv_imgproc_LIB_DEPENDS=general;opencv_core;
+opencv_imgproc_SOURCE_DIR=C:/opencv/sources/modules/imgproc
+opencv_imgproc_pch_dephelp_LIB_DEPENDS=
+opencv_java_bindings_generator_BINARY_DIR=C:/opencv/mingw-build/modules/java_bindings_generator
+opencv_java_bindings_generator_SOURCE_DIR=C:/opencv/sources/modules/java/generator
+opencv_ml_BINARY_DIR=C:/opencv/mingw-build/modules/ml
+opencv_ml_LIB_DEPENDS=general;opencv_core;
+opencv_ml_SOURCE_DIR=C:/opencv/sources/modules/ml
+opencv_ml_pch_dephelp_LIB_DEPENDS=
+opencv_objdetect_BINARY_DIR=C:/opencv/mingw-build/modules/objdetect
+opencv_objdetect_LIB_DEPENDS=general;opencv_core;general;opencv_imgproc;
+opencv_objdetect_SOURCE_DIR=C:/opencv/sources/modules/objdetect
+opencv_objdetect_pch_dephelp_LIB_DEPENDS=
+opencv_perf_calib3d_pch_dephelp_LIB_DEPENDS=
+opencv_perf_core_pch_dephelp_LIB_DEPENDS=
+opencv_perf_dnn_pch_dephelp_LIB_DEPENDS=
+opencv_perf_features2d_pch_dephelp_LIB_DEPENDS=
+opencv_perf_imgcodecs_pch_dephelp_LIB_DEPENDS=
+opencv_perf_imgproc_pch_dephelp_LIB_DEPENDS=
+opencv_perf_objdetect_pch_dephelp_LIB_DEPENDS=
+opencv_perf_photo_pch_dephelp_LIB_DEPENDS=
+opencv_perf_stitching_pch_dephelp_LIB_DEPENDS=
+opencv_perf_superres_pch_dephelp_LIB_DEPENDS=
+opencv_perf_video_pch_dephelp_LIB_DEPENDS=
+opencv_perf_videoio_pch_dephelp_LIB_DEPENDS=
+opencv_photo_BINARY_DIR=C:/opencv/mingw-build/modules/photo
+opencv_photo_LIB_DEPENDS=general;opencv_core;general;opencv_imgproc;
+opencv_photo_SOURCE_DIR=C:/opencv/sources/modules/photo
+opencv_photo_pch_dephelp_LIB_DEPENDS=
+opencv_python_bindings_generator_BINARY_DIR=C:/opencv/mingw-build/modules/python_bindings_generator
+opencv_python_bindings_generator_SOURCE_DIR=C:/opencv/sources/modules/python/bindings
+opencv_shape_BINARY_DIR=C:/opencv/mingw-build/modules/shape
+opencv_shape_LIB_DEPENDS=general;opencv_core;general;opencv_imgproc;general;opencv_video;
+opencv_shape_SOURCE_DIR=C:/opencv/sources/modules/shape
+opencv_shape_pch_dephelp_LIB_DEPENDS=
+opencv_stitching_BINARY_DIR=C:/opencv/mingw-build/modules/stitching
+opencv_stitching_LIB_DEPENDS=general;opencv_core;general;opencv_flann;general;opencv_imgproc;general;opencv_imgcodecs;general;opencv_videoio;general;opencv_highgui;general;opencv_features2d;general;opencv_calib3d;
+opencv_stitching_SOURCE_DIR=C:/opencv/sources/modules/stitching
+opencv_stitching_pch_dephelp_LIB_DEPENDS=
+opencv_superres_BINARY_DIR=C:/opencv/mingw-build/modules/superres
+opencv_superres_LIB_DEPENDS=general;opencv_core;general;opencv_imgproc;general;opencv_video;general;opencv_imgcodecs;general;opencv_videoio;
+opencv_superres_SOURCE_DIR=C:/opencv/sources/modules/superres
+opencv_superres_pch_dephelp_LIB_DEPENDS=
+opencv_test_calib3d_pch_dephelp_LIB_DEPENDS=
+opencv_test_core_pch_dephelp_LIB_DEPENDS=
+opencv_test_dnn_pch_dephelp_LIB_DEPENDS=
+opencv_test_features2d_pch_dephelp_LIB_DEPENDS=
+opencv_test_flann_pch_dephelp_LIB_DEPENDS=
+opencv_test_highgui_pch_dephelp_LIB_DEPENDS=
+opencv_test_imgcodecs_pch_dephelp_LIB_DEPENDS=
+opencv_test_imgproc_pch_dephelp_LIB_DEPENDS=
+opencv_test_ml_pch_dephelp_LIB_DEPENDS=
+opencv_test_objdetect_pch_dephelp_LIB_DEPENDS=
+opencv_test_photo_pch_dephelp_LIB_DEPENDS=
+opencv_test_shape_pch_dephelp_LIB_DEPENDS=
+opencv_test_stitching_pch_dephelp_LIB_DEPENDS=
+opencv_test_superres_pch_dephelp_LIB_DEPENDS=
+opencv_test_video_pch_dephelp_LIB_DEPENDS=
+opencv_test_videoio_pch_dephelp_LIB_DEPENDS=
+opencv_test_videostab_pch_dephelp_LIB_DEPENDS=
+opencv_ts_BINARY_DIR=C:/opencv/mingw-build/modules/ts
+opencv_ts_LIB_DEPENDS=general;opencv_core;general;opencv_imgproc;general;opencv_imgcodecs;general;opencv_videoio;general;opencv_highgui;
+opencv_ts_SOURCE_DIR=C:/opencv/sources/modules/ts
+opencv_ts_pch_dephelp_LIB_DEPENDS=
+opencv_version_BINARY_DIR=C:/opencv/mingw-build/apps/version
+opencv_version_SOURCE_DIR=C:/opencv/sources/apps/version
+opencv_video_BINARY_DIR=C:/opencv/mingw-build/modules/video
+opencv_video_LIB_DEPENDS=general;opencv_core;general;opencv_imgproc;
+opencv_video_SOURCE_DIR=C:/opencv/sources/modules/video
+opencv_video_pch_dephelp_LIB_DEPENDS=
+opencv_videoio_BINARY_DIR=C:/opencv/mingw-build/modules/videoio
+opencv_videoio_LIB_DEPENDS=general;opencv_core;general;opencv_imgproc;general;opencv_imgcodecs;general;avifil32;general;avicap32;general;winmm;general;msvfw32;
+opencv_videoio_SOURCE_DIR=C:/opencv/sources/modules/videoio
+opencv_videoio_pch_dephelp_LIB_DEPENDS=
+opencv_videostab_BINARY_DIR=C:/opencv/mingw-build/modules/videostab
+opencv_videostab_LIB_DEPENDS=general;opencv_core;general;opencv_flann;general;opencv_imgproc;general;opencv_photo;general;opencv_video;general;opencv_imgcodecs;general;opencv_videoio;general;opencv_highgui;general;opencv_features2d;general;opencv_calib3d;
+opencv_videostab_SOURCE_DIR=C:/opencv/sources/modules/videostab
+opencv_videostab_pch_dephelp_LIB_DEPENDS=
+openexr_BINARY_DIR=C:/opencv/mingw-build/3rdparty/openexr
+openexr_SOURCE_DIR=C:/opencv/sources/3rdparty/openexr
+packbits=ON
+parallel_status=none
+rule=
+s=
+search=
+t=
+thunder=ON
+trace_status=built-in
+traincascade_BINARY_DIR=C:/opencv/mingw-build/apps/traincascade
+traincascade_SOURCE_DIR=C:/opencv/sources/apps/traincascade
+type=
+v=
+var=
+var_name=
+vars_regex=PNG_LIBPNG_VER_MAJOR|PNG_LIBPNG_VER_MINOR|PNG_LIBPNG_VER_RELEASE
+visualisation_BINARY_DIR=C:/opencv/mingw-build/apps/visualisation
+visualisation_SOURCE_DIR=C:/opencv/sources/apps/visualisation
+zlib_BINARY_DIR=C:/opencv/mingw-build/3rdparty/zlib
+zlib_LIB_DEPENDS=
+zlib_SOURCE_DIR=C:/opencv/sources/3rdparty/zlib

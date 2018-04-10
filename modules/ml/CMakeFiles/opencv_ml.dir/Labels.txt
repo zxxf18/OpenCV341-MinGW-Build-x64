@@ -1,0 +1,88 @@
+# Target labels
+ Main
+ opencv_ml
+ Module
+# Source files and their labels
+C:/opencv/sources/modules/ml/include/opencv2/ml.hpp
+ Main
+ opencv_ml
+ Module
+C:/opencv/sources/modules/ml/include/opencv2/ml/ml.hpp
+ Main
+ opencv_ml
+ Module
+C:/opencv/sources/modules/ml/include/opencv2/ml/ml.inl.hpp
+ Main
+ opencv_ml
+ Module
+C:/opencv/sources/modules/ml/src/ann_mlp.cpp
+ Main
+ opencv_ml
+ Module
+C:/opencv/sources/modules/ml/src/boost.cpp
+ Main
+ opencv_ml
+ Module
+C:/opencv/sources/modules/ml/src/data.cpp
+ Main
+ opencv_ml
+ Module
+C:/opencv/sources/modules/ml/src/em.cpp
+ Main
+ opencv_ml
+ Module
+C:/opencv/sources/modules/ml/src/gbt.cpp
+ Main
+ opencv_ml
+ Module
+C:/opencv/sources/modules/ml/src/inner_functions.cpp
+ Main
+ opencv_ml
+ Module
+C:/opencv/sources/modules/ml/src/kdtree.cpp
+ Main
+ opencv_ml
+ Module
+C:/opencv/sources/modules/ml/src/knearest.cpp
+ Main
+ opencv_ml
+ Module
+C:/opencv/sources/modules/ml/src/lr.cpp
+ Main
+ opencv_ml
+ Module
+C:/opencv/sources/modules/ml/src/nbayes.cpp
+ Main
+ opencv_ml
+ Module
+C:/opencv/sources/modules/ml/src/rtrees.cpp
+ Main
+ opencv_ml
+ Module
+C:/opencv/sources/modules/ml/src/svm.cpp
+ Main
+ opencv_ml
+ Module
+C:/opencv/sources/modules/ml/src/svmsgd.cpp
+ Main
+ opencv_ml
+ Module
+C:/opencv/sources/modules/ml/src/testset.cpp
+ Main
+ opencv_ml
+ Module
+C:/opencv/sources/modules/ml/src/tree.cpp
+ Main
+ opencv_ml
+ Module
+C:/opencv/sources/modules/ml/src/kdtree.hpp
+ Main
+ opencv_ml
+ Module
+C:/opencv/sources/modules/ml/src/precomp.hpp
+ Main
+ opencv_ml
+ Module
+C:/opencv/mingw-build/cvconfig.h
+C:/opencv/mingw-build/opencv2/opencv_modules.hpp
+C:/opencv/mingw-build/modules/ml/vs_version.rc

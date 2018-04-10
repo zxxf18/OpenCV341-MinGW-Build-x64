@@ -1,0 +1,800 @@
+Compilation failed:
+    source file: 'C:/opencv/sources/cmake/checks/cxx11.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: C:/opencv/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe" "cmTC_9805a/fast"
+C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_9805a.dir\build.make CMakeFiles/cmTC_9805a.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9805a.dir/cxx11.cpp.obj
+C:\PROGRA~2\TDM-GCC\bin\G__~1.EXE      -o CMakeFiles\cmTC_9805a.dir\cxx11.cpp.obj -c C:\opencv\sources\cmake\checks\cxx11.cpp
+C:\opencv\sources\cmake\checks\cxx11.cpp:4:2: error: #error "C++11 is not supported"
+ #error "C++11 is not supported"
+  ^
+C:\opencv\sources\cmake\checks\cxx11.cpp: In function 'int main()':
+C:\opencv\sources\cmake\checks\cxx11.cpp:11:10: error: 'res' does not name a type
+     auto res = test();
+          ^
+C:\opencv\sources\cmake\checks\cxx11.cpp:12:12: error: 'res' was not declared in this scope
+     return res;
+            ^
+CMakeFiles\cmTC_9805a.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_9805a.dir/cxx11.cpp.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_9805a.dir/cxx11.cpp.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_9805a/fast' failed
+mingw32-make.exe: *** [cmTC_9805a/fast] Error 2
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus.exe: warning: command line option '-Wmissing-prototypes' is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wmissing-prototypes'
+===== BUILD LOG =====
+Change Dir: C:/opencv/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe" "cmTC_a180a/fast"
+C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_a180a.dir\build.make CMakeFiles/cmTC_a180a.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a180a.dir/src.cxx.obj
+C:\PROGRA~2\TDM-GCC\bin\G__~1.EXE     -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -o CMakeFiles\cmTC_a180a.dir\src.cxx.obj -c C:\opencv\mingw-build\CMakeFiles\CMakeTmp\src.cxx
+cc1plus.exe: warning: command line option '-Wmissing-prototypes' is valid for C/ObjC but not for C++
+C:\opencv\mingw-build\CMakeFiles\CMakeTmp\src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking CXX executable cmTC_a180a.exe
+C:\cmake-3.7.2\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_a180a.dir\link.txt --verbose=1
+C:\cmake-3.7.2\bin\cmake.exe -E remove -f CMakeFiles\cmTC_a180a.dir/objects.a
+C:\PROGRA~2\TDM-GCC\bin\ar.exe cr CMakeFiles\cmTC_a180a.dir/objects.a @CMakeFiles\cmTC_a180a.dir\objects1.rsp
+C:\PROGRA~2\TDM-GCC\bin\G__~1.EXE    -O3 -DNDEBUG    -Wl,--whole-archive CMakeFiles\cmTC_a180a.dir/objects.a -Wl,--no-whole-archive  -o cmTC_a180a.exe -Wl,--out-implib,libcmTC_a180a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_a180a.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus.exe: warning: command line option '-Wstrict-prototypes' is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wstrict-prototypes'
+===== BUILD LOG =====
+Change Dir: C:/opencv/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe" "cmTC_3cc75/fast"
+C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_3cc75.dir\build.make CMakeFiles/cmTC_3cc75.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3cc75.dir/src.cxx.obj
+C:\PROGRA~2\TDM-GCC\bin\G__~1.EXE     -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wstrict-prototypes -o CMakeFiles\cmTC_3cc75.dir\src.cxx.obj -c C:\opencv\mingw-build\CMakeFiles\CMakeTmp\src.cxx
+cc1plus.exe: warning: command line option '-Wstrict-prototypes' is valid for C/ObjC but not for C++
+C:\opencv\mingw-build\CMakeFiles\CMakeTmp\src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking CXX executable cmTC_3cc75.exe
+C:\cmake-3.7.2\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_3cc75.dir\link.txt --verbose=1
+C:\cmake-3.7.2\bin\cmake.exe -E remove -f CMakeFiles\cmTC_3cc75.dir/objects.a
+C:\PROGRA~2\TDM-GCC\bin\ar.exe cr CMakeFiles\cmTC_3cc75.dir/objects.a @CMakeFiles\cmTC_3cc75.dir\objects1.rsp
+C:\PROGRA~2\TDM-GCC\bin\G__~1.EXE    -O3 -DNDEBUG    -Wl,--whole-archive CMakeFiles\cmTC_3cc75.dir/objects.a -Wl,--no-whole-archive  -o cmTC_3cc75.exe -Wl,--out-implib,libcmTC_3cc75.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_3cc75.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1.exe: warning: command line option '-Wsign-promo' is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo'
+===== BUILD LOG =====
+Change Dir: C:/opencv/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe" "cmTC_cccde/fast"
+C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_cccde.dir\build.make CMakeFiles/cmTC_cccde.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cccde.dir/src.c.obj
+C:\PROGRA~2\TDM-GCC\bin\gcc.exe    -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -o CMakeFiles\cmTC_cccde.dir\src.c.obj   -c C:\opencv\mingw-build\CMakeFiles\CMakeTmp\src.c
+cc1.exe: warning: command line option '-Wsign-promo' is valid for C++/ObjC++ but not for C
+C:\opencv\mingw-build\CMakeFiles\CMakeTmp\src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking C executable cmTC_cccde.exe
+C:\cmake-3.7.2\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_cccde.dir\link.txt --verbose=1
+C:\cmake-3.7.2\bin\cmake.exe -E remove -f CMakeFiles\cmTC_cccde.dir/objects.a
+C:\PROGRA~2\TDM-GCC\bin\ar.exe cr CMakeFiles\cmTC_cccde.dir/objects.a @CMakeFiles\cmTC_cccde.dir\objects1.rsp
+C:\PROGRA~2\TDM-GCC\bin\gcc.exe    -O3 -DNDEBUG    -Wl,--whole-archive CMakeFiles\cmTC_cccde.dir/objects.a -Wl,--no-whole-archive  -o cmTC_cccde.exe -Wl,--out-implib,libcmTC_cccde.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_cccde.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1.exe: warning: command line option '-Wno-delete-non-virtual-dtor' is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing  -Wno-delete-non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: C:/opencv/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe" "cmTC_232c1/fast"
+C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_232c1.dir\build.make CMakeFiles/cmTC_232c1.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_232c1.dir/src.c.obj
+C:\PROGRA~2\TDM-GCC\bin\gcc.exe    -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -o CMakeFiles\cmTC_232c1.dir\src.c.obj   -c C:\opencv\mingw-build\CMakeFiles\CMakeTmp\src.c
+cc1.exe: warning: command line option '-Wno-delete-non-virtual-dtor' is valid for C++/ObjC++ but not for C
+C:\opencv\mingw-build\CMakeFiles\CMakeTmp\src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking C executable cmTC_232c1.exe
+C:\cmake-3.7.2\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_232c1.dir\link.txt --verbose=1
+C:\cmake-3.7.2\bin\cmake.exe -E remove -f CMakeFiles\cmTC_232c1.dir/objects.a
+C:\PROGRA~2\TDM-GCC\bin\ar.exe cr CMakeFiles\cmTC_232c1.dir/objects.a @CMakeFiles\cmTC_232c1.dir\objects1.rsp
+C:\PROGRA~2\TDM-GCC\bin\gcc.exe    -O3 -DNDEBUG    -Wl,--whole-archive CMakeFiles\cmTC_232c1.dir/objects.a -Wl,--no-whole-archive  -o cmTC_232c1.exe -Wl,--out-implib,libcmTC_232c1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_232c1.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus.exe: warning: unrecognized command line option '-Wno-unnamed-type-template-args''
+Compilation failed:
+    source file: 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: C:/opencv/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe" "cmTC_8c3f1/fast"
+C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_8c3f1.dir\build.make CMakeFiles/cmTC_8c3f1.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8c3f1.dir/src.cxx.obj
+C:\PROGRA~2\TDM-GCC\bin\G__~1.EXE     -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -o CMakeFiles\cmTC_8c3f1.dir\src.cxx.obj -c C:\opencv\mingw-build\CMakeFiles\CMakeTmp\src.cxx
+C:\opencv\mingw-build\CMakeFiles\CMakeTmp\src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus.exe: warning: unrecognized command line option '-Wno-unnamed-type-template-args'
+Linking CXX executable cmTC_8c3f1.exe
+C:\cmake-3.7.2\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_8c3f1.dir\link.txt --verbose=1
+C:\cmake-3.7.2\bin\cmake.exe -E remove -f CMakeFiles\cmTC_8c3f1.dir/objects.a
+C:\PROGRA~2\TDM-GCC\bin\ar.exe cr CMakeFiles\cmTC_8c3f1.dir/objects.a @CMakeFiles\cmTC_8c3f1.dir\objects1.rsp
+C:\PROGRA~2\TDM-GCC\bin\G__~1.EXE    -O3 -DNDEBUG    -Wl,--whole-archive CMakeFiles\cmTC_8c3f1.dir/objects.a -Wl,--no-whole-archive  -o cmTC_8c3f1.exe -Wl,--out-implib,libcmTC_8c3f1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_8c3f1.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1.exe: warning: unrecognized command line option '-Wno-unnamed-type-template-args''
+Compilation failed:
+    source file: 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: C:/opencv/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe" "cmTC_94e99/fast"
+C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_94e99.dir\build.make CMakeFiles/cmTC_94e99.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_94e99.dir/src.c.obj
+C:\PROGRA~2\TDM-GCC\bin\gcc.exe    -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-unnamed-type-template-args -o CMakeFiles\cmTC_94e99.dir\src.c.obj   -c C:\opencv\mingw-build\CMakeFiles\CMakeTmp\src.c
+C:\opencv\mingw-build\CMakeFiles\CMakeTmp\src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1.exe: warning: unrecognized command line option '-Wno-unnamed-type-template-args'
+Linking C executable cmTC_94e99.exe
+C:\cmake-3.7.2\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_94e99.dir\link.txt --verbose=1
+C:\cmake-3.7.2\bin\cmake.exe -E remove -f CMakeFiles\cmTC_94e99.dir/objects.a
+C:\PROGRA~2\TDM-GCC\bin\ar.exe cr CMakeFiles\cmTC_94e99.dir/objects.a @CMakeFiles\cmTC_94e99.dir\objects1.rsp
+C:\PROGRA~2\TDM-GCC\bin\gcc.exe    -O3 -DNDEBUG    -Wl,--whole-archive CMakeFiles\cmTC_94e99.dir/objects.a -Wl,--no-whole-archive  -o cmTC_94e99.exe -Wl,--out-implib,libcmTC_94e99.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_94e99.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus.exe: warning: unrecognized command line option '-Wno-implicit-fallthrough''
+Compilation failed:
+    source file: 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment  -Wno-implicit-fallthrough'
+===== BUILD LOG =====
+Change Dir: C:/opencv/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe" "cmTC_5e6cf/fast"
+C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_5e6cf.dir\build.make CMakeFiles/cmTC_5e6cf.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5e6cf.dir/src.cxx.obj
+C:\PROGRA~2\TDM-GCC\bin\G__~1.EXE     -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wno-implicit-fallthrough -o CMakeFiles\cmTC_5e6cf.dir\src.cxx.obj -c C:\opencv\mingw-build\CMakeFiles\CMakeTmp\src.cxx
+C:\opencv\mingw-build\CMakeFiles\CMakeTmp\src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus.exe: warning: unrecognized command line option '-Wno-implicit-fallthrough'
+Linking CXX executable cmTC_5e6cf.exe
+C:\cmake-3.7.2\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_5e6cf.dir\link.txt --verbose=1
+C:\cmake-3.7.2\bin\cmake.exe -E remove -f CMakeFiles\cmTC_5e6cf.dir/objects.a
+C:\PROGRA~2\TDM-GCC\bin\ar.exe cr CMakeFiles\cmTC_5e6cf.dir/objects.a @CMakeFiles\cmTC_5e6cf.dir\objects1.rsp
+C:\PROGRA~2\TDM-GCC\bin\G__~1.EXE    -O3 -DNDEBUG    -Wl,--whole-archive CMakeFiles\cmTC_5e6cf.dir/objects.a -Wl,--no-whole-archive  -o cmTC_5e6cf.exe -Wl,--out-implib,libcmTC_5e6cf.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_5e6cf.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1.exe: warning: unrecognized command line option '-Wno-implicit-fallthrough''
+Compilation failed:
+    source file: 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment  -Wno-implicit-fallthrough'
+===== BUILD LOG =====
+Change Dir: C:/opencv/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe" "cmTC_a1686/fast"
+C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_a1686.dir\build.make CMakeFiles/cmTC_a1686.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a1686.dir/src.c.obj
+C:\PROGRA~2\TDM-GCC\bin\gcc.exe    -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -o CMakeFiles\cmTC_a1686.dir\src.c.obj   -c C:\opencv\mingw-build\CMakeFiles\CMakeTmp\src.c
+C:\opencv\mingw-build\CMakeFiles\CMakeTmp\src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1.exe: warning: unrecognized command line option '-Wno-implicit-fallthrough'
+Linking C executable cmTC_a1686.exe
+C:\cmake-3.7.2\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_a1686.dir\link.txt --verbose=1
+C:\cmake-3.7.2\bin\cmake.exe -E remove -f CMakeFiles\cmTC_a1686.dir/objects.a
+C:\PROGRA~2\TDM-GCC\bin\ar.exe cr CMakeFiles\cmTC_a1686.dir/objects.a @CMakeFiles\cmTC_a1686.dir\objects1.rsp
+C:\PROGRA~2\TDM-GCC\bin\gcc.exe    -O3 -DNDEBUG    -Wl,--whole-archive CMakeFiles\cmTC_a1686.dir/objects.a -Wl,--no-whole-archive  -o cmTC_a1686.exe -Wl,--out-implib,libcmTC_a1686.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_a1686.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1.exe: warning: command line option '-fvisibility-inlines-hidden' is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -fvisibility-inlines-hidden'
+===== BUILD LOG =====
+Change Dir: C:/opencv/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe" "cmTC_22893/fast"
+C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_22893.dir\build.make CMakeFiles/cmTC_22893.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_22893.dir/src.c.obj
+C:\PROGRA~2\TDM-GCC\bin\gcc.exe    -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\cmTC_22893.dir\src.c.obj   -c C:\opencv\mingw-build\CMakeFiles\CMakeTmp\src.c
+cc1.exe: warning: command line option '-fvisibility-inlines-hidden' is valid for C++/ObjC++ but not for C
+C:\opencv\mingw-build\CMakeFiles\CMakeTmp\src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking C executable cmTC_22893.exe
+C:\cmake-3.7.2\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_22893.dir\link.txt --verbose=1
+C:\cmake-3.7.2\bin\cmake.exe -E remove -f CMakeFiles\cmTC_22893.dir/objects.a
+C:\PROGRA~2\TDM-GCC\bin\ar.exe cr CMakeFiles\cmTC_22893.dir/objects.a @CMakeFiles\cmTC_22893.dir\objects1.rsp
+C:\PROGRA~2\TDM-GCC\bin\gcc.exe    -O3 -DNDEBUG    -Wl,--whole-archive CMakeFiles\cmTC_22893.dir/objects.a -Wl,--no-whole-archive  -o cmTC_22893.exe -Wl,--out-implib,libcmTC_22893.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_22893.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1.exe: warning: unrecognized command line option '-Wno-shorten-64-to-32''
+Compilation failed:
+    source file: 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: C:/opencv/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe" "cmTC_c9236/fast"
+C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_c9236.dir\build.make CMakeFiles/cmTC_c9236.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c9236.dir/src.c.obj
+C:\PROGRA~2\TDM-GCC\bin\gcc.exe    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -Wno-shorten-64-to-32 -o CMakeFiles\cmTC_c9236.dir\src.c.obj   -c C:\opencv\mingw-build\CMakeFiles\CMakeTmp\src.c
+C:\opencv\mingw-build\CMakeFiles\CMakeTmp\src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1.exe: warning: unrecognized command line option '-Wno-shorten-64-to-32'
+Linking C executable cmTC_c9236.exe
+C:\cmake-3.7.2\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_c9236.dir\link.txt --verbose=1
+C:\cmake-3.7.2\bin\cmake.exe -E remove -f CMakeFiles\cmTC_c9236.dir/objects.a
+C:\PROGRA~2\TDM-GCC\bin\ar.exe cr CMakeFiles\cmTC_c9236.dir/objects.a @CMakeFiles\cmTC_c9236.dir\objects1.rsp
+C:\PROGRA~2\TDM-GCC\bin\gcc.exe     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG    -Wl,--gc-sections  -Wl,--whole-archive CMakeFiles\cmTC_c9236.dir/objects.a -Wl,--no-whole-archive  -o cmTC_c9236.exe -Wl,--out-implib,libcmTC_c9236.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_c9236.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1.exe: warning: unrecognized command line option '-Wno-shift-negative-value''
+Compilation failed:
+    source file: 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-shift-negative-value'
+===== BUILD LOG =====
+Change Dir: C:/opencv/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe" "cmTC_3f3c0/fast"
+C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_3f3c0.dir\build.make CMakeFiles/cmTC_3f3c0.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3f3c0.dir/src.c.obj
+C:\PROGRA~2\TDM-GCC\bin\gcc.exe    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security    -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG   -Wno-shift-negative-value -o CMakeFiles\cmTC_3f3c0.dir\src.c.obj   -c C:\opencv\mingw-build\CMakeFiles\CMakeTmp\src.c
+C:\opencv\mingw-build\CMakeFiles\CMakeTmp\src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1.exe: warning: unrecognized command line option '-Wno-shift-negative-value'
+Linking C executable cmTC_3f3c0.exe
+C:\cmake-3.7.2\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_3f3c0.dir\link.txt --verbose=1
+C:\cmake-3.7.2\bin\cmake.exe -E remove -f CMakeFiles\cmTC_3f3c0.dir/objects.a
+C:\PROGRA~2\TDM-GCC\bin\ar.exe cr CMakeFiles\cmTC_3f3c0.dir/objects.a @CMakeFiles\cmTC_3f3c0.dir\objects1.rsp
+C:\PROGRA~2\TDM-GCC\bin\gcc.exe     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security    -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG    -Wl,--gc-sections  -Wl,--whole-archive CMakeFiles\cmTC_3f3c0.dir/objects.a -Wl,--no-whole-archive  -o cmTC_3f3c0.exe -Wl,--out-implib,libcmTC_3f3c0.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_3f3c0.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Determining if the include file dlfcn.h exists failed with the following output:
+Change Dir: C:/opencv/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe" "cmTC_8053d/fast"
+C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_8053d.dir\build.make CMakeFiles/cmTC_8053d.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8053d.dir/CheckIncludeFile.c.obj
+C:\PROGRA~2\TDM-GCC\bin\gcc.exe    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles\cmTC_8053d.dir\CheckIncludeFile.c.obj   -c C:\opencv\mingw-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+C:\opencv\mingw-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:19: fatal error: dlfcn.h: No such file or directory
+compilation terminated.
+CMakeFiles\cmTC_8053d.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_8053d.dir/CheckIncludeFile.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_8053d.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_8053d/fast' failed
+mingw32-make.exe: *** [cmTC_8053d/fast] Error 2
+
+
+Determining size of INT8 failed with the following output:
+Change Dir: C:/opencv/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe" "cmTC_5a8f3/fast"
+C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_5a8f3.dir\build.make CMakeFiles/cmTC_5a8f3.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5a8f3.dir/int8.c.obj
+C:\PROGRA~2\TDM-GCC\bin\gcc.exe    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles\cmTC_5a8f3.dir\int8.c.obj   -c C:\opencv\mingw-build\CMakeFiles\CheckTypeSize\int8.c
+C:\opencv\mingw-build\CMakeFiles\CheckTypeSize\int8.c:17:22: error: 'INT8' undeclared here (not in a function)
+ #define SIZE (sizeof(INT8))
+                      ^
+C:\opencv\mingw-build\CMakeFiles\CheckTypeSize\int8.c:19:12: note: in expansion of macro 'SIZE'
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+CMakeFiles\cmTC_5a8f3.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_5a8f3.dir/int8.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_5a8f3.dir/int8.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_5a8f3/fast' failed
+mingw32-make.exe: *** [cmTC_5a8f3/fast] Error 2
+
+C:/opencv/mingw-build/CMakeFiles/CheckTypeSize/int8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(INT8))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT16 failed with the following output:
+Change Dir: C:/opencv/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe" "cmTC_e677f/fast"
+C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_e677f.dir\build.make CMakeFiles/cmTC_e677f.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e677f.dir/int16.c.obj
+C:\PROGRA~2\TDM-GCC\bin\gcc.exe    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles\cmTC_e677f.dir\int16.c.obj   -c C:\opencv\mingw-build\CMakeFiles\CheckTypeSize\int16.c
+C:\opencv\mingw-build\CMakeFiles\CheckTypeSize\int16.c:17:22: error: 'INT16' undeclared here (not in a function)
+ #define SIZE (sizeof(INT16))
+                      ^
+C:\opencv\mingw-build\CMakeFiles\CheckTypeSize\int16.c:19:12: note: in expansion of macro 'SIZE'
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+CMakeFiles\cmTC_e677f.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_e677f.dir/int16.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_e677f.dir/int16.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_e677f/fast' failed
+mingw32-make.exe: *** [cmTC_e677f/fast] Error 2
+
+C:/opencv/mingw-build/CMakeFiles/CheckTypeSize/int16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(INT16))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT32 failed with the following output:
+Change Dir: C:/opencv/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe" "cmTC_697ca/fast"
+C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_697ca.dir\build.make CMakeFiles/cmTC_697ca.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_697ca.dir/int32.c.obj
+C:\PROGRA~2\TDM-GCC\bin\gcc.exe    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles\cmTC_697ca.dir\int32.c.obj   -c C:\opencv\mingw-build\CMakeFiles\CheckTypeSize\int32.c
+C:\opencv\mingw-build\CMakeFiles\CheckTypeSize\int32.c:17:22: error: 'INT32' undeclared here (not in a function)
+ #define SIZE (sizeof(INT32))
+                      ^
+C:\opencv\mingw-build\CMakeFiles\CheckTypeSize\int32.c:19:12: note: in expansion of macro 'SIZE'
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+CMakeFiles\cmTC_697ca.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_697ca.dir/int32.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_697ca.dir/int32.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_697ca/fast' failed
+mingw32-make.exe: *** [cmTC_697ca/fast] Error 2
+
+C:/opencv/mingw-build/CMakeFiles/CheckTypeSize/int32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(INT32))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function mmap exists failed with the following output:
+Change Dir: C:/opencv/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe" "cmTC_b9781/fast"
+C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_b9781.dir\build.make CMakeFiles/cmTC_b9781.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b9781.dir/CheckFunctionExists.c.obj
+C:\PROGRA~2\TDM-GCC\bin\gcc.exe    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=mmap -O3 -DNDEBUG   -o CMakeFiles\cmTC_b9781.dir\CheckFunctionExists.c.obj   -c C:\cmake-3.7.2\share\cmake-3.7\Modules\CheckFunctionExists.c
+C:\cmake-3.7.2\share\cmake-3.7\Modules\CheckFunctionExists.c:7:3: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+   CHECK_FUNCTION_EXISTS();
+   ^
+Linking C executable cmTC_b9781.exe
+C:\cmake-3.7.2\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_b9781.dir\link.txt --verbose=1
+C:\cmake-3.7.2\bin\cmake.exe -E remove -f CMakeFiles\cmTC_b9781.dir/objects.a
+C:\PROGRA~2\TDM-GCC\bin\ar.exe cr CMakeFiles\cmTC_b9781.dir/objects.a @CMakeFiles\cmTC_b9781.dir\objects1.rsp
+C:\PROGRA~2\TDM-GCC\bin\gcc.exe     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=mmap -O3 -DNDEBUG    -Wl,--gc-sections  -Wl,--whole-archive CMakeFiles\cmTC_b9781.dir/objects.a -Wl,--no-whole-archive  -o cmTC_b9781.exe -Wl,--out-implib,libcmTC_b9781.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_b9781.dir\linklibs.rsp
+CMakeFiles\cmTC_b9781.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text.startup.main+0x11): undefined reference to `mmap'
+collect2.exe: error: ld returned 1 exit status
+CMakeFiles\cmTC_b9781.dir\build.make:98: recipe for target 'cmTC_b9781.exe' failed
+mingw32-make.exe[1]: *** [cmTC_b9781.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_b9781/fast' failed
+mingw32-make.exe: *** [cmTC_b9781/fast] Error 2
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1.exe: warning: unrecognized command line option '-Wno-misleading-indentation''
+Compilation failed:
+    source file: 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-misleading-indentation'
+===== BUILD LOG =====
+Change Dir: C:/opencv/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe" "cmTC_1e8a9/fast"
+C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_1e8a9.dir\build.make CMakeFiles/cmTC_1e8a9.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1e8a9.dir/src.c.obj
+C:\PROGRA~2\TDM-GCC\bin\gcc.exe    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-maybe-uninitialized -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast  -O3 -DNDEBUG   -Wno-misleading-indentation -o CMakeFiles\cmTC_1e8a9.dir\src.c.obj   -c C:\opencv\mingw-build\CMakeFiles\CMakeTmp\src.c
+C:\opencv\mingw-build\CMakeFiles\CMakeTmp\src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1.exe: warning: unrecognized command line option '-Wno-misleading-indentation'
+Linking C executable cmTC_1e8a9.exe
+C:\cmake-3.7.2\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_1e8a9.dir\link.txt --verbose=1
+C:\cmake-3.7.2\bin\cmake.exe -E remove -f CMakeFiles\cmTC_1e8a9.dir/objects.a
+C:\PROGRA~2\TDM-GCC\bin\ar.exe cr CMakeFiles\cmTC_1e8a9.dir/objects.a @CMakeFiles\cmTC_1e8a9.dir\objects1.rsp
+C:\PROGRA~2\TDM-GCC\bin\gcc.exe     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-maybe-uninitialized -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast  -O3 -DNDEBUG    -Wl,--gc-sections  -Wl,--whole-archive CMakeFiles\cmTC_1e8a9.dir/objects.a -Wl,--no-whole-archive  -o cmTC_1e8a9.exe -Wl,--out-implib,libcmTC_1e8a9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_1e8a9.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1.exe: warning: unrecognized command line option '-Wno-pointer-compare''
+Compilation failed:
+    source file: 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-pointer-compare'
+===== BUILD LOG =====
+Change Dir: C:/opencv/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe" "cmTC_fa2ea/fast"
+C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_fa2ea.dir\build.make CMakeFiles/cmTC_fa2ea.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fa2ea.dir/src.c.obj
+C:\PROGRA~2\TDM-GCC\bin\gcc.exe    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith  -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-unused-but-set-parameter -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow  -O3 -DNDEBUG   -Wno-pointer-compare -o CMakeFiles\cmTC_fa2ea.dir\src.c.obj   -c C:\opencv\mingw-build\CMakeFiles\CMakeTmp\src.c
+C:\opencv\mingw-build\CMakeFiles\CMakeTmp\src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1.exe: warning: unrecognized command line option '-Wno-pointer-compare'
+Linking C executable cmTC_fa2ea.exe
+C:\cmake-3.7.2\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_fa2ea.dir\link.txt --verbose=1
+C:\cmake-3.7.2\bin\cmake.exe -E remove -f CMakeFiles\cmTC_fa2ea.dir/objects.a
+C:\PROGRA~2\TDM-GCC\bin\ar.exe cr CMakeFiles\cmTC_fa2ea.dir/objects.a @CMakeFiles\cmTC_fa2ea.dir\objects1.rsp
+C:\PROGRA~2\TDM-GCC\bin\gcc.exe     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith  -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-unused-but-set-parameter -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow  -O3 -DNDEBUG    -Wl,--gc-sections  -Wl,--whole-archive CMakeFiles\cmTC_fa2ea.dir/objects.a -Wl,--no-whole-archive  -o cmTC_fa2ea.exe -Wl,--out-implib,libcmTC_fa2ea.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_fa2ea.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1.exe: warning: unrecognized command line option '-Wno-absolute-value''
+Compilation failed:
+    source file: 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-absolute-value'
+===== BUILD LOG =====
+Change Dir: C:/opencv/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe" "cmTC_e6087/fast"
+C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_e6087.dir\build.make CMakeFiles/cmTC_e6087.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e6087.dir/src.c.obj
+C:\PROGRA~2\TDM-GCC\bin\gcc.exe    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith  -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-unused-but-set-parameter -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow  -O3 -DNDEBUG   -Wno-absolute-value -o CMakeFiles\cmTC_e6087.dir\src.c.obj   -c C:\opencv\mingw-build\CMakeFiles\CMakeTmp\src.c
+C:\opencv\mingw-build\CMakeFiles\CMakeTmp\src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1.exe: warning: unrecognized command line option '-Wno-absolute-value'
+Linking C executable cmTC_e6087.exe
+C:\cmake-3.7.2\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_e6087.dir\link.txt --verbose=1
+C:\cmake-3.7.2\bin\cmake.exe -E remove -f CMakeFiles\cmTC_e6087.dir/objects.a
+C:\PROGRA~2\TDM-GCC\bin\ar.exe cr CMakeFiles\cmTC_e6087.dir/objects.a @CMakeFiles\cmTC_e6087.dir\objects1.rsp
+C:\PROGRA~2\TDM-GCC\bin\gcc.exe     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith  -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-unused-but-set-parameter -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow  -O3 -DNDEBUG    -Wl,--gc-sections  -Wl,--whole-archive CMakeFiles\cmTC_e6087.dir/objects.a -Wl,--no-whole-archive  -o cmTC_e6087.exe -Wl,--out-implib,libcmTC_e6087.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_e6087.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus.exe: warning: unrecognized command line option '-Wno-misleading-indentation''
+Compilation failed:
+    source file: 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-misleading-indentation'
+===== BUILD LOG =====
+Change Dir: C:/opencv/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe" "cmTC_d082a/fast"
+C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_d082a.dir\build.make CMakeFiles/cmTC_d082a.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d082a.dir/src.cxx.obj
+C:\PROGRA~2\TDM-GCC\bin\G__~1.EXE     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith  -Wsign-promo  -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations  -O3 -DNDEBUG   -Wno-misleading-indentation -o CMakeFiles\cmTC_d082a.dir\src.cxx.obj -c C:\opencv\mingw-build\CMakeFiles\CMakeTmp\src.cxx
+C:\opencv\mingw-build\CMakeFiles\CMakeTmp\src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus.exe: warning: unrecognized command line option '-Wno-misleading-indentation'
+Linking CXX executable cmTC_d082a.exe
+C:\cmake-3.7.2\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_d082a.dir\link.txt --verbose=1
+C:\cmake-3.7.2\bin\cmake.exe -E remove -f CMakeFiles\cmTC_d082a.dir/objects.a
+C:\PROGRA~2\TDM-GCC\bin\ar.exe cr CMakeFiles\cmTC_d082a.dir/objects.a @CMakeFiles\cmTC_d082a.dir\objects1.rsp
+C:\PROGRA~2\TDM-GCC\bin\G__~1.EXE     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith  -Wsign-promo  -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations  -O3 -DNDEBUG    -Wl,--gc-sections  -Wl,--whole-archive CMakeFiles\cmTC_d082a.dir/objects.a -Wl,--no-whole-archive  -o cmTC_d082a.exe -Wl,--out-implib,libcmTC_d082a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_d082a.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus.exe: warning: command line option '-Wno-missing-prototypes' is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-missing-prototypes'
+===== BUILD LOG =====
+Change Dir: C:/opencv/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe" "cmTC_320ee/fast"
+C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_320ee.dir\build.make CMakeFiles/cmTC_320ee.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_320ee.dir/src.cxx.obj
+C:\PROGRA~2\TDM-GCC\bin\G__~1.EXE     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated  -O3 -DNDEBUG   -Wno-missing-prototypes -o CMakeFiles\cmTC_320ee.dir\src.cxx.obj -c C:\opencv\mingw-build\CMakeFiles\CMakeTmp\src.cxx
+cc1plus.exe: warning: command line option '-Wno-missing-prototypes' is valid for C/ObjC but not for C++
+C:\opencv\mingw-build\CMakeFiles\CMakeTmp\src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking CXX executable cmTC_320ee.exe
+C:\cmake-3.7.2\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_320ee.dir\link.txt --verbose=1
+C:\cmake-3.7.2\bin\cmake.exe -E remove -f CMakeFiles\cmTC_320ee.dir/objects.a
+C:\PROGRA~2\TDM-GCC\bin\ar.exe cr CMakeFiles\cmTC_320ee.dir/objects.a @CMakeFiles\cmTC_320ee.dir\objects1.rsp
+C:\PROGRA~2\TDM-GCC\bin\G__~1.EXE     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated  -O3 -DNDEBUG    -Wl,--gc-sections  -Wl,--whole-archive CMakeFiles\cmTC_320ee.dir/objects.a -Wl,--no-whole-archive  -o cmTC_320ee.exe -Wl,--out-implib,libcmTC_320ee.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_320ee.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus.exe: warning: unrecognized command line option '-Wno-tautological-undefined-compare''
+Compilation failed:
+    source file: 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-tautological-undefined-compare'
+===== BUILD LOG =====
+Change Dir: C:/opencv/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe" "cmTC_36923/fast"
+C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_36923.dir\build.make CMakeFiles/cmTC_36923.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_36923.dir/src.cxx.obj
+C:\PROGRA~2\TDM-GCC\bin\G__~1.EXE     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG   -Wno-tautological-undefined-compare -o CMakeFiles\cmTC_36923.dir\src.cxx.obj -c C:\opencv\mingw-build\CMakeFiles\CMakeTmp\src.cxx
+C:\opencv\mingw-build\CMakeFiles\CMakeTmp\src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus.exe: warning: unrecognized command line option '-Wno-tautological-undefined-compare'
+Linking CXX executable cmTC_36923.exe
+C:\cmake-3.7.2\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_36923.dir\link.txt --verbose=1
+C:\cmake-3.7.2\bin\cmake.exe -E remove -f CMakeFiles\cmTC_36923.dir/objects.a
+C:\PROGRA~2\TDM-GCC\bin\ar.exe cr CMakeFiles\cmTC_36923.dir/objects.a @CMakeFiles\cmTC_36923.dir\objects1.rsp
+C:\PROGRA~2\TDM-GCC\bin\G__~1.EXE     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG    -Wl,--gc-sections  -Wl,--whole-archive CMakeFiles\cmTC_36923.dir/objects.a -Wl,--no-whole-archive  -o cmTC_36923.exe -Wl,--out-implib,libcmTC_36923.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_36923.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus.exe: warning: unrecognized command line option '-Wno-unused-const-variable''
+Compilation failed:
+    source file: 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-unused-const-variable'
+===== BUILD LOG =====
+Change Dir: C:/opencv/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe" "cmTC_3e708/fast"
+C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_3e708.dir\build.make CMakeFiles/cmTC_3e708.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3e708.dir/src.cxx.obj
+C:\PROGRA~2\TDM-GCC\bin\G__~1.EXE     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function  -O3 -DNDEBUG   -Wno-unused-const-variable -o CMakeFiles\cmTC_3e708.dir\src.cxx.obj -c C:\opencv\mingw-build\CMakeFiles\CMakeTmp\src.cxx
+C:\opencv\mingw-build\CMakeFiles\CMakeTmp\src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus.exe: warning: unrecognized command line option '-Wno-unused-const-variable'
+Linking CXX executable cmTC_3e708.exe
+C:\cmake-3.7.2\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_3e708.dir\link.txt --verbose=1
+C:\cmake-3.7.2\bin\cmake.exe -E remove -f CMakeFiles\cmTC_3e708.dir/objects.a
+C:\PROGRA~2\TDM-GCC\bin\ar.exe cr CMakeFiles\cmTC_3e708.dir/objects.a @CMakeFiles\cmTC_3e708.dir\objects1.rsp
+C:\PROGRA~2\TDM-GCC\bin\G__~1.EXE     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function  -O3 -DNDEBUG    -Wl,--gc-sections  -Wl,--whole-archive CMakeFiles\cmTC_3e708.dir/objects.a -Wl,--no-whole-archive  -o cmTC_3e708.exe -Wl,--out-implib,libcmTC_3e708.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_3e708.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus.exe: warning: unrecognized command line option '-Wno-shorten-64-to-32''
+Compilation failed:
+    source file: 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: C:/opencv/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe" "cmTC_3d082/fast"
+C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_3d082.dir\build.make CMakeFiles/cmTC_3d082.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3d082.dir/src.cxx.obj
+C:\PROGRA~2\TDM-GCC\bin\G__~1.EXE     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function  -O3 -DNDEBUG   -Wno-shorten-64-to-32 -o CMakeFiles\cmTC_3d082.dir\src.cxx.obj -c C:\opencv\mingw-build\CMakeFiles\CMakeTmp\src.cxx
+C:\opencv\mingw-build\CMakeFiles\CMakeTmp\src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus.exe: warning: unrecognized command line option '-Wno-shorten-64-to-32'
+Linking CXX executable cmTC_3d082.exe
+C:\cmake-3.7.2\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_3d082.dir\link.txt --verbose=1
+C:\cmake-3.7.2\bin\cmake.exe -E remove -f CMakeFiles\cmTC_3d082.dir/objects.a
+C:\PROGRA~2\TDM-GCC\bin\ar.exe cr CMakeFiles\cmTC_3d082.dir/objects.a @CMakeFiles\cmTC_3d082.dir\objects1.rsp
+C:\PROGRA~2\TDM-GCC\bin\G__~1.EXE     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function  -O3 -DNDEBUG    -Wl,--gc-sections  -Wl,--whole-archive CMakeFiles\cmTC_3d082.dir/objects.a -Wl,--no-whole-archive  -o cmTC_3d082.exe -Wl,--out-implib,libcmTC_3d082.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_3d082.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus.exe: warning: unrecognized command line option '-Wno-enum-compare-switch''
+Compilation failed:
+    source file: 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-enum-compare-switch'
+===== BUILD LOG =====
+Change Dir: C:/opencv/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe" "cmTC_6bbc5/fast"
+C:/PROGRA~2/TDM-GCC/bin/mingw32-make.exe -f CMakeFiles\cmTC_6bbc5.dir\build.make CMakeFiles/cmTC_6bbc5.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6bbc5.dir/src.cxx.obj
+C:\PROGRA~2\TDM-GCC\bin\G__~1.EXE     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-invalid-offsetof  -O3 -DNDEBUG   -Wno-enum-compare-switch -o CMakeFiles\cmTC_6bbc5.dir\src.cxx.obj -c C:\opencv\mingw-build\CMakeFiles\CMakeTmp\src.cxx
+C:\opencv\mingw-build\CMakeFiles\CMakeTmp\src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus.exe: warning: unrecognized command line option '-Wno-enum-compare-switch'
+Linking CXX executable cmTC_6bbc5.exe
+C:\cmake-3.7.2\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_6bbc5.dir\link.txt --verbose=1
+C:\cmake-3.7.2\bin\cmake.exe -E remove -f CMakeFiles\cmTC_6bbc5.dir/objects.a
+C:\PROGRA~2\TDM-GCC\bin\ar.exe cr CMakeFiles\cmTC_6bbc5.dir/objects.a @CMakeFiles\cmTC_6bbc5.dir\objects1.rsp
+C:\PROGRA~2\TDM-GCC\bin\G__~1.EXE     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-invalid-offsetof  -O3 -DNDEBUG    -Wl,--gc-sections  -Wl,--whole-archive CMakeFiles\cmTC_6bbc5.dir/objects.a -Wl,--no-whole-archive  -o cmTC_6bbc5.exe -Wl,--out-implib,libcmTC_6bbc5.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_6bbc5.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/opencv/mingw-build/CMakeFiles/CMakeTmp'
+
+===== END =====
+

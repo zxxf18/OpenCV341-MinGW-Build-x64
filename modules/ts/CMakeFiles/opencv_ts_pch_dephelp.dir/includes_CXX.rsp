@@ -1,0 +1,1 @@
+-isystem C:/opencv/mingw-build -IC:/opencv/sources/modules/ts/include -IC:/opencv/sources/modules/ts/src -IC:/opencv/mingw-build/modules/ts -IC:/opencv/sources/modules/core/include -IC:/opencv/sources/modules/imgproc/include -IC:/opencv/sources/modules/imgcodecs/include -IC:/opencv/sources/modules/videoio/include -IC:/opencv/sources/modules/highgui/include 

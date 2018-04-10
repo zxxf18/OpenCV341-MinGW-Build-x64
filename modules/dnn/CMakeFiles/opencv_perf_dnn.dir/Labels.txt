@@ -1,0 +1,29 @@
+# Target labels
+ Main
+ opencv_dnn
+ PerfTest
+# Source files and their labels
+C:/opencv/sources/modules/dnn/perf/opencl/perf_convolution.cpp
+ Main
+ opencv_dnn
+ PerfTest
+C:/opencv/sources/modules/dnn/perf/perf_caffe.cpp
+ Main
+ opencv_dnn
+ PerfTest
+C:/opencv/sources/modules/dnn/perf/perf_convolution.cpp
+ Main
+ opencv_dnn
+ PerfTest
+C:/opencv/sources/modules/dnn/perf/perf_main.cpp
+ Main
+ opencv_dnn
+ PerfTest
+C:/opencv/sources/modules/dnn/perf/perf_net.cpp
+ Main
+ opencv_dnn
+ PerfTest
+C:/opencv/sources/modules/dnn/perf/perf_precomp.hpp
+ Main
+ opencv_dnn
+ PerfTest

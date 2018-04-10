@@ -1,0 +1,108 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "C:/opencv/sources/modules/videoio/include/opencv2/videoio.hpp",
+			"labels" : [ "Main", "opencv_videoio", "Module" ]
+		},
+		
+		{
+			"file" : "C:/opencv/sources/modules/videoio/include/opencv2/videoio/container_avi.private.hpp",
+			"labels" : [ "Main", "opencv_videoio", "Module" ]
+		},
+		
+		{
+			"file" : "C:/opencv/sources/modules/videoio/include/opencv2/videoio/videoio.hpp",
+			"labels" : [ "Main", "opencv_videoio", "Module" ]
+		},
+		
+		{
+			"file" : "C:/opencv/sources/modules/videoio/include/opencv2/videoio/cap_ios.h",
+			"labels" : [ "Main", "opencv_videoio", "Module" ]
+		},
+		
+		{
+			"file" : "C:/opencv/sources/modules/videoio/include/opencv2/videoio/videoio_c.h",
+			"labels" : [ "Main", "opencv_videoio", "Module" ]
+		},
+		
+		{
+			"file" : "C:/opencv/sources/modules/videoio/src/cap.cpp",
+			"labels" : [ "Main", "opencv_videoio", "Module" ]
+		},
+		
+		{
+			"file" : "C:/opencv/sources/modules/videoio/src/cap_images.cpp",
+			"labels" : [ "Main", "opencv_videoio", "Module" ]
+		},
+		
+		{
+			"file" : "C:/opencv/sources/modules/videoio/src/cap_mjpeg_encoder.cpp",
+			"labels" : [ "Main", "opencv_videoio", "Module" ]
+		},
+		
+		{
+			"file" : "C:/opencv/sources/modules/videoio/src/cap_mjpeg_decoder.cpp",
+			"labels" : [ "Main", "opencv_videoio", "Module" ]
+		},
+		
+		{
+			"file" : "C:/opencv/sources/modules/videoio/src/container_avi.cpp",
+			"labels" : [ "Main", "opencv_videoio", "Module" ]
+		},
+		
+		{
+			"file" : "C:/opencv/sources/modules/videoio/src/cap_cmu.cpp",
+			"labels" : [ "Main", "opencv_videoio", "Module" ]
+		},
+		
+		{
+			"file" : "C:/opencv/sources/modules/videoio/src/cap_dshow.cpp",
+			"labels" : [ "Main", "opencv_videoio", "Module" ]
+		},
+		
+		{
+			"file" : "C:/opencv/sources/modules/videoio/src/cap_vfw.cpp",
+			"labels" : [ "Main", "opencv_videoio", "Module" ]
+		},
+		
+		{
+			"file" : "C:/opencv/sources/modules/videoio/src/cap_ffmpeg.cpp",
+			"labels" : [ "Main", "opencv_videoio", "Module" ]
+		},
+		
+		{
+			"file" : "C:/opencv/sources/modules/videoio/src/precomp.hpp",
+			"labels" : [ "Main", "opencv_videoio", "Module" ]
+		},
+		
+		{
+			"file" : "C:/opencv/sources/modules/videoio/src/cap_dshow.hpp",
+			"labels" : [ "Main", "opencv_videoio", "Module" ]
+		},
+		
+		{
+			"file" : "C:/opencv/sources/modules/videoio/src/cap_ffmpeg_impl.hpp",
+			"labels" : [ "Main", "opencv_videoio", "Module" ]
+		},
+		
+		{
+			"file" : "C:/opencv/mingw-build/cvconfig.h"
+		},
+		
+		{
+			"file" : "C:/opencv/mingw-build/opencv2/opencv_modules.hpp"
+		},
+		
+		{
+			"file" : "C:/opencv/mingw-build/modules/videoio/vs_version.rc"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "Main", "opencv_videoio", "Module" ],
+		"name" : "opencv_videoio"
+	}
+}

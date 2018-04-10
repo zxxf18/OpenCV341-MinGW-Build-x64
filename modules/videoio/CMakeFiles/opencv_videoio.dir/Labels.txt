@@ -1,0 +1,76 @@
+# Target labels
+ Main
+ opencv_videoio
+ Module
+# Source files and their labels
+C:/opencv/sources/modules/videoio/include/opencv2/videoio.hpp
+ Main
+ opencv_videoio
+ Module
+C:/opencv/sources/modules/videoio/include/opencv2/videoio/container_avi.private.hpp
+ Main
+ opencv_videoio
+ Module
+C:/opencv/sources/modules/videoio/include/opencv2/videoio/videoio.hpp
+ Main
+ opencv_videoio
+ Module
+C:/opencv/sources/modules/videoio/include/opencv2/videoio/cap_ios.h
+ Main
+ opencv_videoio
+ Module
+C:/opencv/sources/modules/videoio/include/opencv2/videoio/videoio_c.h
+ Main
+ opencv_videoio
+ Module
+C:/opencv/sources/modules/videoio/src/cap.cpp
+ Main
+ opencv_videoio
+ Module
+C:/opencv/sources/modules/videoio/src/cap_images.cpp
+ Main
+ opencv_videoio
+ Module
+C:/opencv/sources/modules/videoio/src/cap_mjpeg_encoder.cpp
+ Main
+ opencv_videoio
+ Module
+C:/opencv/sources/modules/videoio/src/cap_mjpeg_decoder.cpp
+ Main
+ opencv_videoio
+ Module
+C:/opencv/sources/modules/videoio/src/container_avi.cpp
+ Main
+ opencv_videoio
+ Module
+C:/opencv/sources/modules/videoio/src/cap_cmu.cpp
+ Main
+ opencv_videoio
+ Module
+C:/opencv/sources/modules/videoio/src/cap_dshow.cpp
+ Main
+ opencv_videoio
+ Module
+C:/opencv/sources/modules/videoio/src/cap_vfw.cpp
+ Main
+ opencv_videoio
+ Module
+C:/opencv/sources/modules/videoio/src/cap_ffmpeg.cpp
+ Main
+ opencv_videoio
+ Module
+C:/opencv/sources/modules/videoio/src/precomp.hpp
+ Main
+ opencv_videoio
+ Module
+C:/opencv/sources/modules/videoio/src/cap_dshow.hpp
+ Main
+ opencv_videoio
+ Module
+C:/opencv/sources/modules/videoio/src/cap_ffmpeg_impl.hpp
+ Main
+ opencv_videoio
+ Module
+C:/opencv/mingw-build/cvconfig.h
+C:/opencv/mingw-build/opencv2/opencv_modules.hpp
+C:/opencv/mingw-build/modules/videoio/vs_version.rc

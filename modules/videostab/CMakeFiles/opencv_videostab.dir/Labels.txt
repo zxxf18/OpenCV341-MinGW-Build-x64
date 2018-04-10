@@ -1,0 +1,120 @@
+# Target labels
+ Main
+ opencv_videostab
+ Module
+# Source files and their labels
+C:/opencv/sources/modules/videostab/include/opencv2/videostab.hpp
+ Main
+ opencv_videostab
+ Module
+C:/opencv/sources/modules/videostab/include/opencv2/videostab/deblurring.hpp
+ Main
+ opencv_videostab
+ Module
+C:/opencv/sources/modules/videostab/include/opencv2/videostab/fast_marching.hpp
+ Main
+ opencv_videostab
+ Module
+C:/opencv/sources/modules/videostab/include/opencv2/videostab/fast_marching_inl.hpp
+ Main
+ opencv_videostab
+ Module
+C:/opencv/sources/modules/videostab/include/opencv2/videostab/frame_source.hpp
+ Main
+ opencv_videostab
+ Module
+C:/opencv/sources/modules/videostab/include/opencv2/videostab/global_motion.hpp
+ Main
+ opencv_videostab
+ Module
+C:/opencv/sources/modules/videostab/include/opencv2/videostab/inpainting.hpp
+ Main
+ opencv_videostab
+ Module
+C:/opencv/sources/modules/videostab/include/opencv2/videostab/log.hpp
+ Main
+ opencv_videostab
+ Module
+C:/opencv/sources/modules/videostab/include/opencv2/videostab/motion_core.hpp
+ Main
+ opencv_videostab
+ Module
+C:/opencv/sources/modules/videostab/include/opencv2/videostab/motion_stabilizing.hpp
+ Main
+ opencv_videostab
+ Module
+C:/opencv/sources/modules/videostab/include/opencv2/videostab/optical_flow.hpp
+ Main
+ opencv_videostab
+ Module
+C:/opencv/sources/modules/videostab/include/opencv2/videostab/outlier_rejection.hpp
+ Main
+ opencv_videostab
+ Module
+C:/opencv/sources/modules/videostab/include/opencv2/videostab/ring_buffer.hpp
+ Main
+ opencv_videostab
+ Module
+C:/opencv/sources/modules/videostab/include/opencv2/videostab/stabilizer.hpp
+ Main
+ opencv_videostab
+ Module
+C:/opencv/sources/modules/videostab/include/opencv2/videostab/wobble_suppression.hpp
+ Main
+ opencv_videostab
+ Module
+C:/opencv/sources/modules/videostab/src/deblurring.cpp
+ Main
+ opencv_videostab
+ Module
+C:/opencv/sources/modules/videostab/src/fast_marching.cpp
+ Main
+ opencv_videostab
+ Module
+C:/opencv/sources/modules/videostab/src/frame_source.cpp
+ Main
+ opencv_videostab
+ Module
+C:/opencv/sources/modules/videostab/src/global_motion.cpp
+ Main
+ opencv_videostab
+ Module
+C:/opencv/sources/modules/videostab/src/inpainting.cpp
+ Main
+ opencv_videostab
+ Module
+C:/opencv/sources/modules/videostab/src/log.cpp
+ Main
+ opencv_videostab
+ Module
+C:/opencv/sources/modules/videostab/src/motion_stabilizing.cpp
+ Main
+ opencv_videostab
+ Module
+C:/opencv/sources/modules/videostab/src/optical_flow.cpp
+ Main
+ opencv_videostab
+ Module
+C:/opencv/sources/modules/videostab/src/outlier_rejection.cpp
+ Main
+ opencv_videostab
+ Module
+C:/opencv/sources/modules/videostab/src/stabilizer.cpp
+ Main
+ opencv_videostab
+ Module
+C:/opencv/sources/modules/videostab/src/wobble_suppression.cpp
+ Main
+ opencv_videostab
+ Module
+C:/opencv/sources/modules/videostab/src/clp.hpp
+ Main
+ opencv_videostab
+ Module
+C:/opencv/sources/modules/videostab/src/precomp.hpp
+ Main
+ opencv_videostab
+ Module
+C:/opencv/mingw-build/cvconfig.h
+C:/opencv/mingw-build/opencv2/opencv_modules.hpp
+C:/opencv/mingw-build/modules/videostab/vs_version.rc

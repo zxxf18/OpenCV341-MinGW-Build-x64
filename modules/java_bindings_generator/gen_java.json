@@ -1,0 +1,22 @@
+{
+  "rootdir": "C:/opencv/sources",
+  "modules": [
+    { "name": "core", "location": "modules/core" },
+    { "name": "imgproc", "location": "modules/imgproc" },
+    { "name": "ml", "location": "modules/ml" },
+    { "name": "objdetect", "location": "modules/objdetect" },
+    { "name": "photo", "location": "modules/photo" },
+    { "name": "video", "location": "modules/video" },
+    { "name": "dnn", "location": "modules/dnn" },
+    { "name": "imgcodecs", "location": "modules/imgcodecs" },
+    { "name": "videoio", "location": "modules/videoio" },
+    { "name": "highgui", "location": "modules/highgui" },
+    { "name": "features2d", "location": "modules/features2d" },
+    { "name": "calib3d", "location": "modules/calib3d" }
+  ],
+  "files_remap": [
+    { "src": "modules/java/generator/src/java/org/opencv/osgi/OpenCVNativeLoader.java.in", "target": "C:/opencv/mingw-build/configured/modules/java/generator/src/java/org/opencv/osgi/OpenCVNativeLoader.java" },
+    { "src": "modules/java/generator/android/java/org/opencv/android/OpenCVLoader.java.in", "target": "C:/opencv/mingw-build/configured/modules/java/generator/android/java/org/opencv/android/OpenCVLoader.java" },
+    { "src": "modules/core/misc/java/src/java/core+Core.jcode.in", "target": "C:/opencv/mingw-build/configured/modules/core/misc/java/src/java/core+Core.jcode" }
+  ]
+}
