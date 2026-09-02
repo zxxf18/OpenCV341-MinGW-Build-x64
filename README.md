@@ -135,8 +135,6 @@ main.cpp
 		Makefile:161: recipe for target 'all' failed
 		mingw32-make: *** [all] Error 2
 		
-	![多线程错误](http://ojlsgreog.bkt.clouddn.com/MakeOpenCV_cap_dshow.png)
-	
 	**解决：**
 	
 	使用单线程make，以查看详细的错误提示，再根据具体情况解决
@@ -155,8 +153,6 @@ main.cpp
 		extension if not specified.  A single file name is an input file.
 		No input-file is stdin, default rc.  No output-file is stdout, default rc.
 		
-	![RC错误](http://ojlsgreog.bkt.clouddn.com/MakeOpenCVRCError.png)
-	
 	**解决：**
 	
 	在 cmake-gui 编译配置中：不勾选 **ENABLE PRECOMPILED HEADERS**，然后重新Configure-Generate-mingw32-make
@@ -168,8 +164,6 @@ main.cpp
 		...opencv/sources/modules/videoio/src/cap_dshow.cpp...
 		... 'sprintf_instead_use_StringCbPrintfA_or_StringCchPrintfA' was not declared in this scope ...
 		
-	![sprintf错误](http://ojlsgreog.bkt.clouddn.com/MakeOpenCV_cap_dshow.png)
-	
 	**解决：**
 	
 	修改E:\OpenCV_3.3.1\opencv\sources\modules\videoio\src\cap_dshow.cpp文件，在#include "DShow.h"这行的上面加一行#define NO_DSHOW_STRSAFE，如：
@@ -196,8 +190,6 @@ main.cpp
 		mingw32-make[1]: *** [3rdparty/protobuf/CMakeFiles/libprotobuf.dir/all] Error 2
 		Makefile:161: recipe for target 'all' failed
 		mingw32-make: *** [all] Error 2		
-	![KEY错误](http://ojlsgreog.bkt.clouddn.com/MakeOpenCV_nullptr_Error.png)
-	
 	**解决：**
 	
 	在 cmake-gui 编译配置中：
@@ -242,5 +234,5 @@ ref：
   [2]: https://segmentfault.com/img/bV755z
   [3]: https://segmentfault.com/img/bV755J
   [4]: https://segmentfault.com/img/bV755V
-  [5]: https://segmentfault.com/img/bV756k
+  [5]: detect.png
   [6]: https://segmentfault.com/img/bV756A
